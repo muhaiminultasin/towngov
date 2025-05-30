@@ -91,25 +91,37 @@ function Main() {
                     <ul className="list-unstyled drop-down-custom-width">
                       <li>
                         <Link to="/">
-                        Hero
-                        <p className="submenutext">Building Sustainable Housing For a Better Future</p>
+                          Hero
+                          <p className="submenutext">
+                            Building Sustainable Housing For a Better Future
+                          </p>
                         </Link>
                       </li>
                       <li>
                         <Link to="/">
-                        Mission Statement
-                        <p className="submenutext">We are committed to redefining housing through sustainable design, community-driven development, and inclusive growth.</p>
+                          Mission Statement
+                          <p className="submenutext">
+                            We are committed to redefining housing through
+                            sustainable design, community-driven development,
+                            and inclusive growth.
+                          </p>
                         </Link>
                       </li>
                       <li>
                         <Link to="/our-story">
-                        <button className="btn-primary custom-width-button">About Us</button>
+                          <button className="btn-primary custom-width-button">
+                            About Us
+                          </button>
                         </Link>
                         <Link to="/our-story">
-                        <button className="btn-primary custom-width-button">Get Involved </button>
+                          <button className="btn-primary custom-width-button">
+                            Get Involved{" "}
+                          </button>
                         </Link>
                         <Link to="/our-story">
-                        <button className="btn-primary custom-width-button">Support Us </button>
+                          <button className="btn-primary custom-width-button">
+                            Support Us{" "}
+                          </button>
                         </Link>
                       </li>
                     </ul>
@@ -137,16 +149,24 @@ function Main() {
                         <Link to="/services">Overview</Link>
                       </li>
                       <li>
-                        <Link to="/servicedetails">GHI: Nonprofit coordination & strategy</Link>
+                        <Link to="/servicedetails">
+                          GHI: Nonprofit coordination & strategy
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/servicedetails">NPT: Structural system provider</Link>
+                        <Link to="/servicedetails">
+                          NPT: Structural system provider
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/servicedetails">UVI: Community development & investment</Link>
+                        <Link to="/servicedetails">
+                          UVI: Community development & investment
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/servicedetails">➤ Diagram or Flow Link (add placeholder now)</Link>
+                        <Link to="/servicedetails">
+                          ➤ Diagram or Flow Link (add placeholder now)
+                        </Link>
                       </li>
                     </ul>
                   </li>
@@ -155,16 +175,24 @@ function Main() {
                     <Link to="#">OUR SOLUTIONS</Link>
                     <ul className="list-unstyled">
                       <li>
-                        <Link to="/departments">Affordable Housing Development</Link>
+                        <Link to="/departments">
+                          Affordable Housing Development
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/departmentdetails">PolyFRAME Building System</Link>
+                        <Link to="/departmentdetails">
+                          PolyFRAME Building System
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/departmentdetails">Sustainable Urban Villages</Link>
+                        <Link to="/departmentdetails">
+                          Sustainable Urban Villages
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/departmentdetails">City & Government Partnerships</Link>
+                        <Link to="/departmentdetails">
+                          City & Government Partnerships
+                        </Link>
                       </li>
                     </ul>
                   </li>
@@ -176,7 +204,9 @@ function Main() {
                         <Link to="/events">For Investors & Donors</Link>
                       </li>
                       <li>
-                        <Link to="/eventdetails">For Developers & Builders</Link>
+                        <Link to="/eventdetails">
+                          For Developers & Builders
+                        </Link>
                       </li>
                       <li>
                         <Link to="/eventdetails">For Local Communities</Link>
@@ -202,9 +232,68 @@ function Main() {
                     </ul>
                   </li>
 
-                  <li>
-                    <Link to="/contact">Contact</Link>
+                  <li className="has-dropdown">
+                    <Link to="#">SUPPORT US</Link>
+                    <ul className="list-unstyled">
+                      <li>
+                        <Link to="/news">Donate</Link>
+                      </li>
+                      <li>
+                        <Link to="/newsdetails">Investment Opportunities</Link>
+                      </li>
+                      <li>
+                        <Link to="/newsdetails">Sponsor a Village</Link>
+                      </li>
+                    </ul>
                   </li>
+
+                  <li className="has-dropdown">
+                    <Link to="#">CONTACT</Link>
+                    <ul className="list-unstyled">
+                      <li>
+                        <Link to="/contact">Contact Form</Link>
+                      </li>
+                      <li>
+                        <Link to="/newsdetails">
+                          Investment/Partnership Inquiry
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/newsdetails">Sponsor a Village</Link>
+                      </li>
+                      <li>
+                        <Link to="/newsdetails">Newsletter Signup</Link>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li className="has-dropdown">
+                    <Link to="#">FAQ</Link>
+                    <ul className="list-unstyled">
+                      <li>
+                        <Link to="/contact">What makes GHI different? </Link>
+                      </li>
+                      <li>
+                        <Link to="/newsdetails">
+                          What’s unique about PolyFRAME?
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/newsdetails">
+                          How to invest or join UVI?
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/newsdetails">
+                          Steps to partner with GHI?
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+
+                  {/* <li>
+                    <Link to="/contact">Contact</Link>
+                  </li> */}
                 </ul>
               </div>
             </div>
