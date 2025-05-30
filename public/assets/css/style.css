@@ -83,6 +83,28 @@
   min-width:200px;
 }
 
+/* btn-primary-mobile */
+.btn-primary-mobile{
+  width:100%;
+  gap:50px;
+ padding:0px 10px;
+  background-color: var(--thm-primary);
+  border: 0;
+  color: var(--thm-white);
+  border-radius: 0;
+  font-size: 12px;
+  font-weight: 600;
+  transition: all 500ms ease;
+}
+
+/* CTA flex box */
+.CTA{
+  margin-top: 10px !important;
+}
+
+.Link{
+  line-height: 25px;
+}
 
 
 

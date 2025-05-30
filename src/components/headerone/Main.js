@@ -11,6 +11,9 @@ function Main() {
   const [News, setNews] = useState(false);
   const [Departments, setDepartments] = useState(false);
   const [Events, setEvents] = useState(false);
+  const [Support, setSupport] = useState(false);
+  const [Contact, setContact] = useState(false);
+  const [faq, setfaq] = useState(false);
 
   return (
     <>
@@ -358,6 +361,8 @@ function Main() {
 
             <div className="mobile-nav-container">
               <ul className="main-menu-list list-unstyled">
+
+                {/*  Home section */}
                 <li className="active has-dropdown">
                   <Link to="#">
                     Home
@@ -375,45 +380,33 @@ function Main() {
                     <ul className="list-unstyled" style={{ display: "block" }}>
                       <li>
                         <Link to="/">Hero</Link>
-                        {/* submenu */}
-                        {Home && (
-                          <ul
-                            className="list-unstyled"
-                            style={{ display: "block" }}
-                          >
-                            <li>
-                              <Link to="/" className="cuscolformbl">
-                                Example 1
-                                <p className="mblsubtext">
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing.
-                                </p>
-                              </Link>
-                              {/* submenu */}
-                            </li>
-                            <li>
-                              <Link to="/" className="cuscolformbl">
-                                Example 2
-                                <p className="mblsubtext">
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing.
-                                </p>
-                              </Link>
-                            </li>
-                          </ul>
-                        )}
-                        {/* submenu */}
+                        <p className="mblsubtext">Building Sustainable Housing for a Better Future</p>
                       </li>
                       <li>
-                        <Link to="/hometwo">Home 2</Link>
+                        <Link to="/hometwo">Mission Statement</Link>
                       </li>
+                      {/* CTA in one line*/}
+                      <div className="CTA">
+                        <li>
+                        <Link to="/hometwo">
+                        <button className="btn-primary-mobile">About Us</button>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/hometwo"><button className="btn-primary-mobile">Get Involved</button></Link>
+                      </li>
+                      <li>
+                        <Link to="/hometwo"><button className="btn-primary-mobile">Support Us</button></Link>
+                      </li>
+                      </div>
                     </ul>
                   )}
                 </li>
 
+                  {/* ABOUT US section */}
                 <li className="has-dropdown">
                   <Link to="#">
-                    Pages
+                    ABOUT US
                     <button className={Pages ? "expanded" : ""}>
                       <i
                         className="fa-solid fa-chevron-right"
@@ -426,33 +419,22 @@ function Main() {
                   {Pages && (
                     <ul className="list-unstyled" style={{ display: "block" }}>
                       <li>
-                        <Link to="/about">About</Link>
+                        <Link to="/about">Our Story</Link>
                       </li>
                       <li>
-                        <Link to="/team">Team</Link>
+                        <Link to="/team">Our Approach (NPT + UVI)</Link>
                       </li>
                       <li>
-                        <Link to="/teamdetails">Team Details</Link>
-                      </li>
-                      <li>
-                        <Link to="/portfolio">Portfolio</Link>
-                      </li>
-                      <li>
-                        <Link to="/portfoliodeatils">Portfolio Details</Link>
-                      </li>
-                      <li>
-                        <Link to="/causes">Causes</Link>
-                      </li>
-                      <li>
-                        <Link to="/causedetails">Cause Details</Link>
+                        <Link to="/teamdetails">Leadership & Team</Link>
                       </li>
                     </ul>
                   )}
                 </li>
 
+                  {/* OUR MODEL section */}
                 <li className="has-dropdown">
                   <Link to="#">
-                    Services
+                    OUR MODEL
                     <button className={Services ? "expanded" : ""}>
                       <i
                         className="fa-solid fa-chevron-right"
@@ -466,10 +448,21 @@ function Main() {
                   {Services && (
                     <ul className="list-unstyled" style={{ display: "block" }}>
                       <li>
-                        <Link to="/services">Services</Link>
+                        <Link to="/services">Overview</Link>
                       </li>
                       <li>
-                        <Link to="/servicedetails">Service Details</Link>
+                        <Link to="/servicedetails" className="Link">GHI: Nonprofit coordination & strategy</Link>
+                      </li>
+                      <li>
+                        <Link to="/servicedetails" className="">NPT: Structural system provider</Link>
+                      </li>
+                      <li>
+                        <Link to="/servicedetails" className="Link">UVI: Community development & investment</Link>
+                      
+                      </li>
+                      <li>
+                        <Link to="/servicedetails" className="Link">➤ Diagram or Flow Link (add placeholder now)</Link>
+                      
                       </li>
                     </ul>
                   )}
@@ -477,7 +470,7 @@ function Main() {
 
                 <li className="has-dropdown">
                   <Link to="#">
-                    Departments
+                   OUR SOLUTIONS
                     <button className={Departments ? "expanded" : ""}>
                       <i
                         className="fa-solid fa-chevron-right"
@@ -491,18 +484,25 @@ function Main() {
                   {Departments && (
                     <ul className="list-unstyled" style={{ display: "block" }}>
                       <li>
-                        <Link to="/departments">Departments</Link>
+                        <Link to="/departments" className="Link">Affordable Housing Development</Link>
                       </li>
                       <li>
-                        <Link to="/departmentdetails">Department Details</Link>
+                        <Link to="/departmentdetails">PolyFRAME Building System</Link>
+                      </li>
+                      <li>
+                        <Link to="/departmentdetails">Sustainable Urban Villages</Link>
+                      </li>
+                      <li>
+                        <Link to="/departmentdetails">City & Government Partnerships</Link>
                       </li>
                     </ul>
                   )}
                 </li>
 
+                  {/* GET INVOLVED section */}
                 <li className="has-dropdown">
                   <Link to="#">
-                    Events
+                   GET INVOLVED
                     <button className={Events ? "expanded" : ""}>
                       <i
                         className="fa-solid fa-chevron-right"
@@ -516,10 +516,16 @@ function Main() {
                   {Events && (
                     <ul className="list-unstyled" style={{ display: "block" }}>
                       <li>
-                        <Link to="/events">Events</Link>
+                        <Link to="/events">For Investors & Donors</Link>
                       </li>
                       <li>
-                        <Link to="/eventdetails">Event Details</Link>
+                        <Link to="/eventdetails">For Developers & Builders</Link>
+                      </li>
+                      <li>
+                        <Link to="/eventdetails">For Local Communities</Link>
+                      </li>
+                      <li>
+                        <Link to="/eventdetails">Volunteer & Careers</Link>
                       </li>
                     </ul>
                   )}
@@ -527,7 +533,7 @@ function Main() {
 
                 <li className="has-dropdown">
                   <Link to="#">
-                    News
+                    NEWS & INSIGHTS
                     <button className={News ? "expanded" : ""}>
                       <i
                         className="fa-solid fa-chevron-right"
@@ -540,17 +546,104 @@ function Main() {
                   {News && (
                     <ul className="list-unstyled" style={{ display: "block" }}>
                       <li>
-                        <Link to="/news">News</Link>
+                        <Link to="/news">Latest Updates</Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">News Details</Link>
+                        <Link to="/newsdetails">Blog</Link>
+                      </li>
+                      <li>
+                        <Link to="/newsdetails">Media Coverage</Link>
+                      </li>
+                    </ul>
+                  )}
+                </li>
+                
+                    {/* NEWS & INSIGHTS section */}
+                <li className="has-dropdown">
+                  <Link to="#">
+                    Support Us
+                    <button className={News ? "expanded" : ""}>
+                      <i
+                        className="fa-solid fa-chevron-right"
+                        onClick={() => {
+                          setNews(!News);
+                        }}
+                      />
+                    </button>
+                  </Link>
+                  {News && (
+                    <ul className="list-unstyled" style={{ display: "block" }}>
+                      <li>
+                        <Link to="/news">Donate</Link>
+                      </li>
+                      <li>
+                        <Link to="/newsdetails">Investment Opportunities</Link>
+                      </li>
+                      <li>
+                        <Link to="/newsdetails">Sponsor a Village</Link>
+                      </li>
+                    </ul>
+                  )}
+                </li>
+                <li className="has-dropdown">
+                  <Link to="#">
+                   CONTACT
+                    <button className={News ? "expanded" : ""}>
+                      <i
+                        className="fa-solid fa-chevron-right"
+                        onClick={() => {
+                          setNews(!News);
+                        }}
+                      />
+                    </button>
+                  </Link>
+                  {News && (
+                    <ul className="list-unstyled" style={{ display: "block" }}>
+                      <li>
+                        <Link to="/contact">Contact Form</Link>
+                      </li>
+                      <li>
+                        <Link to="/newsdetails">Investment/Partnership Inquiry</Link>
+                      </li>
+                      <li>
+                        <Link to="/newsdetails">Newsletter Signup</Link>
+                      </li>
+                    </ul>
+                  )}
+                </li>
+                {/* FAQ section */}
+                <li className="has-dropdown">
+                  <Link to="#">
+                   FAQ
+                    <button className={News ? "expanded" : ""}>
+                      <i
+                        className="fa-solid fa-chevron-right"
+                        onClick={() => {
+                          setNews(!News);
+                        }}
+                      />
+                    </button>
+                  </Link>
+                  {News && (
+                    <ul className="list-unstyled" style={{ display: "block" }}>
+                      <li>
+                        <Link to="/contact">What makes GHI different?</Link>
+                      </li>
+                      <li>
+                        <Link to="/newsdetails">What’s unique about PolyFRAME?</Link>
+                      </li>
+                      <li>
+                        <Link to="/newsdetails">How to invest or join UVI?</Link>
+                      </li>
+                      <li>
+                        <Link to="/newsdetails">Steps to partner with GHI?</Link>
                       </li>
                     </ul>
                   )}
                 </li>
 
                 <li>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="#">Contact</Link>
                 </li>
               </ul>
             </div>
