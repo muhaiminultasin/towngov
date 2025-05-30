@@ -88,112 +88,116 @@ function Main() {
                 <ul className="main-menu-list list-unstyled">
                   <li className="active has-dropdown">
                     <Link to="/">Home</Link>
-                    <ul className="list-unstyled">
-                      <li className="has-dropdown">
+                    <ul className="list-unstyled drop-down-custom-width">
+                      <li>
                         <Link to="/">
-                          Hero
-                          <p className="tsnCunstom">
-                            Building Sustainable Housing for a Better future
-                          </p>
+                        Hero
+                        <p className="submenutext">Building Sustainable Housing For a Better Future</p>
                         </Link>
-                        <ul className="list-unstyled">
-                          <li>
-                            <Link to="#">
-                              Example 1
-                              <p className="tsnCunstom">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipiscing elit.
-                              </p>
-                            </Link>
-                          </li>
-                          <li>
-                            <Link to="#">
-                              Example 2
-                              <p className="tsnCunstom">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipiscing elit.
-                              </p>
-                            </Link>
-                          </li>
-                        </ul>
                       </li>
                       <li>
-                        <Link to="/hometwo">Home 2</Link>
+                        <Link to="/">
+                        Mission Statement
+                        <p className="submenutext">We are committed to redefining housing through sustainable design, community-driven development, and inclusive growth.</p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/our-story">
+                        <button className="btn-primary custom-width-button">About Us</button>
+                        </Link>
+                        <Link to="/our-story">
+                        <button className="btn-primary custom-width-button">Get Involved </button>
+                        </Link>
+                        <Link to="/our-story">
+                        <button className="btn-primary custom-width-button">Support Us </button>
+                        </Link>
                       </li>
                     </ul>
                   </li>
 
                   <li className="has-dropdown">
-                    <Link to="#">Pages</Link>
+                    <Link to="#">ABOUT US</Link>
                     <ul className="list-unstyled">
                       <li>
-                        <Link to="/about">About</Link>
+                        <Link to="/about">Our Story</Link>
                       </li>
                       <li>
-                        <Link to="/team">Team</Link>
+                        <Link to="/team">Our Approach (NPT + UVI)</Link>
                       </li>
                       <li>
-                        <Link to="/teamdetails">Team Details</Link>
-                      </li>
-                      <li>
-                        <Link to="/portfolio">Portfolio</Link>
-                      </li>
-                      <li>
-                        <Link to="/portfoliodeatils">Portfolio Details</Link>
-                      </li>
-                      <li>
-                        <Link to="/causes">Causes</Link>
-                      </li>
-                      <li>
-                        <Link to="/causedetails">Cause Details</Link>
+                        <Link to="/teamdetails">Leadership & Team</Link>
                       </li>
                     </ul>
                   </li>
 
                   <li className="has-dropdown">
-                    <Link to="#">Services</Link>
+                    <Link to="#">OUR MODEL</Link>
                     <ul className="list-unstyled">
                       <li>
-                        <Link to="/services">Services</Link>
+                        <Link to="/services">Overview</Link>
                       </li>
                       <li>
-                        <Link to="/servicedetails">Service Details</Link>
+                        <Link to="/servicedetails">GHI: Nonprofit coordination & strategy</Link>
+                      </li>
+                      <li>
+                        <Link to="/servicedetails">NPT: Structural system provider</Link>
+                      </li>
+                      <li>
+                        <Link to="/servicedetails">UVI: Community development & investment</Link>
+                      </li>
+                      <li>
+                        <Link to="/servicedetails">➤ Diagram or Flow Link (add placeholder now)</Link>
                       </li>
                     </ul>
                   </li>
 
                   <li className="has-dropdown">
-                    <Link to="#">Departments</Link>
+                    <Link to="#">OUR SOLUTIONS</Link>
                     <ul className="list-unstyled">
                       <li>
-                        <Link to="/departments">Departments</Link>
+                        <Link to="/departments">Affordable Housing Development</Link>
                       </li>
                       <li>
-                        <Link to="/departmentdetails">Department Details</Link>
+                        <Link to="/departmentdetails">PolyFRAME Building System</Link>
+                      </li>
+                      <li>
+                        <Link to="/departmentdetails">Sustainable Urban Villages</Link>
+                      </li>
+                      <li>
+                        <Link to="/departmentdetails">City & Government Partnerships</Link>
                       </li>
                     </ul>
                   </li>
 
                   <li className="has-dropdown">
-                    <Link to="#">Events</Link>
+                    <Link to="#">GET INVOLVED</Link>
                     <ul className="list-unstyled">
                       <li>
-                        <Link to="/events">Events</Link>
+                        <Link to="/events">For Investors & Donors</Link>
                       </li>
                       <li>
-                        <Link to="/eventdetails">Event Details</Link>
+                        <Link to="/eventdetails">For Developers & Builders</Link>
+                      </li>
+                      <li>
+                        <Link to="/eventdetails">For Local Communities</Link>
+                      </li>
+                      <li>
+                        <Link to="/eventdetails">Volunteer & Careers</Link>
                       </li>
                     </ul>
                   </li>
 
                   <li className="has-dropdown">
-                    <Link to="#">News</Link>
+                    <Link to="#">NEWS & INSIGHTS</Link>
                     <ul className="list-unstyled">
                       <li>
-                        <Link to="/news">News</Link>
+                        <Link to="/news">Latest Updates</Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">News Details</Link>
+                        <Link to="/newsdetails">Blog</Link>
+                      </li>
+                      <li>
+                        <Link to="/newsdetails">Media Coverage</Link>
                       </li>
                     </ul>
                   </li>

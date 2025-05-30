@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.28647a9d.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/client-1.png": "/static/media/client-1.f6e515e9a4e9b9633a9c.png",
+    "static/media/cause-details-1.1.jpg": "/static/media/cause-details-1.1.5a2387d4f683f98c7024.jpg",
+    "static/media/portfolio-details-1.jpg": "/static/media/portfolio-details-1.624c5a4b9f605c72d3b9.jpg",
+    "static/media/mayor-2.jpg": "/static/media/mayor-2.3c4c881aaf5083916cb0.jpg",
+    "static/media/shape-1.png": "/static/media/shape-1.006559f29a3428d15327.png",
+    "static/media/slider-bg-1.png": "/static/media/slider-bg-1.eda8ba989f8a35080acb.png",
+    "static/media/slider-two-bg-1.png": "/static/media/slider-two-bg-1.d31fd5c99e7254ae8956.png",
+    "static/media/event-details-1.1.jpg": "/static/media/event-details-1.1.c2d990434d27e0d56fff.jpg",
+    "static/media/department-10.jpg": "/static/media/department-10.25896852b970a48e866f.jpg",
+    "static/media/department-5.jpg": "/static/media/department-5.25896852b970a48e866f.jpg",
+    "static/media/department-6.jpg": "/static/media/department-6.25896852b970a48e866f.jpg",
+    "static/media/department-7.jpg": "/static/media/department-7.25896852b970a48e866f.jpg",
+    "static/media/department-8.jpg": "/static/media/department-8.25896852b970a48e866f.jpg",
+    "static/media/department-9.jpg": "/static/media/department-9.25896852b970a48e866f.jpg",
+    "static/media/department-1.jpg": "/static/media/department-1.f696e26b7cd1bb79fc5b.jpg",
+    "static/media/service-details-1.jpg": "/static/media/service-details-1.f696e26b7cd1bb79fc5b.jpg",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.28647a9d.js.map": "/static/js/main.28647a9d.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.28647a9d.js"
+  ]
+}

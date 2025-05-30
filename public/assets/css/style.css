@@ -48,10 +48,12 @@
 /* classes added when customized : Start */
 
 /* for submenu items text */
-.tsnCunstom {
+.submenutext {
   color: gray;
   font-size: 12px;
   line-height: 15px;
+  margin: 0;
+  padding: 0;
 }
 
 /* for mpbile submenu text */
@@ -67,9 +69,23 @@
   font-size: 14px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start !important ; /* align items to the start (left) */
-  justify-content: flex-start !important; /* align items to the top */
+  align-items: flex-start !important ; 
+  justify-content: flex-start !important; 
 }
+
+/* For increasing dropdown width  */
+.drop-down-custom-width{
+ min-width: 300px;
+}
+
+/* custom width for heAder CTA buttons */
+.custom-width-button{
+  min-width:200px;
+}
+
+
+
+
 
 /* classes added when customized : End */
 
