@@ -11,7 +11,7 @@ function Main() {
   const [News, setNews] = useState(false);
   const [Departments, setDepartments] = useState(false);
   const [Events, setEvents] = useState(false);
- const [Support, setSupport] = useState(false);
+  const [Support, setSupport] = useState(false);
   const [Contact, setContact] = useState(false);
   const [faq, setfaq] = useState(false);
 
@@ -104,15 +104,14 @@ function Main() {
                         <Link to="/">
                           Mission Statement
                           <p className="submenutext">
-                            We are committed to redefining housing through
-                            sustainable design, community-driven development,
-                            and inclusive growth.
+                            Building Sustainable Housing For a Better Future
                           </p>
                         </Link>
                       </li>
                       <li>
                         <Link to="/our-story">
-                          <button className="btn-primary custom-width-button">About Us
+                          <button className="btn-primary custom-width-button">
+                            About Us
                           </button>
                         </Link>
                         <Link to="/our-story">
@@ -256,9 +255,7 @@ function Main() {
                         <Link to="/contact">Contact Form</Link>
                       </li>
                       <li>
-                        <Link to="#">
-                          Investment/Partnership Inquiry
-                        </Link>
+                        <Link to="#">Investment/Partnership Inquiry</Link>
                       </li>
                       <li>
                         <Link to="#">Sponsor a Village</Link>
@@ -270,7 +267,7 @@ function Main() {
                   </li>
 
                   <li className="has-dropdown">
-                    <Link to="#">Faq</Link>
+                    <Link to="#">FAQ</Link>
                     <ul className="list-unstyled">
                       <li>
                         <Link to="/contact">What makes GHI different? </Link>
@@ -360,7 +357,6 @@ function Main() {
 
             <div className="mobile-nav-container">
               <ul className="main-menu-list list-unstyled">
-
                 {/*  Home section */}
                 <li className="active has-dropdown">
                   <Link to="#">
@@ -379,7 +375,9 @@ function Main() {
                     <ul className="list-unstyled" style={{ display: "block" }}>
                       <li>
                         <Link to="/">Hero</Link>
-                        <p className="mblsubtext">Building Sustainable Housing for a Better Future</p>
+                        <p className="mblsubtext">
+                          Building Sustainable Housing for a Better Future
+                        </p>
                       </li>
                       <li>
                         <Link to="/hometwo">Mission Statement</Link>
@@ -387,22 +385,32 @@ function Main() {
                       {/* CTA in one line*/}
                       <div className="CTA">
                         <li>
-                        <Link to="/hometwo">
-                        <button className="btn-primary-mobile">About Us</button>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/hometwo"><button className="btn-primary-mobile">Get Involved</button></Link>
-                      </li>
-                      <li>
-                        <Link to="/hometwo"><button className="btn-primary-mobile">Support Us</button></Link>
-                      </li>
+                          <Link to="/hometwo">
+                            <button className="btn-primary-mobile">
+                              About Us
+                            </button>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to="/hometwo">
+                            <button className="btn-primary-mobile">
+                              Get Involved
+                            </button>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to="/hometwo">
+                            <button className="btn-primary-mobile">
+                              Support Us
+                            </button>
+                          </Link>
+                        </li>
                       </div>
                     </ul>
                   )}
                 </li>
 
-                  {/* ABOUT US section */}
+                {/* ABOUT US section */}
                 <li className="has-dropdown">
                   <Link to="#">
                     About Us
@@ -430,7 +438,7 @@ function Main() {
                   )}
                 </li>
 
-                  {/* OUR MODEL section */}
+                {/* OUR MODEL section */}
                 <li className="has-dropdown">
                   <Link to="#">
                     Our Model
@@ -450,18 +458,24 @@ function Main() {
                         <Link to="/services">Overview</Link>
                       </li>
                       <li>
-                        <Link to="/servicedetails" className="Link">GHI: Nonprofit coordination & strategy</Link>
+                        <Link to="/servicedetails" className="Link">
+                          GHI: Nonprofit coordination & strategy
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/servicedetails" className="">NPT: Structural system provider</Link>
+                        <Link to="/servicedetails" className="">
+                          NPT: Structural system provider
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/servicedetails" className="Link">UVI: Community development & investment</Link>
-                      
+                        <Link to="/servicedetails" className="Link">
+                          UVI: Community development & investment
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/servicedetails" className="Link">➤ Diagram or Flow Link (add placeholder now)</Link>
-                      
+                        <Link to="/servicedetails" className="Link">
+                          ➤ Diagram or Flow Link (add placeholder now)
+                        </Link>
                       </li>
                     </ul>
                   )}
@@ -469,7 +483,7 @@ function Main() {
 
                 <li className="has-dropdown">
                   <Link to="#">
-                   Our Solutions
+                    Our Solutions
                     <button className={Departments ? "expanded" : ""}>
                       <i
                         className="fa-solid fa-chevron-right"
@@ -483,25 +497,33 @@ function Main() {
                   {Departments && (
                     <ul className="list-unstyled" style={{ display: "block" }}>
                       <li>
-                        <Link to="/departments" className="Link">Affordable Housing Development</Link>
+                        <Link to="/departments" className="Link">
+                          Affordable Housing Development
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/departmentdetails">PolyFRAME Building System</Link>
+                        <Link to="/departmentdetails">
+                          PolyFRAME Building System
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/departmentdetails">Sustainable Urban Villages</Link>
+                        <Link to="/departmentdetails">
+                          Sustainable Urban Villages
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/departmentdetails">City & Government Partnerships</Link>
+                        <Link to="/departmentdetails">
+                          City & Government Partnerships
+                        </Link>
                       </li>
                     </ul>
                   )}
                 </li>
 
-                  {/* GET INVOLVED section */}
+                {/* GET INVOLVED section */}
                 <li className="has-dropdown">
                   <Link to="#">
-                   Get Involved
+                    Get Involved
                     <button className={Events ? "expanded" : ""}>
                       <i
                         className="fa-solid fa-chevron-right"
@@ -518,7 +540,9 @@ function Main() {
                         <Link to="/events">For Investors & Donors</Link>
                       </li>
                       <li>
-                        <Link to="/eventdetails">For Developers & Builders</Link>
+                        <Link to="/eventdetails">
+                          For Developers & Builders
+                        </Link>
                       </li>
                       <li>
                         <Link to="/eventdetails">For Local Communities</Link>
@@ -556,8 +580,8 @@ function Main() {
                     </ul>
                   )}
                 </li>
-                
-                    {/* NEWS & INSIGHTS section */}
+
+                {/* NEWS & INSIGHTS section */}
                 <li className="has-dropdown">
                   <Link to="#">
                     Support Us
@@ -586,7 +610,7 @@ function Main() {
                 </li>
                 <li className="has-dropdown">
                   <Link to="#">
-                   Contact
+                    Contact
                     <button className={Contact ? "expanded" : ""}>
                       <i
                         className="fa-solid fa-chevron-right"
@@ -602,7 +626,9 @@ function Main() {
                         <Link to="/contact">Contact Form</Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">Investment/Partnership Inquiry</Link>
+                        <Link to="/newsdetails">
+                          Investment/Partnership Inquiry
+                        </Link>
                       </li>
                       <li>
                         <Link to="/newsdetails">Newsletter Signup</Link>
@@ -613,7 +639,7 @@ function Main() {
                 {/* FAQ section */}
                 <li className="has-dropdown">
                   <Link to="#">
-                   Faq
+                    FAQ
                     <button className={faq ? "expanded" : ""}>
                       <i
                         className="fa-solid fa-chevron-right"
@@ -629,13 +655,19 @@ function Main() {
                         <Link to="/contact">What makes GHI different?</Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">What’s unique about PolyFRAME?</Link>
+                        <Link to="/newsdetails">
+                          What’s unique about PolyFRAME?
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">How to invest or join UVI?</Link>
+                        <Link to="/newsdetails">
+                          How to invest or join UVI?
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">Steps to partner with GHI?</Link>
+                        <Link to="/newsdetails">
+                          Steps to partner with GHI?
+                        </Link>
                       </li>
                     </ul>
                   )}

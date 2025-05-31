@@ -49,7 +49,6 @@
 
 /* for submenu items text */
 .submenutext {
-  color: gray !important;
   font-size: 12px;
   line-height: 15px;
   margin: 0;
@@ -167,7 +166,7 @@ h6 {
 }
 p {
   font-family: var(--thm-font);
-  color: var(--thm-gray);
+  
   line-height: 1.875;
   font-weight: 500;
   font-size: 16px;
@@ -897,9 +896,7 @@ a {
   background-color: var(--thm-primary);
   color: #fff ;
 }
-.main-menu .main-menu-list > li ul > li > a > .submenutext  {
-  color: white;
-}
+
 .main-menu .main-menu-list > li > ul li > ul {
   left: 100%;
   top: 0;
