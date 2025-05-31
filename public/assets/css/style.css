@@ -80,7 +80,14 @@
 /* custom width for heAder CTA buttons */
 .custom-width-button{
   min-width:200px;
-  background-color: #2dcd7c !important;
+  padding: 18px 50px;
+  background-color:#07eb79;
+  border: 0;
+  color: var(--thm-white);
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 800;
+  transition: all 500ms ease;
 }
 
 /* btn-primary-mobile */
@@ -106,10 +113,7 @@
   line-height: 25px;
 }
 
-/* for changing submenu text color in hover */
-.link-parent:hover .submenutext {
-  color: white;
-}
+
 
 
 

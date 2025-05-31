@@ -110,17 +110,17 @@ function Main() {
                       </li>
                       <li>
                         <Link to="/our-story">
-                          <button className="btn-primary custom-width-button">
+                          <button className=" custom-width-button">
                             About Us
                           </button>
                         </Link>
                         <Link to="/our-story">
-                          <button className="btn-primary custom-width-button">
+                          <button className=" custom-width-button">
                             Get Involved{" "}
                           </button>
                         </Link>
                         <Link to="/our-story">
-                          <button className="btn-primary custom-width-button">
+                          <button className=" custom-width-button">
                             Support Us{" "}
                           </button>
                         </Link>
