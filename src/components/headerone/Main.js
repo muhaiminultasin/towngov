@@ -92,7 +92,7 @@ function Main() {
                   <li className="active has-dropdown">
                     <Link to="/">Home</Link>
                     <ul className="list-unstyled drop-down-custom-width">
-                      <li>
+                      <li className="link-parent">
                         <Link to="/">
                           Hero
                           <p className="submenutext">
@@ -112,8 +112,7 @@ function Main() {
                       </li>
                       <li>
                         <Link to="/our-story">
-                          <button className="btn-primary custom-width-button">
-                            About Us
+                          <button className="btn-primary custom-width-button">About Us
                           </button>
                         </Link>
                         <Link to="/our-story">
@@ -130,8 +129,8 @@ function Main() {
                     </ul>
                   </li>
 
-                  <li className="has-dropdown">
-                    <Link to="#">ABOUT US</Link>
+                  <li className="has-dropdown ">
+                    <Link to="#">About Us</Link>
                     <ul className="list-unstyled">
                       <li>
                         <Link to="/about">Our Story</Link>
@@ -146,7 +145,7 @@ function Main() {
                   </li>
 
                   <li className="has-dropdown">
-                    <Link to="#">OUR MODEL</Link>
+                    <Link to="#">Our Model</Link>
                     <ul className="list-unstyled">
                       <li>
                         <Link to="/services">Overview</Link>
@@ -168,14 +167,14 @@ function Main() {
                       </li>
                       <li>
                         <Link to="/servicedetails">
-                          ➤ Diagram or Flow Link (add placeholder now)
+                          Diagram or Flow Link (add placeholder now)
                         </Link>
                       </li>
                     </ul>
                   </li>
 
                   <li className="has-dropdown">
-                    <Link to="#">OUR SOLUTIONS</Link>
+                    <Link to="#">Our Solutions</Link>
                     <ul className="list-unstyled">
                       <li>
                         <Link to="/departments">
@@ -201,7 +200,7 @@ function Main() {
                   </li>
 
                   <li className="has-dropdown">
-                    <Link to="#">GET INVOLVED</Link>
+                    <Link to="#">Get Involved</Link>
                     <ul className="list-unstyled">
                       <li>
                         <Link to="/events">For Investors & Donors</Link>
@@ -221,7 +220,7 @@ function Main() {
                   </li>
 
                   <li className="has-dropdown">
-                    <Link to="#">NEWS & INSIGHTS</Link>
+                    <Link to="#">News & Insights</Link>
                     <ul className="list-unstyled">
                       <li>
                         <Link to="/news">Latest Updates</Link>
@@ -236,7 +235,7 @@ function Main() {
                   </li>
 
                   <li className="has-dropdown">
-                    <Link to="#">SUPPORT US</Link>
+                    <Link to="#">Support Us</Link>
                     <ul className="list-unstyled">
                       <li>
                         <Link to="/news">Donate</Link>
@@ -251,27 +250,27 @@ function Main() {
                   </li>
 
                   <li className="has-dropdown">
-                    <Link to="#">CONTACT</Link>
+                    <Link to="#">Contact</Link>
                     <ul className="list-unstyled">
                       <li>
                         <Link to="/contact">Contact Form</Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">
+                        <Link to="#">
                           Investment/Partnership Inquiry
                         </Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">Sponsor a Village</Link>
+                        <Link to="#">Sponsor a Village</Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">Newsletter Signup</Link>
+                        <Link to="/#/cta-two-section">Newsletter Signup</Link>
                       </li>
                     </ul>
                   </li>
 
                   <li className="has-dropdown">
-                    <Link to="#">FAQ</Link>
+                    <Link to="#">Faq</Link>
                     <ul className="list-unstyled">
                       <li>
                         <Link to="/contact">What makes GHI different? </Link>
@@ -406,7 +405,7 @@ function Main() {
                   {/* ABOUT US section */}
                 <li className="has-dropdown">
                   <Link to="#">
-                    ABOUT US
+                    About Us
                     <button className={Pages ? "expanded" : ""}>
                       <i
                         className="fa-solid fa-chevron-right"
@@ -434,7 +433,7 @@ function Main() {
                   {/* OUR MODEL section */}
                 <li className="has-dropdown">
                   <Link to="#">
-                    OUR MODEL
+                    Our Model
                     <button className={Services ? "expanded" : ""}>
                       <i
                         className="fa-solid fa-chevron-right"
@@ -470,7 +469,7 @@ function Main() {
 
                 <li className="has-dropdown">
                   <Link to="#">
-                   OUR SOLUTIONS
+                   Our Solutions
                     <button className={Departments ? "expanded" : ""}>
                       <i
                         className="fa-solid fa-chevron-right"
@@ -502,7 +501,7 @@ function Main() {
                   {/* GET INVOLVED section */}
                 <li className="has-dropdown">
                   <Link to="#">
-                   GET INVOLVED
+                   Get Involved
                     <button className={Events ? "expanded" : ""}>
                       <i
                         className="fa-solid fa-chevron-right"
@@ -533,7 +532,7 @@ function Main() {
 
                 <li className="has-dropdown">
                   <Link to="#">
-                    NEWS & INSIGHTS
+                    News & Insights
                     <button className={News ? "expanded" : ""}>
                       <i
                         className="fa-solid fa-chevron-right"
@@ -614,7 +613,7 @@ function Main() {
                 {/* FAQ section */}
                 <li className="has-dropdown">
                   <Link to="#">
-                   FAQ
+                   Faq
                     <button className={faq ? "expanded" : ""}>
                       <i
                         className="fa-solid fa-chevron-right"

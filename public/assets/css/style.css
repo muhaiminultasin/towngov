@@ -49,7 +49,7 @@
 
 /* for submenu items text */
 .submenutext {
-  color: gray;
+  color: gray !important;
   font-size: 12px;
   line-height: 15px;
   margin: 0;
@@ -81,6 +81,7 @@
 /* custom width for heAder CTA buttons */
 .custom-width-button{
   min-width:200px;
+  background-color: #2dcd7c !important;
 }
 
 /* btn-primary-mobile */
@@ -105,6 +106,12 @@
 .Link{
   line-height: 25px;
 }
+
+/* for changing submenu text color in hover */
+.link-parent:hover .submenutext {
+  color: white;
+}
+
 
 
 
@@ -788,7 +795,7 @@ a {
 }
 @media (max-width: 1499px) {
   .navigation {
-    padding-left: 50px;
+    padding: 10px 10px 0px 10px;
   }
 }
 @media (max-width: 1199px) {
@@ -850,11 +857,11 @@ a {
   padding: 23px 0;
 }
 .main-menu .main-menu-list > li + li {
-  margin-left: 50px;
+  margin-left: 20px !important;
 }
 @media (max-width: 1520px) {
   .main-menu .main-menu-list > li + li {
-    margin-left: 30px;
+    margin: 10px;
   }
 }
 .main-menu .main-menu-list > li ul {
@@ -888,7 +895,10 @@ a {
 }
 .main-menu .main-menu-list > li ul > li > a:hover {
   background-color: var(--thm-primary);
-  color: #fff;
+  color: #fff ;
+}
+.main-menu .main-menu-list > li ul > li > a > .submenutext  {
+  color: white;
 }
 .main-menu .main-menu-list > li > ul li > ul {
   left: 100%;
