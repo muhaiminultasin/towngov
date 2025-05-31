@@ -11,7 +11,7 @@ function Main() {
   const [News, setNews] = useState(false);
   const [Departments, setDepartments] = useState(false);
   const [Events, setEvents] = useState(false);
-  const [Support, setSupport] = useState(false);
+ const [Support, setSupport] = useState(false);
   const [Contact, setContact] = useState(false);
   const [faq, setfaq] = useState(false);
 
@@ -562,16 +562,16 @@ function Main() {
                 <li className="has-dropdown">
                   <Link to="#">
                     Support Us
-                    <button className={News ? "expanded" : ""}>
+                    <button className={Support ? "expanded" : ""}>
                       <i
                         className="fa-solid fa-chevron-right"
                         onClick={() => {
-                          setNews(!News);
+                          setSupport(!Support);
                         }}
                       />
                     </button>
                   </Link>
-                  {News && (
+                  {Support && (
                     <ul className="list-unstyled" style={{ display: "block" }}>
                       <li>
                         <Link to="/news">Donate</Link>
@@ -587,17 +587,17 @@ function Main() {
                 </li>
                 <li className="has-dropdown">
                   <Link to="#">
-                   CONTACT
-                    <button className={News ? "expanded" : ""}>
+                   Contact
+                    <button className={Contact ? "expanded" : ""}>
                       <i
                         className="fa-solid fa-chevron-right"
                         onClick={() => {
-                          setNews(!News);
+                          setContact(!Contact);
                         }}
                       />
                     </button>
                   </Link>
-                  {News && (
+                  {Contact && (
                     <ul className="list-unstyled" style={{ display: "block" }}>
                       <li>
                         <Link to="/contact">Contact Form</Link>
@@ -615,16 +615,16 @@ function Main() {
                 <li className="has-dropdown">
                   <Link to="#">
                    FAQ
-                    <button className={News ? "expanded" : ""}>
+                    <button className={faq ? "expanded" : ""}>
                       <i
                         className="fa-solid fa-chevron-right"
                         onClick={() => {
-                          setNews(!News);
+                          setfaq(!faq);
                         }}
                       />
                     </button>
                   </Link>
-                  {News && (
+                  {faq && (
                     <ul className="list-unstyled" style={{ display: "block" }}>
                       <li>
                         <Link to="/contact">What makes GHI different?</Link>
@@ -640,10 +640,6 @@ function Main() {
                       </li>
                     </ul>
                   )}
-                </li>
-
-                <li>
-                  <Link to="#">Contact</Link>
                 </li>
               </ul>
             </div>
