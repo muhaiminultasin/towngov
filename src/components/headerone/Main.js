@@ -108,65 +108,106 @@ function Main() {
                           </p>
                         </Link>
                       </li>
-                      <li>
-                        <Link to="/our-story">
-                          <button className=" custom-width-button">
-                            About Us
-                          </button>
-                        </Link>
-                        <Link to="/our-story">
-                          <button className=" custom-width-button">
-                            Get Involved{" "}
-                          </button>
-                        </Link>
-                        <Link to="/our-story">
-                          <button className=" custom-width-button">
-                            Support Us{" "}
-                          </button>
-                        </Link>
+                      <li className="has-dropdown">
+                        <Link to="#">Learn More About Our Vision</Link>
+                        <ul className="list-unstyled ">
+                          <li>
+                            <Link to="#">About Us</Link>
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="has-dropdown">
+                        <Link to="#">Join The Initiative</Link>
+                        <ul className="list-unstyled">
+                          <li>
+                            <Link to="#">Get Involved</Link>
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="has-dropdown">
+                        <Link to="#">Support Our Mission</Link>
+                        <ul className="list-unstyled">
+                          <li>
+                            <Link to="#">Support Us</Link>
+                          </li>
+                        </ul>
                       </li>
                     </ul>
                   </li>
 
                   <li className="has-dropdown ">
                     <Link to="#">About Us</Link>
-                    <ul className="list-unstyled">
+                    <ul className="list-unstyled drop-down-custom-width">
                       <li>
-                        <Link to="/about">Our Story</Link>
+                        <Link to="/about">
+                          Our Story
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
+                        </Link>
                       </li>
                       <li>
                         <Link to="/team">Our Approach (NPT + UVI)</Link>
                       </li>
                       <li>
-                        <Link to="/teamdetails">Leadership & Team</Link>
+                        <Link to="/teamdetails">
+                          Leadership & Team
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
+                        </Link>
                       </li>
                     </ul>
                   </li>
 
                   <li className="has-dropdown">
                     <Link to="#">Our Model</Link>
-                    <ul className="list-unstyled">
+                    <ul className="list-unstyled drop-down-custom-width">
                       <li>
-                        <Link to="/services">Overview</Link>
-                      </li>
-                      <li>
-                        <Link to="/servicedetails">
-                          GHI: Nonprofit coordination & strategy
+                        <Link to="/services">
+                          Overview
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
                         </Link>
                       </li>
                       <li>
                         <Link to="/servicedetails">
-                          NPT: Structural system provider
+                          Ghi: Nonprofit Coordination & Strategy
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="#">
+                          Npt: Structural System Provider
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="#">
+                          Uvi: Community Development & Investment
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
                         </Link>
                       </li>
                       <li>
                         <Link to="/servicedetails">
-                          UVI: Community development & investment
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/servicedetails">
-                          Diagram or Flow Link (add placeholder now)
+                          Diagram Or Flow Link
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
                         </Link>
                       </li>
                     </ul>
@@ -174,25 +215,41 @@ function Main() {
 
                   <li className="has-dropdown">
                     <Link to="#">Our Solutions</Link>
-                    <ul className="list-unstyled">
+                    <ul className="list-unstyled drop-down-custom-width">
                       <li>
-                        <Link to="/departments">
+                        <Link to="#">
                           Affordable Housing Development
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
                         </Link>
                       </li>
                       <li>
-                        <Link to="/departmentdetails">
+                        <Link to="#">
                           PolyFRAME Building System
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
                         </Link>
                       </li>
                       <li>
-                        <Link to="/departmentdetails">
+                        <Link to="#">
                           Sustainable Urban Villages
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
                         </Link>
                       </li>
                       <li>
-                        <Link to="/departmentdetails">
+                        <Link to="#">
                           City & Government Partnerships
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
                         </Link>
                       </li>
                     </ul>
@@ -200,91 +257,163 @@ function Main() {
 
                   <li className="has-dropdown">
                     <Link to="#">Get Involved</Link>
-                    <ul className="list-unstyled">
+                    <ul className="list-unstyled drop-down-custom-width">
                       <li>
-                        <Link to="/events">For Investors & Donors</Link>
-                      </li>
-                      <li>
-                        <Link to="/eventdetails">
-                          For Developers & Builders
+                        <Link to="#">
+                          For Investors & Donors
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
                         </Link>
                       </li>
                       <li>
-                        <Link to="/eventdetails">For Local Communities</Link>
+                        <Link to="#">
+                          For Developers & Builders
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/eventdetails">Volunteer & Careers</Link>
+                        <Link to="#">
+                          For Local Communities
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="#">
+                          Volunteer & Careers
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
+                        </Link>
                       </li>
                     </ul>
                   </li>
 
                   <li className="has-dropdown">
                     <Link to="#">News & Insights</Link>
-                    <ul className="list-unstyled">
+                    <ul className="list-unstyled drop-down-custom-width">
                       <li>
-                        <Link to="/news">Latest Updates</Link>
+                        <Link to="#">
+                          Latest Updates
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">Blog</Link>
+                        <Link to="#">
+                          Blog
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">Media Coverage</Link>
+                        <Link to="#">
+                          Media Coverage
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
+                        </Link>
                       </li>
                     </ul>
                   </li>
 
                   <li className="has-dropdown">
                     <Link to="#">Support Us</Link>
-                    <ul className="list-unstyled">
+                    <ul className="list-unstyled drop-down-custom-width">
                       <li>
-                        <Link to="/news">Donate</Link>
+                        <Link to="#">
+                          Donate
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">Investment Opportunities</Link>
+                        <Link to="#">
+                          Investment Opportunities
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">Sponsor a Village</Link>
+                        <Link to="#">
+                          Sponsor a Village
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
+                        </Link>
                       </li>
                     </ul>
                   </li>
 
                   <li className="has-dropdown">
                     <Link to="#">Contact</Link>
-                    <ul className="list-unstyled">
+                    <ul className="list-unstyled drop-down-custom-width">
                       <li>
                         <Link to="/contact">Contact Form</Link>
                       </li>
                       <li>
-                        <Link to="#">Investment/Partnership Inquiry</Link>
+                        <Link to="#">
+                          Investment/Partnership Inquiry
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
+                        </Link>
                       </li>
                       <li>
-                        <Link to="#">Sponsor a Village</Link>
+                        <Link to="#">
+                          Sponsor a Village
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/#/cta-two-section">Newsletter Signup</Link>
+                        <Link to="home/#/cta-two-section">
+                          Newsletter Signup
+                        </Link>
                       </li>
                     </ul>
                   </li>
 
                   <li className="has-dropdown">
                     <Link to="#">FAQ</Link>
-                    <ul className="list-unstyled">
+                    <ul className="list-unstyled drop-down-custom-width">
                       <li>
-                        <Link to="/contact">What makes GHI different? </Link>
+                        <Link to="/contact">What Makes GHI Different? </Link>
                       </li>
                       <li>
                         <Link to="/newsdetails">
-                          What’s unique about PolyFRAME?
+                          What’s Unique About PolyFRAME?
                         </Link>
                       </li>
                       <li>
                         <Link to="/newsdetails">
-                          How to invest or join UVI?
+                          How to Invest or Join UVI?
                         </Link>
                       </li>
                       <li>
                         <Link to="/newsdetails">
-                          Steps to partner with GHI?
+                          Steps to Partner With GHI?
                         </Link>
                       </li>
                     </ul>
@@ -459,22 +588,22 @@ function Main() {
                       </li>
                       <li>
                         <Link to="/servicedetails" className="Link">
-                          GHI: Nonprofit coordination & strategy
+                          GHI: Nonprofit Coordination & Strategy
                         </Link>
                       </li>
                       <li>
                         <Link to="/servicedetails" className="">
-                          NPT: Structural system provider
+                          NPT: Structural System Provider
                         </Link>
                       </li>
                       <li>
                         <Link to="/servicedetails" className="Link">
-                          UVI: Community development & investment
+                          UVI: Community Development & Investment
                         </Link>
                       </li>
                       <li>
                         <Link to="/servicedetails" className="Link">
-                          ➤ Diagram or Flow Link (add placeholder now)
+                          Diagram or Flow Link 
                         </Link>
                       </li>
                     </ul>
@@ -652,21 +781,21 @@ function Main() {
                   {faq && (
                     <ul className="list-unstyled" style={{ display: "block" }}>
                       <li>
-                        <Link to="/contact">What makes GHI different?</Link>
+                        <Link to="/contact">What Makes GHI Different?</Link>
                       </li>
                       <li>
                         <Link to="/newsdetails">
-                          What’s unique about PolyFRAME?
+                          What’s Unique About PolyFRAME?
                         </Link>
                       </li>
                       <li>
                         <Link to="/newsdetails">
-                          How to invest or join UVI?
+                          How to Invest or Join UVI?
                         </Link>
                       </li>
                       <li>
                         <Link to="/newsdetails">
-                          Steps to partner with GHI?
+                          Steps to Partner With GHI?
                         </Link>
                       </li>
                     </ul>
