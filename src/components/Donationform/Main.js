@@ -9,7 +9,7 @@ function Donationform({ selectedAmount, handleAmountClick, handleInputChange }) 
             <div className="contact-box">
               <div className="section-tagline">DONATE</div>
               <h1 className="section-title">Donate Now</h1>
-              <p>We are Always Open For Children’s Support For Eating Funds For Hungry People</p>
+              <p>We are always open for children’s support for eating funds for hungry people</p>
             </div>
           </div>
 
@@ -27,11 +27,11 @@ function Donationform({ selectedAmount, handleAmountClick, handleInputChange }) 
                           <ul>
                             <li>
                               <span>$7,560.00</span>
-                              <span className="title">Raised</span>
+                              <span className="title"> Raised</span>
                             </li>
                             <li>
                               <span>$10,000.00</span>
-                              <span className="title">Goal</span>
+                              <span className="title"> Goal</span>
                             </li>
                           </ul>
                           <div className="progress-item">
@@ -45,7 +45,7 @@ function Donationform({ selectedAmount, handleAmountClick, handleInputChange }) 
 
             <form
               action="assets/inc/sendemail.php"
-              className="contact-form contact-form-validated manrope"
+              className="contact-form contact-form-validated "
               method="post"
             >
               <div className="row row-gutter-10">
@@ -121,7 +121,7 @@ function Donationform({ selectedAmount, handleAmountClick, handleInputChange }) 
                     ))}
                     <input
                       type="text"
-                      className="addAmount-value"
+                      className="addAmount-value amount"
                       placeholder="$ Enter your amount"
                       value={selectedAmount}
                       onChange={handleInputChange}

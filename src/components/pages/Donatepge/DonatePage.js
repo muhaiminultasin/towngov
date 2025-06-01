@@ -39,7 +39,7 @@ const DonatePage = () => {
         {/* Top Text */}
         <div className="donation-from">
           <div className="text ">
-            <h2>We are always Open For Children</h2>
+            <h2>We Are Always Open For Children</h2>
             <h3>Support For Eating Funds For Hungry People</h3>
           </div>
 
