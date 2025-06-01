@@ -82,7 +82,7 @@ function Donationform({ selectedAmount, handleAmountClick, handleInputChange }) 
                       <button
                         type="button"
                         key={amount}
-                        className={`amount-btn ${
+                        className={`amount-btn amount ${
                           selectedAmount === `$${amount}` ? "active" : ""
                         }`}
                         onClick={() => handleAmountClick(amount)}
@@ -102,7 +102,7 @@ function Donationform({ selectedAmount, handleAmountClick, handleInputChange }) 
 
                 {/* Submit Button */}
                 <div className="col-12 col-lg-12">
-                  <button className="btn btn-primary">Send a Message</button>
+                  <button className="btn btn-primary">Donate Now</button>
                 </div>
               </div>
             </form>

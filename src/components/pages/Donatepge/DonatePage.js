@@ -64,7 +64,7 @@ const DonatePage = () => {
               <div className="progress">
                 <div className="bar" style={{ width: "50%" }}></div>
               </div>
-              <span className="cssProgress-label">50%</span>
+              <span className="cssProgress-label">75%</span>
             </div>
           </div>
         {/* Doner details  */}
@@ -78,22 +78,26 @@ const DonatePage = () => {
           
 
           {/* Donate Button */}
-          <div className="donate-now">
+          {/* <div className="donate-now">
             <div className="donation-one__btn-box">
               <a href="#" className="donation-one__btn theme-btn ">
                 Donate Now <i className="flaticon-heart"></i>
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
       {/* Background Shapes */}
-      <div className="shape">{/* <img src={shape2} alt="shape" /> */}</div>
-      <div className="right-text">
+      {/* <div className="shape"> <img src={shape2} alt="shape" /> 
+        
+      </div> */}
+      {/* <div className="right-text">
         <h2 className="">Donate Now</h2>
-        <div className="shape-2">{/* <img src={shape3} alt="shape" /> */}</div>
-      </div>
+        <div className="shape-2">{/* <img src={shape3} alt="shape" /> */}
+
+        {/* </div> */}
+      {/* </div>  */}
     </section>
   );
 };
