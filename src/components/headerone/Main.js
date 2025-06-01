@@ -193,7 +193,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/servicedetails">
+                        <Link to="#">
                           Ghi: Nonprofit Coordination & Strategy
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -220,7 +220,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/servicedetails">
+                        <Link to="#">
                           Diagram
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -417,20 +417,20 @@ function Main() {
                     <Link to="#">FAQ</Link>
                     <ul className="list-unstyled drop-down-custom-width">
                       <li>
-                        <Link to="/contact">What Makes GHI Different? </Link>
+                        <Link to="#">What Makes GHI Different? </Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">
+                        <Link to="#">
                           What’s Unique About PolyFRAME?
                         </Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">
+                    <Link to="#">
                           How to Invest or Join UVI?
                         </Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">
+                        <Link to="#">
                           Steps to Partner With GHI?
                         </Link>
                       </li>

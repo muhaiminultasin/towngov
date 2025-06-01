@@ -3,6 +3,7 @@ import Header from "../../headerone/Main";
 // import shape2 from "../../images/about/shape2.svg";
 // import shape3 from "../../images/cta-shap-3.svg";
 import Bredcom from "../../Bredcom/Main";
+import Donationform from "../../Donationform/Main"; 
 
 const DonatePage = () => {
   useEffect(() => {
@@ -66,39 +67,24 @@ const DonatePage = () => {
               <span className="cssProgress-label">50%</span>
             </div>
           </div>
+        {/* Doner details  */}
+        <Donationform
+  selectedAmount={selectedAmount}
+  handleAmountClick={handleAmountClick}
+  handleInputChange={handleInputChange}
+/>
 
           {/* Donation Amounts */}
-          <div className="donate-amount">
-            {[100, 200, 300, 400, 600].map((amount) => (
-              <button
-                key={amount}
-                className={`amount-btn ${
-                  selectedAmount === `$${amount}` ? "active" : ""
-                }`}
-                onClick={() => handleAmountClick(amount)}
-              >
-                ${amount}
-              </button>
-            ))}
-            <input
-              type="text"
-              className="addAmount-value"
-              placeholder="$ Enter your amount"
-              value={selectedAmount}
-              onChange={handleInputChange}
-            />
-          </div>
+          
 
           {/* Donate Button */}
           <div className="donate-now">
             <div className="donation-one__btn-box">
-              <a href="#" className="donation-one__btn theme-btn">
+              <a href="#" className="donation-one__btn theme-btn ">
                 Donate Now <i className="flaticon-heart"></i>
               </a>
             </div>
           </div>
-
-          
         </div>
       </div>
 
