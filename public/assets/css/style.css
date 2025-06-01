@@ -127,8 +127,11 @@
 
 .amount{
   background: transparent;
-  border: 1px solid #2dcd7c;
+  border: 1px solid hsl(150, 64%, 49%);
   margin-right: 5px ;
+  margin-top: 5px;
+  outline:none;
+  
 }
 
 
