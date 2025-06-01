@@ -109,7 +109,13 @@ function Main() {
                         </Link>
                       </li>
                       <li className="has-dropdown">
-                        <Link to="#">Learn More About Our Vision</Link>
+                        <Link to="#">
+                          Learn More About Our Vision
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
+                        </Link>
                         <ul className="list-unstyled ">
                           <li>
                             <Link to="#">About Us</Link>
@@ -117,7 +123,13 @@ function Main() {
                         </ul>
                       </li>
                       <li className="has-dropdown">
-                        <Link to="#">Join The Initiative</Link>
+                        <Link to="#">
+                          Join The Initiative
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
+                        </Link>
                         <ul className="list-unstyled">
                           <li>
                             <Link to="#">Get Involved</Link>
@@ -125,7 +137,13 @@ function Main() {
                         </ul>
                       </li>
                       <li className="has-dropdown">
-                        <Link to="#">Support Our Mission</Link>
+                        <Link to="#">
+                          Support Our Mission
+                          <p className="submenutext">
+                            There are many variations of passages of Lorem Ipsum
+                            available
+                          </p>
+                        </Link>
                         <ul className="list-unstyled">
                           <li>
                             <Link to="#">Support Us</Link>
@@ -203,7 +221,7 @@ function Main() {
                       </li>
                       <li>
                         <Link to="/servicedetails">
-                          Diagram Or Flow Link
+                          Diagram
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
                             available
@@ -603,7 +621,7 @@ function Main() {
                       </li>
                       <li>
                         <Link to="/servicedetails" className="Link">
-                          Diagram or Flow Link 
+                          Diagram or Flow Link
                         </Link>
                       </li>
                     </ul>
