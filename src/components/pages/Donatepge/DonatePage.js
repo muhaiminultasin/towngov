@@ -3,7 +3,7 @@ import Header from "../../headerone/Main";
 // import shape2 from "../../images/about/shape2.svg";
 // import shape3 from "../../images/cta-shap-3.svg";
 import Bredcom from "../../Bredcom/Main";
-import Donationform from "../../Donationform/Main"; 
+import Donationform from "../../Donationform/Main";
 
 const DonatePage = () => {
   useEffect(() => {
@@ -42,40 +42,16 @@ const DonatePage = () => {
             <h2>We are always Open For Children</h2>
             <h3>Support For Eating Funds For Hungry People</h3>
           </div>
-          <div className="Support">
-            <span>
-              Donate Now <span>24/7</span> Support
-            </span>
-          </div>
 
-          {/* Progress Info */}
-          <div className="progress-wrap">
-            <ul>
-              <li>
-                <span>$7,560.00</span>
-                <span className="title">Raised</span>
-              </li>
-              <li>
-                <span>$10,000.00</span>
-                <span className="title">Goal</span>
-              </li>
-            </ul>
-            <div className="progress-item">
-              <div className="progress">
-                <div className="bar" style={{ width: "50%" }}></div>
-              </div>
-              <span className="cssProgress-label">75%</span>
-            </div>
-          </div>
-        {/* Doner details  */}
-        <Donationform
-  selectedAmount={selectedAmount}
-  handleAmountClick={handleAmountClick}
-  handleInputChange={handleInputChange}
-/>
+         
+          {/* Doner details  */}
+          <Donationform
+            selectedAmount={selectedAmount}
+            handleAmountClick={handleAmountClick}
+            handleInputChange={handleInputChange}
+          />
 
           {/* Donation Amounts */}
-          
 
           {/* Donate Button */}
           {/* <div className="donate-now">
@@ -96,7 +72,7 @@ const DonatePage = () => {
         <h2 className="">Donate Now</h2>
         <div className="shape-2">{/* <img src={shape3} alt="shape" /> */}
 
-        {/* </div> */}
+      {/* </div> */}
       {/* </div>  */}
     </section>
   );

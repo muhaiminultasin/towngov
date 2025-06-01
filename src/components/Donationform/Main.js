@@ -14,9 +14,38 @@ function Donationform({ selectedAmount, handleAmountClick, handleInputChange }) 
           </div>
 
           <div className="col-lg-8">
+
+             <div className="col-lg-8 manrope">
+                        <div className="Support">
+                          <span>
+                            Donate Now <span>24/7</span> Support
+                          </span>
+                        </div>
+            
+                        {/* Progress Info */}
+                        <div className="progress-wrap">
+                          <ul>
+                            <li>
+                              <span>$7,560.00</span>
+                              <span className="title">Raised</span>
+                            </li>
+                            <li>
+                              <span>$10,000.00</span>
+                              <span className="title">Goal</span>
+                            </li>
+                          </ul>
+                          <div className="progress-item">
+                            <div className="progress">
+                              <div className="bar" style={{ width: "50%" }}></div>
+                            </div>
+                            <span className="cssProgress-label">75%</span>
+                          </div>
+                        </div>
+               </div>
+
             <form
               action="assets/inc/sendemail.php"
-              className="contact-form contact-form-validated"
+              className="contact-form contact-form-validated manrope"
               method="post"
             >
               <div className="row row-gutter-10">
