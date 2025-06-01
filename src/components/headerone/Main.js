@@ -157,7 +157,7 @@ function Main() {
                     <Link to="#">About Us</Link>
                     <ul className="list-unstyled drop-down-custom-width">
                       <li>
-                        <Link to="/about">
+                        <Link to="#">
                           Our Story
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -166,10 +166,10 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/team">Our Approach (NPT + UVI)</Link>
+                        <Link to="#">Our Approach (NPT + UVI)</Link>
                       </li>
                       <li>
-                        <Link to="/teamdetails">
+                        <Link to="#">
                           Leadership & Team
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -184,7 +184,7 @@ function Main() {
                     <Link to="#">Our Model</Link>
                     <ul className="list-unstyled drop-down-custom-width">
                       <li>
-                        <Link to="/services">
+                        <Link to="#">
                           Overview
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum

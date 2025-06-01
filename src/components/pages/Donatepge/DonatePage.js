@@ -1,9 +1,14 @@
-import React, { useState } from "react";
-import Header from '../../headerone/Main'
+import React, { useState, useEffect } from "react";
+import Header from "../../headerone/Main";
 // import shape2 from "../../images/about/shape2.svg";
 // import shape3 from "../../images/cta-shap-3.svg";
+import Bredcom from "../../Bredcom/Main";
 
 const DonatePage = () => {
+  useEffect(() => {
+    document.getElementById("title").innerHTML = "Donation || TownGov";
+  }, []);
+
   const [selectedAmount, setSelectedAmount] = useState("");
   const [formData, setFormData] = useState({
     firstName: "",
@@ -26,17 +31,15 @@ const DonatePage = () => {
   };
 
   return (
-
-   
-    
     <section className="donate-section section-padding">
-         <Header/>
+      <Header />
+      <Bredcom subtitle="Home" title="Donation" subtitledown="Donation" />
       <div className="container">
         {/* Top Text */}
         <div className="donation-from">
           <div className="text ">
-            <h2>We are always open for children</h2>
-            <h3>Support for eating funds for hungry people</h3>
+            <h2>We are always Open For Children</h2>
+            <h3>Support For Eating Funds For Hungry People</h3>
           </div>
           <div className="Support">
             <span>
@@ -65,48 +68,6 @@ const DonatePage = () => {
           </div>
 
           {/* Donation Amounts */}
-          <div className="donor-form-box" style={{ marginTop: "3rem" }}>
-            <h3 className="form-title">Details</h3>
-            <form className="donor-form">
-              <div className="form-grid">
-                <input
-                  type="text"
-                  name="firstName"
-                  placeholder="First Name"
-                  value={formData.firstName}
-                  onChange={handleFormChange}
-                />
-                <input
-                  type="text"
-                  name="lastName"
-                  placeholder="Last Name"
-                  value={formData.lastName}
-                  onChange={handleFormChange}
-                />
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Email"
-                  value={formData.email}
-                  onChange={handleFormChange}
-                />
-                <input
-                  type="text"
-                  name="address"
-                  placeholder="Address"
-                  value={formData.address}
-                  onChange={handleFormChange}
-                />
-              </div>
-              <textarea
-                name="message"
-                rows="6"
-                placeholder="Message"
-                value={formData.message}
-                onChange={handleFormChange}
-              ></textarea>
-            </form>
-          </div>
           <div className="donate-amount">
             {[100, 200, 300, 400, 600].map((amount) => (
               <button
@@ -122,7 +83,7 @@ const DonatePage = () => {
             <input
               type="text"
               className="addAmount-value"
-              placeholder="$Custom"
+              placeholder="$ Enter your amount"
               value={selectedAmount}
               onChange={handleInputChange}
             />
@@ -137,20 +98,15 @@ const DonatePage = () => {
             </div>
           </div>
 
-          {/* Donor Info Form */}
           
         </div>
       </div>
 
       {/* Background Shapes */}
-      <div className="shape">
-        {/* <img src={shape2} alt="shape" /> */}
-      </div>
+      <div className="shape">{/* <img src={shape2} alt="shape" /> */}</div>
       <div className="right-text">
-        <h1>Donate Now</h1>
-        <div className="shape-2">
-          {/* <img src={shape3} alt="shape" /> */}
-        </div>
+        <h2 className="">Donate Now</h2>
+        <div className="shape-2">{/* <img src={shape3} alt="shape" /> */}</div>
       </div>
     </section>
   );
