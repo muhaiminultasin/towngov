@@ -38,12 +38,6 @@ const DonatePage = () => {
       <div className="container">
         {/* Top Text */}
         <div className="donation-from">
-          <div className="text ">
-            <h2>We Are Always Open For Children</h2>
-            <h3>Support For Eating Funds For Hungry People</h3>
-          </div>
-
-         
           {/* Doner details  */}
           <Donationform
             selectedAmount={selectedAmount}
