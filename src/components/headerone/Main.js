@@ -352,7 +352,7 @@ function Main() {
                     <Link to="#">Support Us</Link>
                     <ul className="list-unstyled drop-down-custom-width">
                       <li>
-                        <Link to="#">
+                        <Link to="/donate">
                           Donate
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -744,7 +744,7 @@ function Main() {
                   {Support && (
                     <ul className="list-unstyled" style={{ display: "block" }}>
                       <li>
-                        <Link to="/news">Donate</Link>
+                        <Link to="/donate">Donate</Link>
                       </li>
                       <li>
                         <Link to="/newsdetails">Investment Opportunities</Link>

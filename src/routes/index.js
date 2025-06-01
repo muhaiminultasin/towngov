@@ -19,6 +19,7 @@ import News from '../components/pages/News/Main'
 import Newsdeatils from '../components/pages/newsdeatils/Main'
 import Contact from '../components/contact/Main'
 import Home from '../components/home/Main'
+import Donate from '../components/pages/Donatepge/DonatePage';
 
 
 function Index() {
@@ -52,6 +53,7 @@ function Index() {
           <Route path="/news" element={<News />} />
           <Route path="/newsdetails" element={<Newsdeatils />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/donate" element={<Donate />} />
 
         </Routes>
 
