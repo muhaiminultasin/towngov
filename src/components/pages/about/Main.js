@@ -6,6 +6,7 @@ import Client from '../../menhome/Client'
 import Testimonial from '../menabout/Testimonial'
 import Team from '../../menhometwo/Team'
 import Last from '../menabout/Last'
+import GHIApproach from '../menabout/GHIApproach'
 
 
 function Main() {
@@ -27,6 +28,7 @@ function Main() {
           <Aboutone/>
           <Client/>
           <Testimonial/>
+          <GHIApproach/>
           <Team/>
           <Last/>
         </div>

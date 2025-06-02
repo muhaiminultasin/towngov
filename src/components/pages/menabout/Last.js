@@ -14,7 +14,7 @@ function Last() {
                         It’s a Great way to Love and
                         <br /> Support your City
                         </h2>
-                        <Link to="/contact" className="btn btn-primary"> Start Donating Now </Link>
+                        <Link to="/donate" className="btn btn-primary"> Start Donating Now </Link>
                     </div>
                     
                     </div>

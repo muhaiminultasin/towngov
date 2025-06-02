@@ -3,18 +3,26 @@ import Shapes01 from '../../../assets/image/shapes/shape-1.png'
 import Gallery07 from '../../../assets/image/gallery/about-7.jpg'
 
 
-function Aboutone() {
+function GHIApproach() {
   return (
     <>
         <section className="about-one-section">
             <div className="container">
                 <div className="row row-gutter-y-40">
+
+                <div className="col-lg-12 col-xl-6">
+                    <div className="about-one-image">
+                    <img src={Shapes01} className="floated-image-one" alt="img-58" />
+                    <img src={Gallery07} alt="img-59" className="img-fluid" />
+                    </div>
+                   
+                </div>
                 <div className="col-lg-12 col-xl-6">
                     <div className="about-one-inner">
-                    <div className="section-tagline">story</div>
+                    <div className="section-tagline">Our Approach</div>
                     
                     <h2 className="section-title">
-                        Our Story
+                        Our Approach (NPT + UVI)
                     </h2>
                     <p>
                         Aliquam viverra arcu. Donec aliquet blandit enim feugiat.
@@ -52,13 +60,7 @@ function Aboutone() {
                     
                 </div>
                 
-                <div className="col-lg-12 col-xl-6">
-                    <div className="about-one-image">
-                    <img src={Shapes01} className="floated-image-one" alt="img-58" />
-                    <img src={Gallery07} alt="img-59" className="img-fluid" />
-                    </div>
-                   
-                </div>
+                
                 
                 </div>
                 
@@ -68,4 +70,4 @@ function Aboutone() {
   )
 }
 
-export default Aboutone
+export default GHIApproach;

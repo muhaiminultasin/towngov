@@ -22,16 +22,16 @@ function Main() {
           <div className="topbar-inner">
             <div className="topbar-left">
               <div className="topbar-socials">
-                <a href="https://twitter.com/">
+                <a href="#">
                   <i className="fa-brands fa-twitter" />
                 </a>
-                <a href="https://www.facebook.com/">
+                <a href="#">
                   <i className="fa-brands fa-facebook" />
                 </a>
-                <a href="https://in.pinterest.com/">
+                <a href="#">
                   <i className="fa-brands fa-pinterest-p" />
                 </a>
-                <a href="https://www.instagram.com/">
+                <a href="#">
                   <i className="fa-brands fa-instagram" />
                 </a>
               </div>
@@ -66,13 +66,13 @@ function Main() {
             <div className="topbar-right">
               <ul>
                 <li>
-                  <Link to="/departmentdetails">Council</Link>
+                  <Link to="">Council</Link>
                 </li>
                 <li>
-                  <Link to="/departments">Government</Link>
+                  <Link to="">Government</Link>
                 </li>
                 <li>
-                  <Link to="/contact">Complaints</Link>
+                  <Link to="">Complaints</Link>
                 </li>
               </ul>
             </div>
@@ -116,6 +116,7 @@ function Main() {
                             available
                           </p>
                         </Link>
+                        
                         <ul className="list-unstyled ">
                           <li>
                             <Link to="#">About Us</Link>
@@ -154,7 +155,7 @@ function Main() {
                   </li>
 
                   <li className="has-dropdown ">
-                    <Link to="#">About Us</Link>
+                    <Link to="/about">About Us</Link>
                     <ul className="list-unstyled drop-down-custom-width">
                       <li>
                         <Link to="#">
@@ -169,7 +170,7 @@ function Main() {
                         <Link to="#">Our Approach (NPT + UVI)</Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/team">
                           Leadership & Team
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -559,7 +560,7 @@ function Main() {
 
                 {/* ABOUT US section */}
                 <li className="has-dropdown">
-                  <Link to="#">
+                  <Link to="/about">
                     About Us
                     <button className={Pages ? "expanded" : ""}>
                       <i
@@ -573,13 +574,13 @@ function Main() {
                   {Pages && (
                     <ul className="list-unstyled" style={{ display: "block" }}>
                       <li>
-                        <Link to="/about">Our Story</Link>
+                        <Link to="">Our Story</Link>
                       </li>
                       <li>
-                        <Link to="/team">Our Approach (NPT + UVI)</Link>
+                        <Link to="">Our Approach (NPT + UVI)</Link>
                       </li>
                       <li>
-                        <Link to="/teamdetails">Leadership & Team</Link>
+                        <Link to="/team">Leadership & Team</Link>
                       </li>
                     </ul>
                   )}
