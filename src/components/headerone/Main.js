@@ -573,14 +573,10 @@ function Main() {
                         <Link
                           to="/about#our-story"
                           onClick={(e) => {
-                            // Optional: prevent default if you're using navigate()
-                            // e.preventDefault();
-
-                            // Delay closing the mobile nav
                             setTimeout(() => {
-                              setBtnshow(false); // close mobile nav
-                              setHome(false); // close submenu (if needed)
-                            }, 300); // 300ms delay allows scroll to complete
+                              setBtnshow(false);
+                              setHome(false); 
+                            }, 300);
                           }}
                         >
                           Our Story
@@ -590,14 +586,11 @@ function Main() {
                         <Link
                           to="/about#GHIApproach"
                           onClick={(e) => {
-                            // Optional: prevent default if you're using navigate()
-                            // e.preventDefault();
-
-                            // Delay closing the mobile nav
+                           
                             setTimeout(() => {
-                              setBtnshow(false); // close mobile nav
-                              setHome(false); // close submenu (if needed)
-                            }, 300); // 300ms delay allows scroll to complete
+                              setBtnshow(false);
+                              setHome(false); 
+                            }, 300); 
                           }}
                         >
                           Our Approach (NPT + UVI)
@@ -812,37 +805,8 @@ function Main() {
                 <li className="has-dropdown">
                   <Link to="#">
                     FAQ
-                    <button className={faq ? "expanded" : ""}>
-                      <i
-                        className="fa-solid fa-chevron-right"
-                        onClick={() => {
-                          setfaq(!faq);
-                        }}
-                      />
-                    </button>
                   </Link>
-                  {faq && (
-                    <ul className="list-unstyled" style={{ display: "block" }}>
-                      <li>
-                        <Link to="/contact">What Makes GHI Different?</Link>
-                      </li>
-                      <li>
-                        <Link to="/newsdetails">
-                          What’s Unique About PolyFRAME?
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/newsdetails">
-                          How to Invest or Join UVI?
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/newsdetails">
-                          Steps to Partner With GHI?
-                        </Link>
-                      </li>
-                    </ul>
-                  )}
+                 
                 </li>
               </ul>
             </div>
