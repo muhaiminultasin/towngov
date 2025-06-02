@@ -11,7 +11,7 @@ function Main( { subtitle, title, subtitledown } ) {
                     <li>
                     <Link to="/"> {subtitle} </Link>
                     </li>
-                    <li> {title} </li>
+                    <li > {title} </li>
                 </ul>
                 
                 </div>
