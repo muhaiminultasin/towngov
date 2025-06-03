@@ -32,7 +32,7 @@ function Slider() {
                         </div>
                         <h1 className="section-title"> Fastest Growing <br /> City Rome
                         </h1>
-                        <Link to="/hometwo" className="btn btn-primary"> Discover More </Link>
+                        <Link to="#" className="btn btn-primary"> Discover More </Link>
                         </div>
                         
                     </div>
@@ -51,7 +51,7 @@ function Slider() {
                         <div className="slider-content">
                         <div className="slider-tagline"> City Goverment Online Services </div>
                         <h1 className="section-title"> Fastest Growing <br /> City Rome </h1>
-                            <Link to="/hometwo" className="btn btn-primary"> Discover More </Link>
+                            <Link to="#" className="btn btn-primary"> Discover More </Link>
                         </div>      
                     </div>
                     

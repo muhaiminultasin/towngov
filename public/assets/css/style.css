@@ -128,6 +128,174 @@
   
 }
 
+/* css classes for accordion */
+
+
+.faq-container {
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .faq-container {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+
+
+.faq-title {
+  font-size: 25px;
+  margin-bottom: 2.25rem; /* mb-9 */
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .faq-title {
+    font-size: 35px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .faq-title {
+    font-size: 40px;
+  }
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem; /* space-y-5 */
+}
+
+.accordion-item {
+  background-color: white;
+  padding-left: 1.25rem; /* px-5 */
+  padding-right: 1.25rem;
+  border-radius: 0.75rem; /* rounded-xl */
+}
+
+.accordion-toggle {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color:#003B49;
+  padding: 0.75rem; /* p-3 */
+  font-weight: 500;
+  border-radius: 0.5rem; /* rounded-lg */
+  background-color: white;
+  text-align: left;
+  cursor: pointer;
+  border:none;
+}
+
+.accordion-content {
+  padding: 0.5rem; /* p-2 */
+  display: grid;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.accordion-answer {
+  color: #7E8999;
+  font-size: 16px;
+}
+
+
+  /* ss for coming soon page */
+
+  .coming-soon {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+  gap: 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white; /* text becomes visible on dark overlay */
+}
+
+.coming-soon::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* black overlay with 50% opacity */
+  z-index: 1;
+}
+
+.coming-soon > div {
+  position: relative;
+  z-index: 2; /* keep content above the overlay */
+}
+
+.logo {
+  margin-bottom: 40px;
+}
+
+.logo-img {
+  max-width: 200px;
+  height: auto;
+}
+
+.content {
+  max-width: 600px;
+}
+
+.title {
+  font-size: 5.5rem;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: rgb(251, 251, 251);
+  margin-top: 20px;
+}
+
+/* Responsive for tablets and smaller screens */
+@media (max-width: 1024px) {
+  .coming-soon {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 30px;
+  }
+
+  .title {
+    font-size: 90px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+}
+
+/* Responsive for mobile devices */
+@media (max-width: 600px) {
+  .logo-img {
+    max-width: 150px;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+}
+
 
 
 

@@ -20,6 +20,8 @@ import Newsdeatils from '../components/pages/newsdeatils/Main'
 import Contact from '../components/contact/Main'
 import Home from '../components/home/Main'
 import Donate from '../components/pages/Donatepge/DonatePage';
+import FAQ from '../components/pages/faq/Main'
+import Comingsoon from '../components/pages/Comingsoon/Comingsoon';
 
 
 function Index() {
@@ -35,7 +37,7 @@ function Index() {
 
         <Routes>
 
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/hometwo" element={<Hometwo />} />
           <Route path="/about" element={<Pageabout />} />
           <Route path="/team" element={<Team />} />
@@ -54,11 +56,13 @@ function Index() {
           <Route path="/newsdetails" element={<Newsdeatils />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/donate" element={<Donate />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/" element={<Comingsoon />} />
+
 
         </Routes>
 
-        <Footer/>
-
+        {path !== "/coming" && <Footer />}
     </>
   )
 }
