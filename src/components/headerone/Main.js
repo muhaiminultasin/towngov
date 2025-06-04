@@ -385,7 +385,7 @@ function Main() {
                   </li>
 
                   <li className="has-dropdown">
-                    <Link to="#">Contact</Link>
+                    <Link to="/contact">Contact</Link>
                     <ul className="list-unstyled drop-down-custom-width">
                       <li>
                         <Link to="/contact">Contact Form</Link>
@@ -409,7 +409,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/contact">
+                        <Link to="/contact#newslatter">
                           Newsletter Signup
                         </Link>
                       </li>
@@ -783,7 +783,12 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/contact">Newsletter Signup</Link>
+                        <Link to="/contact#newslatter" onClick={(e) => {
+                            setTimeout(() => {
+                              setBtnshow(false);
+                              setHome(false); 
+                            }, 300);
+                          }}>Newsletter Signup</Link>
                       </li>
                     </ul>
                   )}

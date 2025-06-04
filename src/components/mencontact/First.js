@@ -1,5 +1,5 @@
 import React from 'react'
-import Newlast from '../menhome/Newlast'
+
 
 function First() {
   return (
@@ -58,7 +58,7 @@ function First() {
             </div>
         </section>
 
-        <Newlast/>
+       
 
         <div className="contact-gmap-section">
             <div className="container">

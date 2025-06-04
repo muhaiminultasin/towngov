@@ -10,15 +10,15 @@ import Last from '../menabout/Last'
 import GHIApproach from '../menabout/GHIApproach'
 
 function Main() {
-  const section1Ref = useRef(null); // Our Story
-  const section2Ref = useRef(null); // Our Approach
+  const section1Ref = useRef(null); 
+  const section2Ref = useRef(null); 
 
   const location = useLocation();
 
   useEffect(() => {
     document.getElementById("title").innerHTML = "About || TownGov";
 
-    // Scroll to section based on hash
+    
     const hash = location.hash;
     if (hash === '#our-story' && section1Ref.current) {
       section1Ref.current.scrollIntoView({ behavior: 'smooth' });
@@ -34,7 +34,7 @@ function Main() {
         <Bredcom subtitle="Home" title="About" subtitledown="About"/>
         <Aboutone sectionRef={section1Ref} />
         <Client />
-        <Testimonial />
+        <Testimonial />g
         <GHIApproach sectionRef={section2Ref} />
         <Team />
         <Last />

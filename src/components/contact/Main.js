@@ -1,27 +1,36 @@
-import React , { useEffect } from 'react'
-import Header from '../headerone/Main'
-import Bredcom from '../Bredcom/Main'
-import First from '../mencontact/First'
+import React, { useRef, useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
+import Header from '../headerone/Main';
+import Bredcom from '../Bredcom/Main';
+import First from '../mencontact/First';
+import Newlast from '../menhome/Newlast';
 
 function Main() {
+  const section1Ref = useRef(null);
+  const location = useLocation();
+  const [pageTitle, setPageTitle] = useState('About || TownGov');
 
   useEffect(() => {
-    document.getElementById("title").innerHTML="Contact || TownGov";
-  }, [])
+    setPageTitle('About || TownGov');
+
+    if (location.hash === '#newslatter' && section1Ref.current) {
+      section1Ref.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [location]);
 
   return (
     <>
-        <Header/>
-        <div className="page-wrapper">
-          <Bredcom 
-            subtitle="Home"
-            title="Contact"
-            subtitledown="Contact"
-           />
-            <First/>
-        </div>
+      <Header />
+      <div className="page-wrapper">
+       
+        <Bredcom subtitle="Home" title="Contact" subtitledown="Contact" />
+        <First />
+        <Newlast sectionRef={section1Ref} />
+      </div>
+      
+      
     </>
-  )
+  );
 }
 
-export default Main
+export default Main;
