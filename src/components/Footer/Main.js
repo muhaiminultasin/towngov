@@ -135,7 +135,7 @@ function Main() {
             <div className="bottom-footer">
                 <div className="conatiner">
 
-                    <p>© Copyright 2025 by globalhousinginitiative.com </p>
+                    <p>© Copyright 2025 by Global Housingin Itiative </p>
 
                 </div>
                 
