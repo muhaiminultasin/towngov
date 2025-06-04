@@ -511,19 +511,19 @@ function Main() {
                         </p>
                       </li>
                       <li>
-                        <Link to="/hometwo">Mission Statement</Link>
+                        <Link to="/">Mission Statement</Link>
                       </li>
                       {/* CTA in one line*/}
                       <div className="CTA">
                         <li>
-                          <Link to="/hometwo">
+                          <Link to="/">
                             <button className="btn-primary-mobile">
                               About Us
                             </button>
                           </Link>
                         </li>
                         <li>
-                          <Link to="/hometwo">
+                          <Link to="/">
                             <button className="btn-primary-mobile">
                               Get Involved
                             </button>
@@ -752,10 +752,10 @@ function Main() {
                         <Link to="/donate">Donate</Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">Investment Opportunities</Link>
+                        <Link to="/contact">Investment Opportunities</Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">Sponsor a Village</Link>
+                        <Link to="/contact">Sponsor a Village</Link>
                       </li>
                     </ul>
                   )}
@@ -778,12 +778,12 @@ function Main() {
                         <Link to="/contact">Contact Form</Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">
-                          Investment/Partnership Inquiry
+                        <Link to="/contact">
+                            Investment/Partnership Inquiry
                         </Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">Newsletter Signup</Link>
+                        <Link to="/contact">Newsletter Signup</Link>
                       </li>
                     </ul>
                   )}
