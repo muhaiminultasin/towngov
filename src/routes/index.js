@@ -21,6 +21,7 @@ import Home from '../components/home/Main'
 import Donate from '../components/pages/Donatepge/DonatePage';
 import FAQ from '../components/pages/faq/Main'
 import Comingsoon from '../components/pages/Comingsoon/Comingsoon';
+import Supportus from '../components/pages/supportus/Main';
 
 
 function Index() {
@@ -55,6 +56,7 @@ function Index() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/supportus" element={<Supportus />} />
           <Route path="/" element={<Comingsoon />} />
 
 
