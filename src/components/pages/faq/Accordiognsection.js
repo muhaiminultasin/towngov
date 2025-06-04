@@ -7,23 +7,23 @@ function Accordionsection() {
      const QS = [
         {
             id: 1,
-            title: "Does CIPROXIN LLC have any hidden fees?",
-            ans: "Nope, with CIPROXIN LLC, there are never any hidden fees. You keep 80% of your earnings from over 200 streaming and social media platforms like YouTube and Instagram."
+            title: "What makes GHI different?",
+            ans: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         {
             id: 2,
-            title: "What is Digital Music Distribution?",
-            ans: "Digital music distribution allows artists to make their music available through online downloads and streaming platforms. Traditionally, this was managed by record labels, which made deals with music outlets. However, the digital age has transformed this model, enabling independent distribution without a record label."
+            title: "What’s unique about PolyFRAME?",
+            ans: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         {
             id: 3,
-            title: "Do I Need a Distributor for My Music?",
-            ans: "Yes, to put your music on download or streaming platforms like Spotify or Apple Music, you will need to work with a digital music distributor."
+            title: "How to invest or join UVI?",
+            ans: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         {
             id: 4,
-            title: "How Do I Digitally Distribute My Music?",
-            ans: "Contact CIPROXIN LLC to access your dashboard. Upload your music and select the streaming and download platforms for distribution. Our Quality Assurance team will ensure your audio files, cover art, and metadata meet the requirements of digital platforms and online stores. We will then distribute your release."
+            title: "Steps to partner with GHI?",
+            ans: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         {
             id: 5,

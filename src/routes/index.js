@@ -1,7 +1,6 @@
 import React , {useEffect} from 'react'
 import {Route, Routes, useLocation} from 'react-router-dom';
 import Footer from '../components/Footer/Main'
-import Hometwo from '../components/hometwo/Main'
 import Pageabout from '../components/pages/about/Main'
 import Team from '../components/pages/team/Main'
 import Teamdeatils from '../components/pages/Teamdeatils/Main'
@@ -38,7 +37,6 @@ function Index() {
         <Routes>
 
           <Route path="/home" element={<Home />} />
-          <Route path="/hometwo" element={<Hometwo />} />
           <Route path="/about" element={<Pageabout />} />
           <Route path="/team" element={<Team />} />
           <Route path="/teamdetails" element={<Teamdeatils />} />

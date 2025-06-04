@@ -3825,12 +3825,12 @@ a.search-toggler {
   }
 }
 .footer-widget-logo {
-  padding: 45px 60px;
+  padding: 25px 40px;
   max-width: 250px;
   align-items: center;
   color: var(--thm-white);
   display: inline-block;
-  background-color: var(--thm-dark-black);
+  /* background-color: var(--thm-dark-black); */
 }
 .footer-widget-text {
   margin-top: 32px;
