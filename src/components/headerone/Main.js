@@ -364,7 +364,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/contact">
                           Investment Opportunities
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -373,7 +373,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="contact">
                           Sponsor a Village
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -391,7 +391,7 @@ function Main() {
                         <Link to="/contact">Contact Form</Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/contact">
                           Investment/Partnership Inquiry
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -400,7 +400,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/contact">
                           Sponsor a Village
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -409,7 +409,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="home/#/cta-two-section">
+                        <Link to="/contact">
                           Newsletter Signup
                         </Link>
                       </li>
@@ -453,8 +453,8 @@ function Main() {
               </div>
 
               <div className="main-menu-right-button">
-                <Link to="/contact" className="btn btn-primary">
-                  Report Issue
+                <Link to="/donate" className="btn btn-primary">
+                  Donate
                 </Link>
               </div>
             </div>
