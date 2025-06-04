@@ -416,22 +416,9 @@ function Main() {
                     </ul>
                   </li>
 
-                  <li className="has-dropdown">
-                    <Link to="#">FAQ</Link>
-                    <ul className="list-unstyled drop-down-custom-width">
-                      <li>
-                        <Link to="#">What Makes GHI Different? </Link>
-                      </li>
-                      <li>
-                        <Link to="#">What’s Unique About PolyFRAME?</Link>
-                      </li>
-                      <li>
-                        <Link to="#">How to Invest or Join UVI?</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Steps to Partner With GHI?</Link>
-                      </li>
-                    </ul>
+                  <li className="">
+                    <Link to="/faq">FAQ</Link>
+                    
                   </li>
 
                   {/* <li>
