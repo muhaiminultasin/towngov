@@ -136,7 +136,7 @@ function First() {
                         City Goverment Offers a Wide <br />
                         Range of Online Services
                         </h2>
-                        <Link to="/servicedetails" className="btn btn-primary"> Discover More </Link>
+                        <Link to="/servicedetails" className="btn btn-primary"> Donate </Link>
                     </div>
                     </div>
                 </div>
