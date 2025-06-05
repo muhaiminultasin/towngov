@@ -238,7 +238,9 @@ function Main() {
                     <Link to="/services">Our Solutions</Link>
                     <ul className="list-unstyled drop-down-custom-width">
                       <li>
-                        <Link to="/services">              Affordable Housing Development
+                        <Link to="/services">
+                          {" "}
+                          Affordable Housing Development
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
                             available
@@ -318,10 +320,10 @@ function Main() {
                   </li>
 
                   <li className="has-dropdown">
-                    <Link to="#">News & Insights</Link>
+                    <Link to="/news">News & Insights</Link>
                     <ul className="list-unstyled drop-down-custom-width">
                       <li>
-                        <Link to="#">
+                        <Link to="/news">
                           Latest Updates
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -330,7 +332,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/news">
                           Blog
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -339,7 +341,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/news">
                           Media Coverage
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -408,16 +410,13 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/contact#newslatter">
-                          Newsletter Signup
-                        </Link>
+                        <Link to="/contact#newslatter">Newsletter Signup</Link>
                       </li>
                     </ul>
                   </li>
 
                   <li className="">
                     <Link to="/faq">FAQ</Link>
-                    
                   </li>
 
                   {/* <li>
@@ -561,7 +560,7 @@ function Main() {
                           onClick={(e) => {
                             setTimeout(() => {
                               setBtnshow(false);
-                              setHome(false); 
+                              setHome(false);
                             }, 300);
                           }}
                         >
@@ -572,11 +571,10 @@ function Main() {
                         <Link
                           to="/about#GHIApproach"
                           onClick={(e) => {
-                           
                             setTimeout(() => {
                               setBtnshow(false);
-                              setHome(false); 
-                            }, 300); 
+                              setHome(false);
+                            }, 300);
                           }}
                         >
                           Our Approach (NPT + UVI)
@@ -653,14 +651,10 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/services">
-                          PolyFRAME Building System
-                        </Link>
+                        <Link to="/services">PolyFRAME Building System</Link>
                       </li>
                       <li>
-                        <Link to="/services">
-                          Sustainable Urban Villages
-                        </Link>
+                        <Link to="/services">Sustainable Urban Villages</Link>
                       </li>
                       <li>
                         <Link to="/services">
@@ -706,7 +700,7 @@ function Main() {
                 </li>
 
                 <li className="has-dropdown">
-                  <Link to="#">
+                  <Link to="/news">
                     News & Insights
                     <button className={News ? "expanded" : ""}>
                       <i
@@ -723,10 +717,10 @@ function Main() {
                         <Link to="/news">Latest Updates</Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">Blog</Link>
+                        <Link to="/news">Blog</Link>
                       </li>
                       <li>
-                        <Link to="/newsdetails">Media Coverage</Link>
+                        <Link to="/news">Media Coverage</Link>
                       </li>
                     </ul>
                   )}
@@ -778,26 +772,28 @@ function Main() {
                       </li>
                       <li>
                         <Link to="/contact">
-                            Investment/Partnership Inquiry
+                          Investment/Partnership Inquiry
                         </Link>
                       </li>
                       <li>
-                        <Link to="/contact#newslatter" onClick={(e) => {
+                        <Link
+                          to="/contact#newslatter"
+                          onClick={(e) => {
                             setTimeout(() => {
                               setBtnshow(false);
-                              setHome(false); 
+                              setHome(false);
                             }, 300);
-                          }}>Newsletter Signup</Link>
+                          }}
+                        >
+                          Newsletter Signup
+                        </Link>
                       </li>
                     </ul>
                   )}
                 </li>
                 {/* FAQ section */}
                 <li className="has-dropdown">
-                  <Link to="#">
-                    FAQ
-                  </Link>
-                 
+                  <Link to="#">FAQ</Link>
                 </li>
               </ul>
             </div>
