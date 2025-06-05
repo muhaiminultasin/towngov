@@ -235,11 +235,10 @@ function Main() {
                   </li>
 
                   <li className="has-dropdown">
-                    <Link to="#">Our Solutions</Link>
+                    <Link to="/services">Our Solutions</Link>
                     <ul className="list-unstyled drop-down-custom-width">
                       <li>
-                        <Link to="#">
-                          Affordable Housing Development
+                        <Link to="/services">              Affordable Housing Development
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
                             available
@@ -247,7 +246,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/services">
                           PolyFRAME Building System
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -256,7 +255,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/servicesgggggggggggg">
                           Sustainable Urban Villages
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -265,7 +264,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/services">
                           City & Government Partnerships
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum

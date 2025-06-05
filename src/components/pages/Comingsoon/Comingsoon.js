@@ -12,14 +12,12 @@ const Comingsoon = () => {
         backgroundImage: `url(${coming})`,
       }}>
       <div>
-        {/* <div className="logo">
-          <img src="/logo.png" alt="Global housing initiative" className="logo-img" />
-        </div> */}
+        
         <div className="content">
           <p className="subtitle">
            Global Housing initiative
           </p>
-          <h1 className="title">COMING <br></br> SOON</h1>
+          <h1 className="title">COMING SOON</h1>
           A transformative mission to provide safe, affordable, and sustainable housing solutions for communities worldwide. Stay tuned as we build a better future—one home at a time.
         </div>
       </div>

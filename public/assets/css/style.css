@@ -231,13 +231,17 @@
 }
 
 .coming-soon > div {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
   position: relative;
+   margin-left: auto;
+  margin-right: auto;
   z-index: 2; /* keep content above the overlay */
 }
 
-.logo {
-  margin-bottom: 40px;
-}
+
 
 .logo-img {
   max-width: 200px;
@@ -245,7 +249,9 @@
 }
 
 .content {
-  max-width: 600px;
+  max-width: 800px;
+  text-align:center;
+ 
 }
 
 .title {
