@@ -23,6 +23,12 @@ import FAQ from '../components/pages/faq/Main'
 import Comingsoon from '../components/pages/Comingsoon/Comingsoon';
 import Supportus from '../components/pages/supportus/Main';
 import Ourmodel from '../components/pages/ourmodel/Main'
+import Diagram from '../components/pages/diagram/Main'
+// *********************
+// Test Run 
+// **********************
+
+// import Home2 from '../components/hometwo/Main'
 
 
 function Index() {
@@ -59,6 +65,8 @@ function Index() {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/supportus" element={<Supportus />} />
           <Route path="/ourmodel" element={<Ourmodel />} />
+          <Route path="/diagram" element={<Diagram />} />
+          {/* <Route path="/home2" element={<Home2 />} /> */}
           <Route path="/" element={<Comingsoon />} />
 
 
