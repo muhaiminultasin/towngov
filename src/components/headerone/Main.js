@@ -184,7 +184,7 @@ function Main() {
                   </li>
 
                   <li className="has-dropdown">
-                    <Link to="#">Our Model</Link>
+                    <Link to="/ourmodel">Our Model</Link>
                     <ul className="list-unstyled drop-down-custom-width">
                       <li>
                         <Link to="#">
@@ -589,7 +589,7 @@ function Main() {
 
                 {/* OUR MODEL section */}
                 <li className="has-dropdown">
-                  <Link to="#">
+                  <Link to="/ourmodel">
                     Our Model
                     <button className={Services ? "expanded" : ""}>
                       <i
