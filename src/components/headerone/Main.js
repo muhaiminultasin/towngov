@@ -633,7 +633,7 @@ function Main() {
                 </li>
 
                 <li className="has-dropdown">
-                  <Link to="#">
+                  <Link to="/services">
                     Our Solutions
                     <button className={Departments ? "expanded" : ""}>
                       <i
@@ -648,22 +648,22 @@ function Main() {
                   {Departments && (
                     <ul className="list-unstyled" style={{ display: "block" }}>
                       <li>
-                        <Link to="/departments" className="Link">
+                        <Link to="/services" className="Link">
                           Affordable Housing Development
                         </Link>
                       </li>
                       <li>
-                        <Link to="/departmentdetails">
+                        <Link to="/services">
                           PolyFRAME Building System
                         </Link>
                       </li>
                       <li>
-                        <Link to="/departmentdetails">
+                        <Link to="/services">
                           Sustainable Urban Villages
                         </Link>
                       </li>
                       <li>
-                        <Link to="/departmentdetails">
+                        <Link to="/services">
                           City & Government Partnerships
                         </Link>
                       </li>
