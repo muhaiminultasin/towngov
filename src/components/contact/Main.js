@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import Header from '../headerone/Main';
 import Bredcom from '../Bredcom/Main';
 import First from '../mencontact/First';
-import Newlast from '../menhome/Newlast';
+import Newlast from '../mencontact/Newlast'
 
 function Main() {
   const section1Ref = useRef(null);

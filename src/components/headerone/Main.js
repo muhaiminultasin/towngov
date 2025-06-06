@@ -353,7 +353,7 @@ function Main() {
                   </li>
 
                   <li className="has-dropdown">
-                    <Link to="#">Support Us</Link>
+                    <Link to="/supportus">Support Us</Link>
                     <ul className="list-unstyled drop-down-custom-width">
                       <li>
                         <Link to="/donate">
@@ -483,12 +483,12 @@ function Main() {
                 />
               </Link>
             </div>
-
+            {/* mobile nav */}
             <div className="mobile-nav-container">
               <ul className="main-menu-list list-unstyled">
-                {/*  Home section */}
+                {/* Home section */}
                 <li className="active has-dropdown">
-                  <Link to="#">
+                  <Link to="/">
                     Home
                     <button
                       className={Home ? "expanded" : ""}
@@ -514,21 +514,21 @@ function Main() {
                       {/* CTA in one line*/}
                       <div className="CTA">
                         <li>
-                          <Link to="/">
+                          <Link to="/about">
                             <button className="btn-primary-mobile">
                               About Us
                             </button>
                           </Link>
                         </li>
                         <li>
-                          <Link to="/">
+                          <Link to="/getinvolved">
                             <button className="btn-primary-mobile">
                               Get Involved
                             </button>
                           </Link>
                         </li>
                         <li>
-                          <Link to="/hometwo">
+                          <Link to="/supportus">
                             <button className="btn-primary-mobile">
                               Support Us
                             </button>
@@ -555,28 +555,10 @@ function Main() {
                   {Pages && (
                     <ul className="list-unstyled" style={{ display: "block" }}>
                       <li>
-                        <Link
-                          to="/about#our-story"
-                          onClick={(e) => {
-                            setTimeout(() => {
-                              setBtnshow(false);
-                              setHome(false);
-                            }, 300);
-                          }}
-                        >
-                          Our Story
-                        </Link>
+                        <Link to="/about#our-story">Our Story</Link>
                       </li>
                       <li>
-                        <Link
-                          to="/about#GHIApproach"
-                          onClick={(e) => {
-                            setTimeout(() => {
-                              setBtnshow(false);
-                              setHome(false);
-                            }, 300);
-                          }}
-                        >
+                        <Link to="/about#GHIApproach">
                           Our Approach (NPT + UVI)
                         </Link>
                       </li>
@@ -604,27 +586,25 @@ function Main() {
                   {Services && (
                     <ul className="list-unstyled" style={{ display: "block" }}>
                       <li>
-                        <Link to="/services">Overview</Link>
+                        <Link to="/ourmodel">Overview</Link>
                       </li>
                       <li>
-                        <Link to="/servicedetails" className="Link">
+                        <Link to="/servicedetails">
                           GHI: Nonprofit Coordination & Strategy
                         </Link>
                       </li>
                       <li>
-                        <Link to="/servicedetails" className="">
+                        <Link to="/servicedetails">
                           NPT: Structural System Provider
                         </Link>
                       </li>
                       <li>
-                        <Link to="/servicedetails" className="Link">
+                        <Link to="/servicedetails">
                           UVI: Community Development & Investment
                         </Link>
                       </li>
                       <li>
-                        <Link to="/servicedetails" className="Link">
-                          Diagram or Flow Link
-                        </Link>
+                        <Link to="/servicedetails">Diagram or Flow Link</Link>
                       </li>
                     </ul>
                   )}
@@ -646,7 +626,7 @@ function Main() {
                   {Departments && (
                     <ul className="list-unstyled" style={{ display: "block" }}>
                       <li>
-                        <Link to="/services" className="Link">
+                        <Link to="/services">
                           Affordable Housing Development
                         </Link>
                       </li>
@@ -667,7 +647,7 @@ function Main() {
 
                 {/* GET INVOLVED section */}
                 <li className="has-dropdown">
-                  <Link to="#">
+                  <Link to="/getinvolved">
                     Get Involved
                     <button className={Events ? "expanded" : ""}>
                       <i
@@ -728,7 +708,7 @@ function Main() {
 
                 {/* NEWS & INSIGHTS section */}
                 <li className="has-dropdown">
-                  <Link to="#">
+                  <Link to="/supportus">
                     Support Us
                     <button className={Support ? "expanded" : ""}>
                       <i
@@ -754,7 +734,7 @@ function Main() {
                   )}
                 </li>
                 <li className="has-dropdown">
-                  <Link to="#">
+                  <Link to="/contact">
                     Contact
                     <button className={Contact ? "expanded" : ""}>
                       <i
@@ -776,24 +756,15 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link
-                          to="/contact#newslatter"
-                          onClick={(e) => {
-                            setTimeout(() => {
-                              setBtnshow(false);
-                              setHome(false);
-                            }, 300);
-                          }}
-                        >
-                          Newsletter Signup
-                        </Link>
+                        <Link to="/contact#newslatter">Newsletter Signup</Link>
                       </li>
                     </ul>
                   )}
                 </li>
+
                 {/* FAQ section */}
                 <li className="has-dropdown">
-                  <Link to="#">FAQ</Link>
+                  <Link to="/faq">FAQ</Link>
                 </li>
               </ul>
             </div>

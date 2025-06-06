@@ -2,9 +2,9 @@ import React, { useEffect } from 'react'
 import Header from '../../headerone/Main'
 import Bredcom from '../../Bredcom/Main'
 import Introtwo from '../menteam/Teamintrotwo'
-import Team from '../../menhometwo/Team'
-import Client from '../../menhome/Client'
-import Testimonialtwo from '../../menhometwo/Testimonialtwo'
+import Team from '../../pages/menteam/Team'
+import Client from '../../pages/menteam/Client'
+import Testimonialtwo from '../../pages/menteam/Testimonialtwo'
 
 
 function Main() {
