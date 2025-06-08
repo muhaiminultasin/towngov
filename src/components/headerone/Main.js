@@ -124,7 +124,7 @@ function Main() {
                         </ul>
                       </li>
                       <li className="has-dropdown">
-                        <Link to="#">
+                        <Link to="/contact">
                           Join The Initiative
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -133,7 +133,7 @@ function Main() {
                         </Link>
                         <ul className="list-unstyled">
                           <li>
-                            <Link to="#">Get Involved</Link>
+                            <Link to="/contact">Get Involved</Link>
                           </li>
                         </ul>
                       </li>
@@ -196,7 +196,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/ghi">
                           Ghi: Nonprofit Coordination & Strategy
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -205,7 +205,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/npt">
                           Npt: Structural System Provider
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -214,7 +214,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/uvi">
                           Uvi: Community Development & Investment
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -488,7 +488,7 @@ function Main() {
               <ul className="main-menu-list list-unstyled">
                 {/* Home section */}
                 <li className="active has-dropdown">
-                  <Link to="/">
+                  <Link to="/home">
                     Home
                     <button
                       className={Home ? "expanded" : ""}
@@ -509,7 +509,7 @@ function Main() {
                         </p>
                       </li>
                       <li>
-                        <Link to="/">Mission Statement</Link>
+                        <Link to="/about">Mission Statement</Link>
                       </li>
                       {/* CTA in one line*/}
                       <div className="CTA">
@@ -521,7 +521,7 @@ function Main() {
                           </Link>
                         </li>
                         <li>
-                          <Link to="/getinvolved">
+                          <Link to="/contact">
                             <button className="btn-primary-mobile">
                               Get Involved
                             </button>

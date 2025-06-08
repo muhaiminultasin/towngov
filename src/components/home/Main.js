@@ -15,7 +15,7 @@ import Testimonial from '../menhome/Testimonial'
 function Main() {
 
   useEffect(() => {
-    document.getElementById("title").innerHTML="Home One || TownGov";
+    document.getElementById("title").innerHTML="Home  || GHI";
   }, [])
 
   return (

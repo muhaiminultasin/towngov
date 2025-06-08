@@ -7,7 +7,7 @@ import Aboutone from "../mensupport/Aboutone";
 
 function Main() {
   useEffect(() => {
-    document.getElementById("title").innerHTML = "Support Us || TownGov";
+    document.getElementById("title").innerHTML = "Support Us || GHI";
   }, []);
 
   return (

@@ -6,7 +6,7 @@ import Accordionsection from './Accordiognsection';
 function Main() {
 
   useEffect(() => {
-    document.getElementById("title").innerHTML="FAQ || TownGov";
+    document.getElementById("title").innerHTML="FAQ || GHI";
   }, [])
 
  

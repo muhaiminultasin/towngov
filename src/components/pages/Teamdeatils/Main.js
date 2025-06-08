@@ -7,7 +7,7 @@ import First from '../menteamdeatils/First'
 function Main() {
 
   useEffect(() => {
-    document.getElementById("title").innerHTML="Team Details || TownGov";
+    document.getElementById("title").innerHTML="Team Details || GHI";
   }, [])
 
   return (

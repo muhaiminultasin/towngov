@@ -7,7 +7,7 @@ import Donationform from "../../Donationform/Main";
 
 const DonatePage = () => {
   useEffect(() => {
-    document.getElementById("title").innerHTML = "Donation || TownGov";
+    document.getElementById("title").innerHTML = "Donation || GHI";
   }, []);
 
   const [selectedAmount, setSelectedAmount] = useState("");

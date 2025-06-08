@@ -10,7 +10,7 @@ import Blog from "../mendiagram/Blog";
 
 function Main() {
   useEffect(() => {
-    document.getElementById("title").innerHTML = "Diagram || TownGov";
+    document.getElementById("title").innerHTML = "Diagram || GHI";
   }, []);
 
   return (

@@ -7,7 +7,7 @@ import Aboutone from "../menourmodel/Aboutone";
 import Client from "../menourmodel/Client";
 function Main() {
   useEffect(() => {
-    document.getElementById("title").innerHTML = "Our Model || GHI";
+    document.getElementById("title").innerHTML = "Community Development & Investment || TownGov";
   }, []);
 
   return (
@@ -16,9 +16,9 @@ function Main() {
 
       <div className="page-wrapper">
         <Bredcom
-          title={"Our model"}
+          title={"Community Development & Investment"}
           subtitle={"Home"}
-          subtitledown={"Our Model"}
+          subtitledown={"Community Development & Investment"}
         />
         <Mayor/>
         <Portfolio/>

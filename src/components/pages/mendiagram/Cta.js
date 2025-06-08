@@ -17,7 +17,7 @@ function Cta() {
                         <h2 className="section-title text-white">
                             City Goverment Offers a Wide <br /> Range of Online Services
                         </h2>
-                        <Link to="/contact" className="btn btn-primary"> Discover More{" "} </Link>
+                        <Link to="/contact" className="btn btn-primary">Contact Us{" "} </Link>
                     </div>
                     
                     </div>

@@ -7,7 +7,7 @@ import First from '../mencauses/First'
 function Main() {
 
   useEffect(() => {
-    document.getElementById("title").innerHTML="Causes || TownGov";
+    document.getElementById("title").innerHTML="Causes || GHI";
   }, [])
 
 

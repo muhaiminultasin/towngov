@@ -24,6 +24,10 @@ import Comingsoon from '../components/pages/Comingsoon/Comingsoon';
 import Supportus from '../components/pages/supportus/Main';
 import Ourmodel from '../components/pages/ourmodel/Main'
 import Diagram from '../components/pages/diagram/Main'
+import Ghi from '../components/pages/ghi/Main'
+import Npt from '../components/pages/npt/Main'
+import Uvi from '../components/pages/uvi/Main'
+import Affordablehousingdevelopment from '../components/pages/affordablehousingdevelopment/Main'
 // *********************
 // Test Run 
 // **********************
@@ -66,6 +70,10 @@ function Index() {
           <Route path="/supportus" element={<Supportus />} />
           <Route path="/ourmodel" element={<Ourmodel />} />
           <Route path="/diagram" element={<Diagram />} />
+          <Route path="/ghi" element={<Ghi />} />
+          <Route path="/npt" element={<Npt />} />
+          <Route path="/uvi" element={<Uvi />} />
+          <Route path="/affordable-housing-development" element={<Affordablehousingdevelopment />} />
           {/* <Route path="/home2" element={<Home2 />} /> */}
           <Route path="/" element={<Comingsoon />} />
 

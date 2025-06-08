@@ -7,7 +7,7 @@ import First from '../mennews/First'
 function Main() {
 
   useEffect(() => {
-    document.getElementById("title").innerHTML="News || TownGov";
+    document.getElementById("title").innerHTML="News || GHI";
   }, [])
 
   return (

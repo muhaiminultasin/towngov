@@ -10,7 +10,7 @@ import Testimonialtwo from '../../pages/menteam/Testimonialtwo'
 function Main() {
 
   useEffect(() => {
-    document.getElementById("title").innerHTML="Team || TownGov";
+    document.getElementById("title").innerHTML="Team || GHI";
   }, [])
 
 

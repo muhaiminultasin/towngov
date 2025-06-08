@@ -6,7 +6,7 @@ import First from '../menportfolio/First'
 function Main() {
 
   useEffect(() => {
-    document.getElementById("title").innerHTML="Portfolio|| TownGov";
+    document.getElementById("title").innerHTML="Portfolio|| GHI";
   }, [])
 
 
