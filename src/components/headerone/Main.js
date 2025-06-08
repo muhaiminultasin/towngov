@@ -109,7 +109,7 @@ function Main() {
                         </Link>
                       </li>
                       <li className="has-dropdown">
-                        <Link to="#">
+                        <Link to="/About">
                           Learn More About Our Vision
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -119,7 +119,7 @@ function Main() {
 
                         <ul className="list-unstyled ">
                           <li>
-                            <Link to="#">About Us</Link>
+                            <Link to="/about">About Us</Link>
                           </li>
                         </ul>
                       </li>
@@ -147,7 +147,7 @@ function Main() {
                         </Link>
                         <ul className="list-unstyled">
                           <li>
-                            <Link to="#">Support Us</Link>
+                            <Link to="/supportus">Support Us</Link>
                           </li>
                         </ul>
                       </li>
@@ -223,7 +223,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/diagram">
                           Diagram
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -257,7 +257,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/servicesgggggggggggg">
+                        <Link to="/services">
                           Sustainable Urban Villages
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
