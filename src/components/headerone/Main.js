@@ -238,7 +238,7 @@ function Main() {
                     <Link to="/services">Our Solutions</Link>
                     <ul className="list-unstyled drop-down-custom-width">
                       <li>
-                        <Link to="/services">
+                        <Link to="/affordable-housing-development">
                           {" "}
                           Affordable Housing Development
                           <p className="submenutext">
@@ -248,7 +248,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/services">
+                        <Link to="/polyframe-building-system">
                           PolyFRAME Building System
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -257,7 +257,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/services">
+                        <Link to="/sustainable-urban-villages">
                           Sustainable Urban Villages
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -266,7 +266,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/services">
+                        <Link to="/city-government-partnerships">
                           City & Government Partnerships
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -281,7 +281,7 @@ function Main() {
                     <Link to="#">Get Involved</Link>
                     <ul className="list-unstyled drop-down-custom-width">
                       <li>
-                        <Link to="#">
+                        <Link to="/contact">
                           For Investors & Donors
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -290,7 +290,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/contact">
                           For Developers & Builders
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -299,7 +299,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/contact">
                           For Local Communities
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -308,7 +308,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/contact">
                           Volunteer & Careers
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum
@@ -374,7 +374,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="contact">
+                        <Link to="/contact">
                           Sponsor a Village
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum

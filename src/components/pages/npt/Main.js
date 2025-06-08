@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import Header from "../../headerone/Main";
 import Bredcom from "../../Bredcom/Main";
-import Mayor from "../menourmodel/Meyor";
-import Portfolio from "../menourmodel/Portfolio";
-import Aboutone from "../menourmodel/Aboutone";
-import Client from "../menourmodel/Client";
+import Mayor from "../mennpt/Meyor";
+import Portfolio from "../mennpt/Portfolio";
+import Aboutone from "../mennpt/Aboutone";
+import Client from "../mennpt/Client";
 function Main() {
   useEffect(() => {
     document.getElementById("title").innerHTML = "Structural System Provider || GHI";

@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react'
 import Header from '../../headerone/Main'
 import Bredcom from '../../Bredcom/Main'
-import First from '../menaffordablehousingdevelopment/First'
-import Mayor from '../../pages/menaffordablehousingdevelopment/Mayor'
-import Second from '../../pages/menaffordablehousingdevelopment/Second'
+import First from '../menpolyframebuildingsystem/First'
+import Mayor from '../menpolyframebuildingsystem/Mayor'
+import Second from '../menpolyframebuildingsystem/Second'
 
 function Main() {
 
   useEffect(() => {
-    document.getElementById("title").innerHTML="Affordable Housing Development || GHI";
+    document.getElementById("title").innerHTML="PolyFRAME Building System || GHI";
   }, [])
 
   return (
@@ -18,8 +18,8 @@ function Main() {
         <div className="page-wrapper">
           <Bredcom 
             subtitle="Home"
-            title="Affordable Housing Development"
-            subtitledown="Affordable Housing Development"
+            title="PolyFRAME Building System"
+            subtitledown="PolyFRAME Building System"
            />
             <First/>
             <Mayor/>

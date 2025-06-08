@@ -28,6 +28,9 @@ import Ghi from '../components/pages/ghi/Main'
 import Npt from '../components/pages/npt/Main'
 import Uvi from '../components/pages/uvi/Main'
 import Affordablehousingdevelopment from '../components/pages/affordablehousingdevelopment/Main'
+import Polyframebuildingsystem from '../components/pages/polyframebuildingsystem/Main'
+import Sustainablevillages from '../components/pages/sustainablevillages/Main'
+import Citygovernment from '../components/pages/citygovernment/Main'
 // *********************
 // Test Run 
 // **********************
@@ -74,6 +77,9 @@ function Index() {
           <Route path="/npt" element={<Npt />} />
           <Route path="/uvi" element={<Uvi />} />
           <Route path="/affordable-housing-development" element={<Affordablehousingdevelopment />} />
+          <Route path="/polyframe-building-system" element={<Polyframebuildingsystem />} />
+          <Route path="/sustainable-urban-villages" element={<Sustainablevillages />} />
+          <Route path="/city-government-partnerships" element={<Citygovernment />} />
           {/* <Route path="/home2" element={<Home2 />} /> */}
           <Route path="/" element={<Comingsoon />} />
 

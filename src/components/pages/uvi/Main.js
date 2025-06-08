@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import Header from "../../headerone/Main";
 import Bredcom from "../../Bredcom/Main";
-import Mayor from "../menourmodel/Meyor";
-import Portfolio from "../menourmodel/Portfolio";
-import Aboutone from "../menourmodel/Aboutone";
-import Client from "../menourmodel/Client";
+import Mayor from "../menuvi/Meyor";
+import Portfolio from "../menuvi/Portfolio";
+import Aboutone from "../menuvi/Aboutone";
+import Client from "../menuvi/Client";
 function Main() {
   useEffect(() => {
     document.getElementById("title").innerHTML = "Community Development & Investment || TownGov";
