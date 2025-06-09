@@ -3,7 +3,6 @@ import Header from '../../headerone/Main'
 import Bredcom from '../../Bredcom/Main'
 import Mayor from '../menmissionstatement/Mayor'
 import Testimonial from '../menmissionstatement/Testimonial'
-import Testimonialtwo from '../menmissionstatement/Testimonialtwo'
 import Event from '../menmissionstatement/Event'
 
 function Main() {
@@ -24,7 +23,6 @@ function Main() {
            />
            
             <Mayor/>
-            <Testimonialtwo/>
             <Testimonial/>
             <Event/>
             
