@@ -127,40 +127,30 @@ function First() {
                         <ul>
                         <li>
                             <Link to="/servicedetails">
-                            Your Goverment
+                            Affordable Housing Development
                             <i className="fa-solid fa-arrow-right-long" />
                             </Link>
                         </li>
                         <li>
                             <Link to="/servicedetails">
-                            Jobs and Unemployment{" "}
+                           PolyFRAME Building System
                             <i className="fa-solid fa-arrow-right-long" />
                             </Link>
                         </li>
                         <li>
                             <Link to="/servicedetails">
-                            Business and Industry
+                            Sustainable Urban Villages
                             <i className="fa-solid fa-arrow-right-long" />
                             </Link>
                         </li>
                         <li>
                             <Link to="/servicedetails">
-                            Roads &amp; Transportation
+                            City Government & Partnerships
                             <i className="fa-solid fa-arrow-right-long" />
                             </Link>
                         </li>
-                        <li>
-                            <Link to="/servicedetails">
-                            Culture &amp; Recreation
-                            <i className="fa-solid fa-arrow-right-long" />
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/servicedetails">
-                            Education and skills
-                            <i className="fa-solid fa-arrow-right-long" />
-                            </Link>
-                        </li>
+                        
+                        
                         </ul>
                         
                     </div>

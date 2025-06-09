@@ -36,7 +36,7 @@ function Service() {
                 <div className="col-lg-5">
                     <div className="service-card">
                     <div className="service-card-video">
-                        <Link to="https://www.youtube.com/watch?v=rzfmZC3kg3M" className="video-popup" onClick={() => setVideo(true)} >
+                        <Link to="https://youtu.be/KHWawEIGtq0" className="video-popup" onClick={() => setVideo(true)} >
                             <i className="fa fa-play" />
                         </Link>
                     </div>

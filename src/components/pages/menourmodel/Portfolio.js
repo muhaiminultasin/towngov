@@ -49,14 +49,7 @@ function Portfolio() {
                     <div className="item">
                         <div className="portfolio-card">
                         <img src={Portfolio01} className="img-fluid" alt="img-9" />
-                        <div className="portfolio-card-meta">
-                            <div className="portfolio-card-text">
-                            <Link to="/portfoliodeatils">Places</Link>
-                            </div>
-                            <div className="portfolio-card-title">
-                            <Link to="/portfoliodeatils">Broadway Road</Link>
-                            </div>
-                        </div>
+                        
                         </div>
                        
                     </div>
@@ -64,14 +57,7 @@ function Portfolio() {
                     <div className="item">
                         <div className="portfolio-card">
                         <img src={Portfolio02} className="img-fluid" alt="img-10" />
-                        <div className="portfolio-card-meta">
-                            <div className="portfolio-card-text">
-                            <Link to="/portfoliodeatils">Intercity</Link>
-                            </div>
-                            <div className="portfolio-card-title">
-                            <Link to="/portfoliodeatils"> Grand Central Terminal</Link>
-                            </div>
-                        </div>
+                        
                        
                         </div>
                        
@@ -80,14 +66,7 @@ function Portfolio() {
                     <div className="item">
                         <div className="portfolio-card">
                         <img src={Portfolio03} className="img-fluid" alt="img-11" />
-                        <div className="portfolio-card-meta">
-                            <div className="portfolio-card-text">
-                            <Link to="/portfoliodeatils">Business</Link>
-                            </div>
-                            <div className="portfolio-card-title">
-                            <Link to="/portfoliodeatils">Empire State Building</Link>
-                            </div>
-                        </div>
+                        
                        
                         </div>
                        
@@ -96,15 +75,6 @@ function Portfolio() {
                     <div className="item">
                         <div className="portfolio-card">
                         <img src={Portfolio04} className="img-fluid" alt="img-12" />
-                        <div className="portfolio-card-meta">
-                            <div className="portfolio-card-text">
-                            <Link to="/portfoliodeatils">Travel</Link>
-                            </div>
-                            <div className="portfolio-card-title">
-                            <Link to="/portfoliodeatils">Fulton Center</Link>
-                            </div>
-                        </div>
-                       
                         </div>
                        
                     </div>

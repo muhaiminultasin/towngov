@@ -30,7 +30,7 @@ function Introtwo() {
                     </div>
                    
                     <div className="about-two-service-video">
-                        <a href="https://www.youtube.com/watch?v=rzfmZC3kg3M" className="video-popup" onClick={() => setVideo(true)} >
+                        <a href="https://youtu.be/KHWawEIGtq0" className="video-popup" onClick={() => setVideo(true)} >
                             <i className="fa fa-play" />
                         </a>
                     </div>

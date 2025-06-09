@@ -2,9 +2,9 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Header from "../../headerone/Main";
 import Bredcom from "../../Bredcom/Main";
-import First from '../mengetinvolved/First'
+import First from '../menportfolio/First'
 import Aboutone from "../mengetinvolved/Aboutone";
-import Testimonial from "../menmissionstatement/Testimonialtwo";
+import Testimonial from "../../menhome/Testimonialtwo";
 import Contactform from "../mengetinvolved/contactform";
 
 function Main() {

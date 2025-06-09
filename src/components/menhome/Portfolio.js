@@ -47,56 +47,28 @@ function Portfolio() {
                         <div className="item">
                             <div className="portfolio-card">
                                 <img src={Portfolio01} className="img-fluid" alt="img-9" />
-                                <div className="portfolio-card-meta">
-                                    <div className="portfolio-card-text">
-                                        <Link>Places</Link>
-                                    </div>
-                                    <div className="portfolio-card-title">
-                                        <Link>Broadway Road</Link>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
 
                         <div className="item">
                             <div className="portfolio-card">
                                 <img src={Portfolio02} className="img-fluid" alt="img-10" />
-                                <div className="portfolio-card-meta">
-                                    <div className="portfolio-card-text">
-                                        <Link>Intercity</Link>
-                                    </div>
-                                    <div className="portfolio-card-title">
-                                        <Link>Grand Central Terminal</Link>
-                                    </div>
-                                </div>
+                               
                             </div>
                         </div>
 
                         <div className="item">
                             <div className="portfolio-card">
                                 <img src={Portfolio03} className="img-fluid" alt="img-11" />
-                                <div className="portfolio-card-meta">
-                                    <div className="portfolio-card-text">
-                                        <Link>Business</Link>
-                                    </div>
-                                    <div className="portfolio-card-title">
-                                        <Link>Empire State Building</Link>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
 
                         <div className="item">
                             <div className="portfolio-card">
                                 <img src={Portfolio04} className="img-fluid" alt="img-12" />
-                                <div className="portfolio-card-meta">
-                                    <div className="portfolio-card-text">
-                                        <Link>Travel</Link>
-                                    </div>
-                                    <div className="portfolio-card-title">
-                                        <Link>Fulton Center</Link>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
 

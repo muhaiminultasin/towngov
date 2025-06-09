@@ -1,34 +1,7 @@
 import React from 'react'
-import Accordion from './Accordion'
-
-function Accordionsection() {
 
 
-     const QS = [
-        {
-            id: 1,
-            title: "What makes GHI different?",
-            ans: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        },
-        {
-            id: 2,
-            title: "What’s unique about PolyFRAME?",
-            ans: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        },
-        {
-            id: 3,
-            title: "How to invest or join UVI?",
-            ans: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        },
-        {
-            id: 4,
-            title: "Steps to partner with GHI?",
-            ans: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        },
-    ];
-
-
-
+function First() {
   return (
     <>
         <section className="contact-section">
@@ -49,27 +22,45 @@ function Accordionsection() {
                 </div>
                
                 <div className="col-lg-8">
-                   <section className="faq-section">
-  <div className="faq-container">
-    <div>
-      
-
-      <div className="faq-list">
-        {QS.map(({ id, title, ans }) => (
-          <Accordion key={id} ques={title} ans={ans} />
-        ))}
-      </div>
-    </div>
-  </div>
-</section>
-
+                    
+                    <form action="assets/inc/sendemail.php" className="contact-form  contact-form-validated"
+                    method="post" >
+                    <div className="row row-gutter-10">
+                        <div className="col-12 col-lg-6">
+                        <input type="text" id="name" className="input-text" placeholder="Your name" name="name" aria-required="true" />
+                        </div>
+                        
+                        <div className="col-12 col-lg-6">
+                        <input type="email" id="email" className="input-text" placeholder="Email address" name="email" aria-required="true" />
+                        </div>
+                        
+                        <div className="col-12 col-lg-6">
+                         <input type="text" id="phone" className="input-text" placeholder="Phone number" name="phone" aria-required="true" />
+                        </div>
+                        
+                        <div className="col-12 col-lg-6">
+                            <input type="text" id="subject" className="input-text" placeholder="Subject" name="subject" aria-required="true" />
+                        </div>
+                        
+                        <div className="col-12 col-lg-12">
+                        <textarea name="message" placeholder="Write a message" className="input-text" aria-required="true" defaultValue={""} />
+                        </div>
+                       
+                        <div className="col-12 col-lg-12">
+                            <button className="btn btn-primary">Send a Message</button>
+                        </div>
+                       
+                    </div>
+                    </form>
+                  
                 </div>
                 </div>
             </div>
         </section>
 
+       
 
-        {/* <div className="contact-gmap-section">
+        <div className="contact-gmap-section">
             <div className="container">
             <div className="responsive-map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12083.735079362054!2d-74.01702461732008!3d40.785470167558394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258131938b8d5%3A0xe39c30a8afef2d96!2sWest%20New%20York%2C%20NJ%2007093%2C%20USA!5e0!3m2!1sen!2sin!4v1668832966742!5m2!1sen!2sin"
@@ -77,7 +68,7 @@ function Accordionsection() {
             </div>
             
             </div>
-   
+            
         </div>
 
         <div className="cta-four-section">
@@ -147,10 +138,10 @@ function Accordionsection() {
             
             </div>
             
-        </div> */}
+        </div>
 
     </>
   )
 }
 
-export default Accordionsection
+export default First

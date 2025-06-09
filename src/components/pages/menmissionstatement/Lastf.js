@@ -13,7 +13,7 @@ function Lastf() {
                         It’s a Great way to Love and
                         <br /> Support your City
                     </h2>
-                    <Link to="/donate" className="btn btn-primary">
+                    <Link to="/contact" className="btn btn-primary">
                         Start Donating Now
                     </Link>
                     </div>
