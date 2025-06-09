@@ -50,7 +50,75 @@ function Slider() {
                     <div className="col-md-12">
                         <div className="slider-content">
                         <div className="slider-tagline"> City Goverment Online Services </div>
-                        <h1 className="section-title"> Fastest Growing <br /> City Rome </h1>
+                        <h1 className="section-title"> Fastest Growing <br /> City Rome 2 </h1>
+                            <Link to="#" className="btn btn-primary"> Discover More </Link>
+                        </div>      
+                    </div>
+                    
+                    </div>
+                    
+                </div>
+                
+                </div>
+                <div className="item">
+                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgtwo})` }} />
+                <div className="container">
+                    <div className="row">
+                    <div className="col-md-12">
+                        <div className="slider-content">
+                        <div className="slider-tagline"> City Goverment Online Services </div>
+                        <h1 className="section-title"> Fastest Growing <br /> City Rome 3 </h1>
+                            <Link to="#" className="btn btn-primary"> Discover More </Link>
+                        </div>      
+                    </div>
+                    
+                    </div>
+                    
+                </div>
+                
+                </div>
+                <div className="item">
+                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgtwo})` }} />
+                <div className="container">
+                    <div className="row">
+                    <div className="col-md-12">
+                        <div className="slider-content">
+                        <div className="slider-tagline"> City Goverment Online Services </div>
+                        <h1 className="section-title"> Fastest Growing <br /> City Rome 4 </h1>
+                            <Link to="#" className="btn btn-primary"> Discover More </Link>
+                        </div>      
+                    </div>
+                    
+                    </div>
+                    
+                </div>
+                
+                </div>
+                <div className="item">
+                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgtwo})` }} />
+                <div className="container">
+                    <div className="row">
+                    <div className="col-md-12">
+                        <div className="slider-content">
+                        <div className="slider-tagline"> City Goverment Online Services </div>
+                        <h1 className="section-title"> Fastest Growing <br /> City Rome 5 </h1>
+                            <Link to="#" className="btn btn-primary"> Discover More </Link>
+                        </div>      
+                    </div>
+                    
+                    </div>
+                    
+                </div>
+                
+                </div>
+                <div className="item">
+                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgtwo})` }} />
+                <div className="container">
+                    <div className="row">
+                    <div className="col-md-12">
+                        <div className="slider-content">
+                        <div className="slider-tagline"> City Goverment Online Services </div>
+                        <h1 className="section-title"> Fastest Growing <br /> City Rome 6 </h1>
                             <Link to="#" className="btn btn-primary"> Discover More </Link>
                         </div>      
                     </div>
@@ -72,14 +140,14 @@ function Slider() {
                     <div className="col-xl-2 col-lg-4 col-md-6">
                     <div className="department-card">
                         <div className="department-card-icon">
-                        <Link to="/departments">
+                        <Link to="">
                             <i className="flaticon-parthenon" />
                         </Link>
                         </div>
                         
                         <div className="department-card-content">
                         <h5>
-                            <Link to="/departmentdetails">Your Government</Link>
+                            <Link to="">Your Government</Link>
                         </h5>
                         </div>
                        
@@ -90,14 +158,14 @@ function Slider() {
                     <div className="col-xl-2 col-lg-4 col-md-6">
                     <div className="department-card">
                         <div className="department-card-icon">
-                        <Link to="/departments">
+                        <Link to="">
                             <i className="flaticon-suitcase" />
                         </Link>
                         </div>
                         
                         <div className="department-card-content">
                         <h5>
-                            <Link to="/departmentdetails">Jobs &amp; Unemployment</Link>
+                            <Link to="">Jobs &amp; Unemployment</Link>
                         </h5>
                         </div>
                        
@@ -108,14 +176,14 @@ function Slider() {
                     <div className="col-xl-2 col-lg-4 col-md-6">
                     <div className="department-card">
                         <div className="department-card-icon">
-                        <Link to="/departments">
+                        <Link to="">
                             <i className="flaticon-industry" />
                         </Link>
                         </div>
                         
                         <div className="department-card-content">
                         <h5>
-                            <Link to="/departmentdetails">Business &amp; Industry</Link>
+                            <Link to="">Business &amp; Industry</Link>
                         </h5>
                         </div>
                        
@@ -126,14 +194,14 @@ function Slider() {
                     <div className="col-xl-2 col-lg-4 col-md-6">
                     <div className="department-card">
                         <div className="department-card-icon">
-                        <Link to="/departments">
+                        <Link to="">
                             <i className="flaticon-bus" />
                         </Link>
                         </div>
                         
                         <div className="department-card-content">
                         <h5>
-                            <Link to="/departmentdetails">Roads &amp; Transport</Link>
+                            <Link to="">Roads &amp; Transport</Link>
                         </h5>
                         </div>
                        
@@ -144,14 +212,14 @@ function Slider() {
                     <div className="col-xl-2 col-lg-4 col-md-6">
                     <div className="department-card">
                         <div className="department-card-icon">
-                        <Link to="/departments">
+                        <Link to="">
                             <i className="flaticon-lotus" />
                         </Link>
                         </div>
                         
                         <div className="department-card-content">
                         <h5>
-                            <Link to="/departmentdetails">Culture &amp; Recreation</Link>
+                            <Link to="">Culture &amp; Recreation</Link>
                         </h5>
                         </div>
                        
@@ -162,14 +230,14 @@ function Slider() {
                     <div className="col-xl-2 col-lg-4 col-md-6">
                     <div className="department-card">
                         <div className="department-card-icon">
-                        <Link to="/departments">
+                        <Link to="">
                             <i className="flaticon-balance-1" />
                         </Link>
                         </div>
                         
                         <div className="department-card-content">
                         <h5>
-                            <Link to="/departmentdetails">Justice, Safety Law</Link>
+                            <Link to="">Justice, Safety Law</Link>
                         </h5>
                         </div>
                        
@@ -187,7 +255,9 @@ function Slider() {
                 <div className="container">
                     <form className="department-search-form">
                         <input type="text" placeholder="Get our quick services from the city municipal" name="search" />
-                        <button type="submit">View All Services</button>
+                        
+                        <button type="submit">Search</button>
+                        
                     </form>
                 </div>
             </div>

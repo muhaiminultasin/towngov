@@ -278,7 +278,7 @@ function Main() {
                   </li>
 
                   <li className="has-dropdown">
-                    <Link to="#">Get Involved</Link>
+                    <Link to="/get-involved">Get Involved</Link>
                     <ul className="list-unstyled drop-down-custom-width">
                       <li>
                         <Link to="/contact">

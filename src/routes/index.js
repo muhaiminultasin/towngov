@@ -32,6 +32,7 @@ import Polyframebuildingsystem from '../components/pages/polyframebuildingsystem
 import Sustainablevillages from '../components/pages/sustainablevillages/Main'
 import Citygovernment from '../components/pages/citygovernment/Main'
 import Missionstatement from '../components/pages/missionstatement/Main'
+import Getinvolved from '../components/pages/getinvolved/Main'
 // *********************
 // Test Run 
 // **********************
@@ -74,6 +75,7 @@ function Index() {
           <Route path="/supportus" element={<Supportus />} />
           <Route path="/ourmodel" element={<Ourmodel />} />
           <Route path="/diagram" element={<Diagram />} />
+          <Route path="/get-involved" element={<Getinvolved />} />
           <Route path="/ghi" element={<Ghi />} />
           <Route path="/npt" element={<Npt />} />
           <Route path="/uvi" element={<Uvi />} />
