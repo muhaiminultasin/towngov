@@ -133,12 +133,12 @@ function Main() {
                         </Link>
                         <ul className="list-unstyled">
                           <li>
-                            <Link to="/contact">Get Involved</Link>
+                            <Link to="/get-involved">Get Involved</Link>
                           </li>
                         </ul>
                       </li>
                       <li className="has-dropdown">
-                        <Link to="#">
+                        <Link to="/supportus">
                           Support Our Mission
                           <p className="submenutext">
                             There are many variations of passages of Lorem Ipsum

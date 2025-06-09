@@ -5,7 +5,7 @@ import Bredcom from "../../Bredcom/Main";
 import First from '../mengetinvolved/First'
 import Aboutone from "../mengetinvolved/Aboutone";
 import Testimonial from "../menmissionstatement/Testimonialtwo";
-import Contactform from "../../mencontact/First";
+import Contactform from "../mengetinvolved/contactform";
 
 function Main() {
   useEffect(() => {

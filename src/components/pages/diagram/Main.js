@@ -22,8 +22,8 @@ function Main() {
         <Introtwo />
         <Counter />
         <Cta />
-        <Blog/>
         <Testimonialtwo />
+        <Blog/>
         <Lastf />
       </div>
     </>

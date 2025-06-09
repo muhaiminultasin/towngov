@@ -2,8 +2,7 @@ import React, { useEffect } from 'react'
 import Header from '../../headerone/Main'
 import Bredcom from '../../Bredcom/Main'
 import First from '../mensustainablevillages/First'
-import Mayor from '../mensustainablevillages/Mayor'
-import Second from '../mensustainablevillages/Second'
+
 
 function Main() {
 
@@ -16,14 +15,12 @@ function Main() {
         <Header/>
 
         <div className="page-wrapper">
-          <Bredcom 
+        <Bredcom 
             subtitle="Home"
-            title="Sustainable Urban Villagesg"
+            title="Sustainable Urban Villages"
             subtitledown="Sustainable Urban Villages"
            />
             <First/>
-            <Mayor/>
-            <Second/>
         </div>
     </>
   )

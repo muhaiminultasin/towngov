@@ -20,8 +20,8 @@ function Main() {
         <First />
       
         <div className="button-center">
-          <Link to="/support">
-            <button className="btn-primary">View More</button>
+          <Link to="/donate">
+            <button className="btn-primary">Donate</button>
           </Link>
         </div>
       </div>
