@@ -101,7 +101,7 @@ function Main() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/">
+                        <Link to="/mission-statement">
                           Mission Statement
                           <p className="submenutext">
                             Building Sustainable Housing For a Better Future
