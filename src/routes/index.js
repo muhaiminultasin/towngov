@@ -31,6 +31,7 @@ import Affordablehousingdevelopment from '../components/pages/affordablehousingd
 import Polyframebuildingsystem from '../components/pages/polyframebuildingsystem/Main'
 import Sustainablevillages from '../components/pages/sustainablevillages/Main'
 import Citygovernment from '../components/pages/citygovernment/Main'
+import Missionstatement from '../components/pages/missionstatement/Main'
 // *********************
 // Test Run 
 // **********************
@@ -80,6 +81,7 @@ function Index() {
           <Route path="/polyframe-building-system" element={<Polyframebuildingsystem />} />
           <Route path="/sustainable-urban-villages" element={<Sustainablevillages />} />
           <Route path="/city-government-partnerships" element={<Citygovernment />} />
+          <Route path="/mission-statement" element={<Missionstatement />} />
           {/* <Route path="/home2" element={<Home2 />} /> */}
           <Route path="/" element={<Comingsoon />} />
 
