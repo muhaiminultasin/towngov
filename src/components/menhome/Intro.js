@@ -39,20 +39,31 @@ function Intro() {
                 <div className="col-lg-6">
                     <div className="about-inner">
                     <div className="section-title-box">
-                        <div className="section-tagline">Our introductions</div>
+                        <div className="section-tagline">Global Housing Initiative</div>
                        
                         <h1 className="">
                         Building Sustainable, Resilient, and Community-Driven Housing for All
 
                         </h1>
                         <p>
-                        Aliquam viverra arcu. Donec aliquet blandit enim feugiat.
-                        Suspendisse id quam sed eros tincidunt luctus sit amet eu nibh
-                        egestas tempus turpis, sit amet mattis magna varius non.
+                        At the Global Housing Initiative (GHI), we combine cutting-edge technology with community-driven solutions to create sustainable, disaster-resilient, and affordable housing. Through our partnership with NeoPOLYGON Technology (NPT) and the Urban Village Initiative (UVI), we are transforming the future of housing.
+
                         </p>
                     </div>
                    
                     <div className="row">
+                        <div className="col-xl-6 col-lg-12 col-md-6">
+                        <div className="about-card">
+                            <h4 className="about-title">
+                            <i className="fa-solid fa-circle-check" />
+                            Business &amp; Economy
+                            </h4>
+                            <p className="about-text">
+                            Lorem ipsum dolor sited amet consectetur notted.
+                            </p>
+                        </div>
+                        
+                        </div>
                         <div className="col-xl-6 col-lg-12 col-md-6">
                         <div className="about-card">
                             <h4 className="about-title">

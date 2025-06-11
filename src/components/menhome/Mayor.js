@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Shapes01 from '../../assets/image/shapes/shape-1.png'
 import Gallery01 from '../../assets/image/Home/Pic-04.jpg'
 
@@ -12,41 +13,24 @@ function Mayor() {
                 <div className="col-lg-6">
                     <div className="mayor-box">
                     <div className="section-title-box">
-                        <div className="section-tagline">MAYOR OF GOWRNX</div>
-                        <h2 className="section-title">Major Voice of City Government</h2>
+                        <div className="section-tagline">Introduction to GHI</div>
+                        <h1 className="">Innovating Housing, Empowering Communities
+</h1>
                         <p>
-                        There cursus massa at urnaaculis estie. Sed aliquamellus vitae
-                        ultrs condmentum leo massa mollis estiegittis miristum nulla sed
-                        medy fringilla vitae.
+                        Global Housing Initiative (GHI) aims to revolutionize housing through sustainability, technology, and community-driven models. Our approach integrates advanced engineering with social impact, ensuring that everyone has access to safe, affordable, and resilient housing, regardless of their income. <br></br> <br></br>We combine:
+NeoPOLYGON Technology (NPT) for cutting-edge, disaster-resistant building solutions.
+Urban Village Initiative (UVI) for community-led housing development and investment.
+GHI’s Global Network to collaborate with governments, NGOs, and investors for real impact.
                         </p>
                     </div>
-                    <div className="mayor-icon-box">
-                        <div className="mayor-icon">
-                        <i className="flaticon-professor" />
-                        </div>
-                       
-                        <h4 className="mayor-icon-title">
-                        Meet Ideological Leader for Youth Generation
-                        </h4>
+                    <div>
+                        <Link to="/about">
+                            <button className='btn btn-primary'>Discover Our Vission</button>
+                        </Link>
                     </div>
                     
-                    <ul className="list-unstyled list-style-one">
-                        <li>
-                        <i className="fa-solid fa-circle-check" />
-                        <p>Making this the first true generator on the Internet</p>
-                        </li>
-                       
-                        <li>
-                        <i className="fa-solid fa-circle-check" />
-                        <p>Lorem Ipsum is not simply random text</p>
-                        </li>
-                       
-                        <li>
-                        <i className="fa-solid fa-circle-check" />
-                        <p>If you are going to use a passage</p>
-                        </li>
-                       
-                    </ul>
+                    
+                    
                     
                     </div>
                     

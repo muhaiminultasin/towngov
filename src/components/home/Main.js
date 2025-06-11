@@ -25,9 +25,9 @@ function Main() {
         <div className="page-wrapper">
             <Slider/>
             <Intro/>
+            <Mayor/>
             <Service/>
             <Counter/>
-            <Mayor/>
             <Portfolio/>
             <Client/>
             <Testimonial/>

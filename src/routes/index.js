@@ -88,7 +88,7 @@ function Index() {
 
         </Routes>
 
-        {path !== "/" && <Footer />}
+         <Footer />
     </>
   )
 }
