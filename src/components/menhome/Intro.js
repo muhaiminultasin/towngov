@@ -41,9 +41,10 @@ function Intro() {
                     <div className="section-title-box">
                         <div className="section-tagline">Our introductions</div>
                        
-                        <h2 className="section-title">
-                        Welcome &amp; Support to City Municipal
-                        </h2>
+                        <h1 className="">
+                        Building Sustainable, Resilient, and Community-Driven Housing for All
+
+                        </h1>
                         <p>
                         Aliquam viverra arcu. Donec aliquet blandit enim feugiat.
                         Suspendisse id quam sed eros tincidunt luctus sit amet eu nibh

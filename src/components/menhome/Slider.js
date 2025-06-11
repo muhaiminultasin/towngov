@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Bgone from '../../assets/image/Hero/hero-ghi.jpg'
-import Bgtwo from '../../assets/image/bg/slider-two-bg-1.png'
+import Bgone from '../../assets/image/Slider/Img-13.jpg'
+import Bgtwo from '../../assets/image/Slider/NPT.jpg'
+import Bgthree from '../../assets/image/Slider/Urban.jpg'
 import OwlCarousel from 'react-owl-carousel';
 
 
@@ -28,11 +29,10 @@ function Slider() {
                 <div className="container">
                     <div className="row">
                     <div className="col-md-12">
-                        <div className="slider-content"> <div className="slider-tagline"> City Goverment Online Services
-                        </div>
-                        <h1 className="section-title"> Fastest Growing <br /> City Rome
+                        <div className="slider-content"> <div className="slider-tagline">GHI</div>
+                        <h1 className="section-title"> Global Housing Initiative (GHI) 
                         </h1>
-                        <Link to="#" className="btn btn-primary"> Discover More </Link>
+                        <Link to="/about" className="btn btn-primary"> Learn More</Link>
                         </div>
                         
                     </div>
@@ -44,14 +44,14 @@ function Slider() {
                 </div>
               
                 <div className="item">
-                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgone})` }} />
+                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgtwo})` }} />
                 <div className="container">
                     <div className="row">
                     <div className="col-md-12">
                         <div className="slider-content">
-                        <div className="slider-tagline"> City Goverment Online Services </div>
-                        <h1 className="section-title"> Fastest Growing <br /> City Rome 2 </h1>
-                            <Link to="#" className="btn btn-primary"> Discover More </Link>
+                        <div className="slider-tagline"> GHI </div>
+                        <h1 className="section-title"> Global Housing Initiative (GHI) </h1>
+                            <Link to="/contact" className="btn btn-primary"> Partner With Us </Link>
                         </div>      
                     </div>
                     
@@ -61,65 +61,14 @@ function Slider() {
                 
                 </div>
                 <div className="item">
-                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgone})` }} />
+                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgthree})` }} />
                 <div className="container">
                     <div className="row">
                     <div className="col-md-12">
                         <div className="slider-content">
-                        <div className="slider-tagline"> City Goverment Online Services </div>
-                        <h1 className="section-title"> Fastest Growing <br /> City Rome 3 </h1>
-                            <Link to="#" className="btn btn-primary"> Discover More </Link>
-                        </div>      
-                    </div>
-                    
-                    </div>
-                    
-                </div>
-                
-                </div>
-                <div className="item">
-                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgone})` }} />
-                <div className="container">
-                    <div className="row">
-                    <div className="col-md-12">
-                        <div className="slider-content">
-                        <div className="slider-tagline"> City Goverment Online Services </div>
-                        <h1 className="section-title"> Fastest Growing <br /> City Rome 4 </h1>
-                            <Link to="#" className="btn btn-primary"> Discover More </Link>
-                        </div>      
-                    </div>
-                    
-                    </div>
-                    
-                </div>
-                
-                </div>
-                <div className="item">
-                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgone})` }} />
-                <div className="container">
-                    <div className="row">
-                    <div className="col-md-12">
-                        <div className="slider-content">
-                        <div className="slider-tagline"> City Goverment Online Services </div>
-                        <h1 className="section-title"> Fastest Growing <br /> City Rome 5 </h1>
-                            <Link to="#" className="btn btn-primary"> Discover More </Link>
-                        </div>      
-                    </div>
-                    
-                    </div>
-                    
-                </div>
-                
-                </div>
-                <div className="item">
-                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgone})` }} />
-                <div className="container">
-                    <div className="row">
-                    <div className="col-md-12">
-                        <div className="slider-content">
-                        <div className="slider-tagline"> City Goverment Online Services </div>
-                        <h1 className="section-title"> Fastest Growing <br /> City Rome 6 </h1>
-                            <Link to="#" className="btn btn-primary"> Discover More </Link>
+                        <div className="slider-tagline"> GHI </div>
+                        <h1 className="section-title"> Urban Village Initiative (UVI) </h1>
+                            <Link to="/donate" className="btn btn-primary"> Donate Us </Link>
                         </div>      
                     </div>
                     
