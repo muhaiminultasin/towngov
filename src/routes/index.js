@@ -60,7 +60,7 @@ function Index() {
           <Route path="/portfoliodeatils" element={<Portfoliodeatils />} />
           <Route path="/causes" element={<Causes />} />
           <Route path="/causedetails" element={<Causesdeatils />} />
-          <Route path="/services" element={<Services />} />
+          <Route path="/solutions" element={<Services />} />
           <Route path="/servicedetails" element={<Servicesdeatils />} />
           <Route path="/departments" element={<Departments />} />
           <Route path="/departmentdetails" element={<Departmentdetails />} />

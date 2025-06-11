@@ -11,6 +11,9 @@ import Portfolio from '../menhome/Portfolio'
 import Service from '../menhome/Service'
 import Slider from '../menhome/Slider'
 import Testimonial from '../menhome/Testimonial'
+import Npg from '../menhome/Npg'
+import Uvi from '../menhome/Uvi'
+import Ghi from '../menhome/Ghi'
 
 function Main() {
 
@@ -26,6 +29,9 @@ function Main() {
             <Slider/>
             <Intro/>
             <Mayor/>
+            <Npg/>
+            <Uvi/>
+            <Ghi/>
             <Service/>
             <Counter/>
             <Portfolio/>

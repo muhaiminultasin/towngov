@@ -8,7 +8,7 @@ import Second from '../menservices/Second'
 function Main() {
 
   useEffect(() => {
-    document.getElementById("title").innerHTML="Services || GHI";
+    document.getElementById("title").innerHTML="Our Solutions || GHI";
   }, [])
 
   return (
@@ -18,8 +18,8 @@ function Main() {
         <div className="page-wrapper">
           <Bredcom 
             subtitle="Home"
-            title="Services"
-            subtitledown="Services"
+            title="Our Solutions"
+            subtitledown="Our Solutions"
            />
             <First/>
             <Mayor/>
