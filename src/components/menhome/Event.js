@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Event02 from '../../assets/image/event/event-2.jpg'
-import Event03 from '../../assets/image/event/event-3.jpg'
+import Event02 from '../../assets/image/Pic-04.jpg'
+import Event03 from '../../assets/image/Pic-04.jpg'
 
 function Event() {
   return (

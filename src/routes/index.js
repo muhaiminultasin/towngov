@@ -20,7 +20,6 @@ import Contact from '../components/contact/Main'
 import Home from '../components/home/Main'
 import Donate from '../components/pages/Donatepge/DonatePage';
 import FAQ from '../components/pages/faq/Main'
-import Comingsoon from '../components/pages/Comingsoon/Comingsoon';
 import Supportus from '../components/pages/supportus/Main';
 import Ourmodel from '../components/pages/ourmodel/Main'
 import Diagram from '../components/pages/diagram/Main'
@@ -53,7 +52,7 @@ function Index() {
 
         <Routes>
 
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<Pageabout />} />
           <Route path="/team" element={<Team />} />
           <Route path="/teamdetails" element={<Teamdeatils />} />
@@ -85,7 +84,6 @@ function Index() {
           <Route path="/city-government-partnerships" element={<Citygovernment />} />
           <Route path="/mission-statement" element={<Missionstatement />} />
           {/* <Route path="/home2" element={<Home2 />} /> */}
-          <Route path="/" element={<Comingsoon />} />
 
 
         </Routes>

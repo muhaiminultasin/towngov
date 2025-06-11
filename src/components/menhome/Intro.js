@@ -1,6 +1,6 @@
 import React from 'react'
-import Gallery01 from '../../assets/image/gallery/about-1.jpg'
-import Gallery02 from '../../assets/image/gallery/about-2.jpg'
+import Gallery01 from '../../assets/image/Home/konstantine-trundayev.jpg'
+import Gallery02 from '../../assets/image/Home/cassia-tofano.jpg'
 import gallery04 from '../../assets/image/gallery/about-4.png'
 import Shapes03 from '../../assets/image/shapes/about-3.jpg'
 

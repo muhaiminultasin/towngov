@@ -89,339 +89,41 @@ function Main() {
 
               <div className="navigation">
                 <ul className="main-menu-list list-unstyled">
-                  <li className="active has-dropdown">
+                  <li className="active  ">
                     <Link to="/">Home</Link>
-                    <ul className="list-unstyled drop-down-custom-width">
-                      <li className="link-parent">
-                        <Link to="/">
-                          Hero
-                          <p className="submenutext">
-                            Building Sustainable Housing For a Better Future
-                          </p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/mission-statement">
-                          Mission Statement
-                          <p className="submenutext">
-                            Building Sustainable Housing For a Better Future
-                          </p>
-                        </Link>
-                      </li>
-                      <li className="has-dropdown">
-                        <Link to="/About">
-                          Learn More About Our Vision
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-
-                        <ul className="list-unstyled ">
-                          <li>
-                            <Link to="/about">About Us</Link>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className="has-dropdown">
-                        <Link to="/contact">
-                          Join The Initiative
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                        <ul className="list-unstyled">
-                          <li>
-                            <Link to="/get-involved">Get Involved</Link>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className="has-dropdown">
-                        <Link to="/supportus">
-                          Support Our Mission
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                        <ul className="list-unstyled">
-                          <li>
-                            <Link to="/supportus">Support Us</Link>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
                   </li>
 
-                  <li className="has-dropdown ">
+                  <li className="     ">
                     <Link to="/about">About Us</Link>
-                    <ul className="list-unstyled drop-down-custom-width">
-                      <li>
-                        <Link to="/about#our-story">
-                          Our Story
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/about#GHIApproach">
-                          Our Approach (NPT + UVI)
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/team">
-                          Leadership & Team
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                    </ul>
+                    
                   </li>
 
-                  <li className="has-dropdown">
-                    <Link to="/ourmodel">Our Model</Link>
-                    <ul className="list-unstyled drop-down-custom-width">
-                      <li>
-                        <Link to="#">
-                          Overview
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/ghi">
-                          Ghi: Nonprofit Coordination & Strategy
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/npt">
-                          Npt: Structural System Provider
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/uvi">
-                          Uvi: Community Development & Investment
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/diagram">
-                          Diagram
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
+                  
 
-                  <li className="has-dropdown">
+                  <li className=" ">
                     <Link to="/services">Our Solutions</Link>
-                    <ul className="list-unstyled drop-down-custom-width">
-                      <li>
-                        <Link to="/affordable-housing-development">
-                          {" "}
-                          Affordable Housing Development
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/polyframe-building-system">
-                          PolyFRAME Building System
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/sustainable-urban-villages">
-                          Sustainable Urban Villages
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/city-government-partnerships">
-                          City & Government Partnerships
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                    </ul>
+                  
+                  </li>
+                  <li className=" ">
+                    <Link to="/portfolio">Projects</Link>
+                  
                   </li>
 
-                  <li className="has-dropdown">
+                  <li className=" ">
                     <Link to="/get-involved">Get Involved</Link>
-                    <ul className="list-unstyled drop-down-custom-width">
-                      <li>
-                        <Link to="/contact">
-                          For Investors & Donors
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/contact">
-                          For Developers & Builders
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/contact">
-                          For Local Communities
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/contact">
-                          Volunteer & Careers
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                    </ul>
+                    
                   </li>
 
-                  <li className="has-dropdown">
-                    <Link to="/news">News & Insights</Link>
-                    <ul className="list-unstyled drop-down-custom-width">
-                      <li>
-                        <Link to="/news">
-                          Latest Updates
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/news">
-                          Blog
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/news">
-                          Media Coverage
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li className="has-dropdown">
-                    <Link to="/supportus">Support Us</Link>
-                    <ul className="list-unstyled drop-down-custom-width">
-                      <li>
-                        <Link to="/donate">
-                          Donate
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/contact">
-                          Investment Opportunities
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/contact">
-                          Sponsor a Village
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li className="has-dropdown">
+                  <li className="">
                     <Link to="/contact">Contact</Link>
-                    <ul className="list-unstyled drop-down-custom-width">
-                      <li>
-                        <Link to="/contact">Contact Form</Link>
-                      </li>
-                      <li>
-                        <Link to="/contact">
-                          Investment/Partnership Inquiry
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/contact">
-                          Sponsor a Village
-                          <p className="submenutext">
-                            There are many variations of passages of Lorem Ipsum
-                            available
-                          </p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/contact#newslatter">Newsletter Signup</Link>
-                      </li>
-                    </ul>
+                    
                   </li>
 
                   <li className="">
                     <Link to="/faq">FAQ</Link>
                   </li>
 
-                  {/* <li>
-                    <Link to="/contact">Contact</Link>
-                  </li> */}
+                  
                 </ul>
               </div>
             </div>
@@ -487,7 +189,7 @@ function Main() {
             <div className="mobile-nav-container">
               <ul className="main-menu-list list-unstyled">
                 {/* Home section */}
-                <li className="active has-dropdown">
+                <li className="active  ">
                   <Link to="/home">
                     Home
                     <button
@@ -540,7 +242,7 @@ function Main() {
                 </li>
 
                 {/* ABOUT US section */}
-                <li className="has-dropdown">
+                <li className=" ">
                   <Link to="/about">
                     About Us
                     <button className={Pages ? "expanded" : ""}>
@@ -570,7 +272,7 @@ function Main() {
                 </li>
 
                 {/* OUR MODEL section */}
-                <li className="has-dropdown">
+                <li className=" ">
                   <Link to="/ourmodel">
                     Our Model
                     <button className={Services ? "expanded" : ""}>
@@ -610,7 +312,7 @@ function Main() {
                   )}
                 </li>
 
-                <li className="has-dropdown">
+                <li className=" ">
                   <Link to="/services">
                     Our Solutions
                     <button className={Departments ? "expanded" : ""}>
@@ -646,7 +348,7 @@ function Main() {
                 </li>
 
                 {/* GET INVOLVED section */}
-                <li className="has-dropdown">
+                <li className=" ">
                   <Link to="/getinvolved">
                     Get Involved
                     <button className={Events ? "expanded" : ""}>
@@ -679,7 +381,7 @@ function Main() {
                   )}
                 </li>
 
-                <li className="has-dropdown">
+                <li className=" ">
                   <Link to="/news">
                     News & Insights
                     <button className={News ? "expanded" : ""}>
@@ -707,7 +409,7 @@ function Main() {
                 </li>
 
                 {/* NEWS & INSIGHTS section */}
-                <li className="has-dropdown">
+                <li className=" ">
                   <Link to="/supportus">
                     Support Us
                     <button className={Support ? "expanded" : ""}>
@@ -733,7 +435,7 @@ function Main() {
                     </ul>
                   )}
                 </li>
-                <li className="has-dropdown">
+                <li className=" ">
                   <Link to="/contact">
                     Contact
                     <button className={Contact ? "expanded" : ""}>
@@ -763,7 +465,7 @@ function Main() {
                 </li>
 
                 {/* FAQ section */}
-                <li className="has-dropdown">
+                <li className=" ">
                   <Link to="/faq">FAQ</Link>
                 </li>
               </ul>

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Portfolio01 from '../../assets/image/portfolio/portfolio-1.jpg'
-import Portfolio02 from '../../assets/image/portfolio/portfolio-2.jpg'
-import Portfolio03 from '../../assets/image/portfolio/portfolio-3.jpg'
-import Portfolio04 from '../../assets/image/portfolio/portfolio-4.jpg'
+import Portfolio01 from '../../assets/image/Home/Pic-04.jpg'
+import Portfolio02 from '../../assets/image/Home/office-space.jpg'
+import Portfolio03 from '../../assets/image/Home/yucel-moran.jpg'
+import Portfolio04 from '../../assets/image/Home/Pic-02.jpg'
 import OwlCarousel from 'react-owl-carousel';
 
 function Portfolio() {
@@ -47,14 +47,12 @@ function Portfolio() {
                         <div className="item">
                             <div className="portfolio-card">
                                 <img src={Portfolio01} className="img-fluid" alt="img-9" />
-                                
                             </div>
                         </div>
 
                         <div className="item">
                             <div className="portfolio-card">
                                 <img src={Portfolio02} className="img-fluid" alt="img-10" />
-                               
                             </div>
                         </div>
 

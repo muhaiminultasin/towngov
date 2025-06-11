@@ -2476,7 +2476,7 @@ a.search-toggler {
 }
 @media (max-width: 1199px) {
   .about-one-image .img-fluid {
-    width: 100%;
+    width: 30%;
   }
 }
 .about-one-image .floated-image-one {
@@ -2712,7 +2712,7 @@ a.search-toggler {
 ***********************/
 .service-section {
   padding-top: 120px;
-  background-image: url("../image/bg/service-bg-1.jpg");
+  background-image: url("../../../src/assets/image/Home/city.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--thm-dark-black);
@@ -2754,7 +2754,7 @@ a.search-toggler {
   transform-origin: top left;
 }
 .service-card {
-  background-image: url("../image/bg/service-3.jpg");
+  background-color:white;
   position: relative;
   z-index: 1;
   background-position: bottom center;
@@ -3298,7 +3298,15 @@ a.search-toggler {
 }
 .mayor-img {
   position: relative;
+  overflow: hidden;
+  height:80vh;
 }
+.mayor-img img{
+  position: relative;
+  overflow: hidden;
+  height:80vh;
+}
+
 .mayor-img:before {
   content: "";
   position: absolute;
@@ -3417,10 +3425,12 @@ a.search-toggler {
   }
 }
 .portfolio-card {
-  position: relative;
+  width:100%;
+  overflow:hidden;
 }
 .portfolio-card img {
   width: 100%;
+  overflow: hidden;
 }
 .portfolio-card-meta {
   position: absolute;

@@ -1,6 +1,6 @@
 import React from 'react'
 import Shapes01 from '../../assets/image/shapes/shape-1.png'
-import Gallery01 from '../../assets/image/gallery/mayor-2.jpg'
+import Gallery01 from '../../assets/image/Home/Pic-04.jpg'
 
 
 function Mayor() {

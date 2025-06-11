@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Bgone from '../../assets/image/bg/slider-bg-1.png'
+import Bgone from '../../assets/image/Hero/hero-ghi.jpg'
 import Bgtwo from '../../assets/image/bg/slider-two-bg-1.png'
 import OwlCarousel from 'react-owl-carousel';
 
@@ -44,7 +44,7 @@ function Slider() {
                 </div>
               
                 <div className="item">
-                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgtwo})` }} />
+                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgone})` }} />
                 <div className="container">
                     <div className="row">
                     <div className="col-md-12">
@@ -61,7 +61,7 @@ function Slider() {
                 
                 </div>
                 <div className="item">
-                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgtwo})` }} />
+                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgone})` }} />
                 <div className="container">
                     <div className="row">
                     <div className="col-md-12">
@@ -78,7 +78,7 @@ function Slider() {
                 
                 </div>
                 <div className="item">
-                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgtwo})` }} />
+                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgone})` }} />
                 <div className="container">
                     <div className="row">
                     <div className="col-md-12">
@@ -95,7 +95,7 @@ function Slider() {
                 
                 </div>
                 <div className="item">
-                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgtwo})` }} />
+                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgone})` }} />
                 <div className="container">
                     <div className="row">
                     <div className="col-md-12">
@@ -112,7 +112,7 @@ function Slider() {
                 
                 </div>
                 <div className="item">
-                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgtwo})` }} />
+                <div className="item-slider-bg" style={{ backgroundImage:`url(${Bgone})` }} />
                 <div className="container">
                     <div className="row">
                     <div className="col-md-12">

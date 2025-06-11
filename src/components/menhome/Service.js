@@ -43,27 +43,27 @@ function Service() {
                  
                     <ul className="list-unstyled">
                         <li>
-                            <Link to="/departmentdetails"> Parking Permission <i className="fa-solid fa-chevron-right" /> </Link>
+                            <Link to=""> Parking Permission <i className="fa-solid fa-chevron-right" /> </Link>
                         </li>
                         <li>
-                             <Link to="/departmentdetails"> File a Tax Return <i className="fa-solid fa-chevron-right" /> </Link>
+                             <Link to=""> File a Tax Return <i className="fa-solid fa-chevron-right" /> </Link>
                         </li>
                         <li>
-                            <Link to="/departmentdetails"> Order Birth Certificate{" "} <i className="fa-solid fa-chevron-right" /> </Link>
+                            <Link to=""> Order Birth Certificate{" "} <i className="fa-solid fa-chevron-right" /> </Link>
                         </li>
                         <li>
-                            <Link to="/departmentdetails"> Get Building Permission{" "} <i className="fa-solid fa-chevron-right" /> </Link>
+                            <Link to=""> Get Building Permission{" "} <i className="fa-solid fa-chevron-right" /> </Link>
                         </li>
                         <li>
-                            <Link to="/departmentdetails"> Apply for Driving License{" "} <i className="fa-solid fa-chevron-right" /> </Link>
+                            <Link to=""> Apply for Driving License{" "} <i className="fa-solid fa-chevron-right" /> </Link>
                         </li>
                         <li>
-                            <Link to="/departmentdetails"> Report Polution <i className="fa-solid fa-chevron-right" /> </Link>
+                            <Link to=""> Report Polution <i className="fa-solid fa-chevron-right" /> </Link>
                         </li>
                     </ul>
                     
                     <div className="service-button">
-                        <Link to="/departmentdetails" className="btn btn-primary"> Discover More </Link>
+                        <Link to="" className="btn btn-primary"> Discover More </Link>
                     </div>
                    
                     </div>
