@@ -14,6 +14,7 @@ import Testimonial from '../menhome/Testimonial'
 import Npg from '../menhome/Npg'
 import Uvi from '../menhome/Uvi'
 import Ghi from '../menhome/Ghi'
+import Cta from '../menhome/Cta'
 
 function Main() {
 
@@ -34,6 +35,7 @@ function Main() {
             <Ghi/>
             <Service/>
             <Counter/>
+            <Cta/>
             <Portfolio/>
             <Client/>
             <Testimonial/>
