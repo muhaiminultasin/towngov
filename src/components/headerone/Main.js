@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/image/logo.png";
+import Logo from "../../assets/image/logo.jpg";
 
 function Main() {
   const [Btnshow, setBtnshow] = useState(false);
@@ -101,7 +101,7 @@ function Main() {
                   
 
                   <li className=" ">
-                    <Link to="/services">Our Solutions</Link>
+                    <Link to="/solutions">Our Solutions</Link>
                   
                   </li>
                   <li className=" ">
@@ -313,7 +313,7 @@ function Main() {
                 </li>
 
                 <li className=" ">
-                  <Link to="/services">
+                  <Link to="/solutions">
                     Our Solutions
                     <button className={Departments ? "expanded" : ""}>
                       <i
@@ -328,18 +328,18 @@ function Main() {
                   {Departments && (
                     <ul className="list-unstyled" style={{ display: "block" }}>
                       <li>
-                        <Link to="/services">
+                        <Link to="/solutions">
                           Affordable Housing Development
                         </Link>
                       </li>
                       <li>
-                        <Link to="/services">PolyFRAME Building System</Link>
+                        <Link to="/solutions">PolyFRAME Building System</Link>
                       </li>
                       <li>
-                        <Link to="/services">Sustainable Urban Villages</Link>
+                        <Link to="/solutions">Sustainable Urban Villages</Link>
                       </li>
                       <li>
-                        <Link to="/services">
+                        <Link to="/solutions">
                           City & Government Partnerships
                         </Link>
                       </li>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Logo from '../../assets/image/logo.png'
+import Logo from '../../assets/image/logo.jpg'
 
 function Main() {
   return (
@@ -24,16 +24,16 @@ function Main() {
                     </div>
                    
                     <div className="footer-widget-socials">
-                        <a href="https://twitter.com/">
+                        <a href="https://twitter.com/" target='_blank'>
                             <i className="fa-brands fa-twitter" />
                         </a>
-                        <a href="https://www.facebook.com/">
+                        <a href="https://www.facebook.com/" target='_blank'>
                             <i className="fa-brands fa-facebook" />
                         </a>
-                        <a href="https://in.pinterest.com/">
-                            <i className="fa-brands fa-pinterest-p" />
+                        <a href="https://in.linkedin.com/" target='_blank'>
+                            <i className="fa-brands fa-linkedin" />
                         </a>
-                        <a href="https://www.instagram.com/">
+                        <a href="https://www.instagram.com/" target='_blank'>
                             <i className="fa-brands fa-instagram" />
                         </a>
                     </div>

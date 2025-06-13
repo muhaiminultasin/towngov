@@ -1,7 +1,11 @@
 import React from 'react'
-import Clint01 from '../../assets/image/shapes/client-1.png'
+import Clint01 from '../../assets/image/Client-1.jpg'
+import Clint02 from '../../assets/image/Client-2.jpg'
+import Clint03 from '../../assets/image/Client-3.jpg'
+import Clint04 from '../../assets/image/Client-4.jpg'
+import Clint05 from '../../assets/image/Client-5.jpg'
+import Clint06 from '../../assets/image/Client-6.jpg'
 import OwlCarousel from 'react-owl-carousel';
-
 
 function Client() {
 
@@ -44,15 +48,21 @@ function Client() {
                     </div>
                     
                     <div className="item">
-                        <img src={Clint01} className="img-fluid" alt="img-14" />
+                        <img src={Clint02} className="img-fluid" alt="img-14" />
                     </div>
                     
                     <div className="item">
-                        <img src={Clint01} className="img-fluid" alt="img-15" />
+                        <img src={Clint03} className="img-fluid" alt="img-15" />
                     </div>
                     
                     <div className="item">
-                        <img src={Clint01} className="img-fluid" alt="img-16" />
+                        <img src={Clint04} className="img-fluid" alt="img-16" />
+                    </div>
+                    <div className="item">
+                        <img src={Clint05} className="img-fluid" alt="img-16" />
+                    </div>
+                    <div className="item">
+                        <img src={Clint06} className="img-fluid" alt="img-16" />
                     </div>
 
                 </OwlCarousel>  

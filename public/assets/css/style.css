@@ -4349,7 +4349,7 @@ a.search-toggler {
   }
 }
 .event-details-card-title {
-  background-image: url("../image/bg/event-bg-1.jpg");
+  background-image: url("../image/subscribe.jpg");
   background-color: var(--thm-black);
   background-repeat: no-repeat;
   background-size: cover;
@@ -5096,7 +5096,7 @@ a.search-toggler {
 * Testimonial
 ***********************/
 .testimonial-section {
-  background-image: url("../image/bg/testimonial-bg-1.jpg");
+  background-image: url("../image/Pic-13.jpg");
   background-color: var(--thm-black);
   background-repeat: no-repeat;
   padding-top: 120px;

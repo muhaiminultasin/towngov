@@ -50,59 +50,6 @@ function Intro() {
 
                         </p>
                     </div>
-                   
-                    <div className="row">
-                        <div className="col-xl-6 col-lg-12 col-md-6">
-                        <div className="about-card">
-                            <h4 className="about-title">
-                            <i className="fa-solid fa-circle-check" />
-                            Business &amp; Economy
-                            </h4>
-                            <p className="about-text">
-                            Lorem ipsum dolor sited amet consectetur notted.
-                            </p>
-                        </div>
-                        
-                        </div>
-                        <div className="col-xl-6 col-lg-12 col-md-6">
-                        <div className="about-card">
-                            <h4 className="about-title">
-                            <i className="fa-solid fa-circle-check" />
-                            Business &amp; Economy
-                            </h4>
-                            <p className="about-text">
-                            Lorem ipsum dolor sited amet consectetur notted.
-                            </p>
-                        </div>
-                        
-                        </div>
-                        
-                        <div className="col-xl-6 col-lg-12 col-md-6">
-                        <div className="about-card">
-                            <h4 className="about-title">
-                            <i className="fa-solid fa-circle-check" />
-                            Health &amp; Education
-                            </h4>
-                            <p className="about-text">
-                            Lorem ipsum dolor sited amet consectetur notted.
-                            </p>
-                        </div>
-                        
-                        </div>
-                        
-                    </div>
-                    
-                    <div className="about-author-box">
-                        <div className="about-author-image">
-                            <img src={gallery04} className="img-fluid" alt="img-5" />
-                        </div>
-                       
-                        <div className="about-author-box-meta">
-                        <h5>Mr. Kevin Martin</h5>
-                        <span>City Mayor</span>
-                        </div>
-                       
-                    </div>
                     
                     </div>
                    
