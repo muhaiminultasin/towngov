@@ -190,7 +190,7 @@ function Event() {
                 </div>
                 
                 <div className="cta-five-button">
-                    <Link to="#" className="btn btn-primary">
+                    <Link to="/events" className="btn btn-primary">
                     All Events
                     </Link>
                 </div>

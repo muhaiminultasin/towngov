@@ -3,11 +3,16 @@ import { useLocation } from "react-router-dom";
 import Header from "../../headerone/Main";
 import Bredcom from "../../Bredcom/Main";
 import Aboutone from "../../pages/menabout/Aboutone";
-import Client from "../../pages/menabout/Client";
+import Client from "../../menhome/Client";
 import Testimonial from "../../menhome/Testimonial";
 import Team from "../../pages/menabout/Team";
 import Last from "../menabout/Last";
 import GHIApproach from "../menabout/GHIApproach";
+import Vission from "../menabout/Ourvission";
+import Mission from '../menabout/Ourmission'
+import Whatwedo from '../menabout/Whatwedo'
+import Community from '../menabout/Ourcommunity'
+import Join from '../menabout/Joinus'
 
 function Main() {
   const section1Ref = useRef(null);
@@ -32,9 +37,14 @@ function Main() {
         <Bredcom subtitle="Home" title="About" subtitledown="About" />
         <Aboutone sectionRef={section1Ref} />
         <Client />
-        <Testimonial />g
+        <Testimonial />
         <GHIApproach sectionRef={section2Ref} />
+        <Vission />
+        <Mission />
         <Team />
+        <Whatwedo />
+        <Community />
+        <Join />
         <Last />
       </div>
     </>

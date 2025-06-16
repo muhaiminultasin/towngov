@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Blog01 from '../../assets/image/blog/blog-1.jpg'
-import Blog02 from '../../assets/image/blog/blog-2.jpg'
-import Blog03 from '../../assets/image/blog/blog-3.jpg'
+import Blog01 from '../../assets/image/The Future.jpeg'
+import Blog02 from '../../assets/image/CommunityInvestment.png'
+import Blog03 from '../../assets/image/GHI’s.webp'
 
 function Blog() {
   return (

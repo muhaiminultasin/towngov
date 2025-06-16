@@ -25,11 +25,11 @@ function GHIApproach({ sectionRef }) {
             </div>
             <div className="col-lg-12 col-xl-6">
               <div className="about-one-inner">
-                <div className="section-tagline">Who We Are</div>
+                <div className="section-tagline">Our Community</div>
 
-                <h2 className="section-title">Who We Are</h2>
+                <h2 className="section-title">Our Community</h2>
                 <p>
-                We are a global movement dedicated to ensuring everyone has access to safe, decent, and sustainable housing. With a strong focus on collaboration, innovation, and community development, we work to uplift lives and create lasting change. Our mission goes beyond building homes<br></br> <br></br>—we aim to build hope, empower communities, and foster resilience. By uniting people and resources, we strive to transform neighborhoods and offer families the foundation they need to thrive. Together, we’re building a better, more inclusive future for all.
+                Our community is a diverse network of passionate individuals, volunteers, partners, and local leaders united by a shared vision of safe and sustainable housing for all. We believe in the power of people working together to create lasting change. Through trust, collaboration, and mutual support, we build more than homes—we build hope, resilience, and a sense of belonging.
                 </p>
                 {/* <h5 className="about-one-inner-text">
                   Denounce with righteous indignation and dislike men who are so

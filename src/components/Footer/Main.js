@@ -54,7 +54,7 @@ function Main() {
                                 <Link to="/solutions">Our Solutions &amp; Taxation</Link>
                             </li>
                             <li>
-                                <Link to="/projects">Projects</Link>
+                                <Link to="/portfolio">Projects</Link>
                             </li>
                             <li>
                                 <Link to="/contact">Contact Us</Link>
@@ -76,7 +76,7 @@ function Main() {
                             <Link to="/get-involved">Get Involved</Link>
                             </li>
                             <li>
-                            <Link to="/blog">Blog</Link>
+                            <Link to="/news">Blog</Link>
                             </li>
                             <li>
                             <Link to="/faq">FAQ</Link>

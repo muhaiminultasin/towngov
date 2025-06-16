@@ -13,23 +13,22 @@ function GHIApproach({ sectionRef }) {
       >
         <div className="container">
           <div className="row row-gutter-y-40">
-            <div className="col-lg-12 col-xl-6">
-              <div className="about-one-image">
-                <img
-                  src={Shapes01}
-                  className="floated-image-one"
-                  alt="img-58"
-                />
-                <img src={Gallery07} alt="img-59" className="img-fluid" />
-              </div>
-            </div>
+            
             <div className="col-lg-12 col-xl-6">
               <div className="about-one-inner">
-                <div className="section-tagline">Who We Are</div>
+                <div className="section-tagline">Our Vision</div>
 
-                <h2 className="section-title">Who We Are</h2>
+                <h2 className="section-title">Our Vision</h2>
                 <p>
-                We are a global movement dedicated to ensuring everyone has access to safe, decent, and sustainable housing. With a strong focus on collaboration, innovation, and community development, we work to uplift lives and create lasting change. Our mission goes beyond building homes<br></br> <br></br>—we aim to build hope, empower communities, and foster resilience. By uniting people and resources, we strive to transform neighborhoods and offer families the foundation they need to thrive. Together, we’re building a better, more inclusive future for all.
+                  We are a global movement focused on providing sustainable and
+                  affordable housing for all. Our mission is to create lasting
+                  impact through innovation, collaboration, and community
+                  engagement. We believe everyone deserves a safe place to call
+                  home, and we work tirelessly to make that a reality. By
+                  transforming communities and empowering individuals, we aim to
+                  build not just houses, but strong foundations for better
+                  lives. Together, we are shaping a future where housing is a
+                  right, not a privilege.
                 </p>
                 {/* <h5 className="about-one-inner-text">
                   Denounce with righteous indignation and dislike men who are so
@@ -54,6 +53,16 @@ function GHIApproach({ sectionRef }) {
                     </div>
                   </div>
                 </div> */}
+              </div>
+            </div>
+            <div className="col-lg-12 col-xl-6">
+              <div className="about-one-image">
+                <img
+                  src={Shapes01}
+                  className="floated-image-one"
+                  alt="img-58"
+                />
+                <img src={Gallery07} alt="img-59" className="img-fluid" />
               </div>
             </div>
           </div>
