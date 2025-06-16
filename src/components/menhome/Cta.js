@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Gallery01 from "../../assets/image/Intro/city.jpg";
+import Gallery01 from "../../assets/image/subscribe.jpg";
 // import Gallery02 from "../../assets/image/Intro/Villages.jpg";
 // import gallery04 from "../../assets/image/gallery/about-4.png";
 // import Shapes03 from "../../assets/image/shapes/about-3.jpg";

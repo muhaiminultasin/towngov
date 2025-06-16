@@ -18,8 +18,7 @@ function Main() {
                     
                     <div className="footer-widget-text">
                         <p>
-                        The gowrnx official guide to living, working, visiting and
-                        investing in the Texas
+                        Empowering communities through innovative, resilient housing solutions that blend technology, sustainability, and social impact worldwide.
                         </p>
                     </div>
                    
@@ -30,11 +29,11 @@ function Main() {
                         <a href="https://www.facebook.com/" target='_blank'>
                             <i className="fa-brands fa-facebook" />
                         </a>
-                        <a href="https://in.linkedin.com/" target='_blank'>
-                            <i className="fa-brands fa-linkedin" />
-                        </a>
                         <a href="https://www.instagram.com/" target='_blank'>
                             <i className="fa-brands fa-instagram" />
+                        </a>
+                        <a href="https://in.linkedin.com/" target='_blank'>
+                            <i className="fa-brands fa-linkedin" />
                         </a>
                     </div>
                    
@@ -46,16 +45,16 @@ function Main() {
                         <h4 className="footer-widget-title">Explore</h4>
                         <ul className="list-unstyled">
                             <li>
-                                <Link to="/departmentdetails">Administration</Link>
+                                <Link to="/">Home</Link>
                             </li>
                             <li>
-                                <Link to="/servicedetails">Fire Services</Link>
+                                <Link to="/about">About Us</Link>
                             </li>
                             <li>
-                                <Link to="/eventdetails">Business &amp; Taxation</Link>
+                                <Link to="/solutions">Our Solutions &amp; Taxation</Link>
                             </li>
                             <li>
-                                <Link to="/teamdetails">Circular’s And Go’s</Link>
+                                <Link to="/projects">Projects</Link>
                             </li>
                             <li>
                                 <Link to="/contact">Contact Us</Link>
@@ -71,22 +70,22 @@ function Main() {
                     <div className="col-lg-2">
                     <div className="footer-widget">
                         <div className="footer-widget-department">
-                        <h4 className="footer-widget-title">Departments</h4>
+                        <h4 className="footer-widget-title">Resources</h4>
                         <ul className="list-unstyled">
                             <li>
-                            <Link to="/departmentdetails">Health &amp; Safety</Link>
+                            <Link to="/get-involved">Get Involved</Link>
                             </li>
                             <li>
-                            <Link to="/departmentdetails">Housing &amp; Land</Link>
+                            <Link to="/blog">Blog</Link>
                             </li>
                             <li>
-                            <Link to="/departmentdetails">Legal &amp; Finance</Link>
+                            <Link to="/faq">FAQ</Link>
                             </li>
                             <li>
-                            <Link to="/departmentdetails">Transport &amp; Traffic</Link>
+                            <Link to="/policy">Privacy Policy</Link>
                             </li>
                             <li>
-                            <Link to="/departmentdetails">Arts &amp; Culture</Link>
+                            <Link to="/terms">Terms & Conditions</Link>
                             </li>
                         </ul>
                         
@@ -101,16 +100,16 @@ function Main() {
                         <div className="footer-widget-contact">
                         <h4 className="footer-widget-title">Contact</h4>
                         <p>
-                            88 Broklyn Golden Road Street,
+                            California, United States
                             <br />
-                            New York. USA
+                            New York, USA
                         </p>
                         </div>
                        
                         <div className="footer-widget-contact-list">
                         <i className="fa-solid fa-envelope" />
                         <div className="footer-widget-contact-item">
-                            <Link to="mailto:needhelp@company.com">needhelp@company.com</Link>
+                            <Link to="mailto:info@ghi.com">info@ghi.com</Link>
                         </div>
                         
                         </div>
@@ -118,7 +117,7 @@ function Main() {
                         <div className="footer-widget-contact-list">
                         <i className="fa-solid fa-phone" />
                         <div className="footer-widget-contact-item">
-                            <Link to="tel:+92-003-68-090">+92 (003) 68-090</Link>
+                            <Link to="tel:+92-003-68-090">00000000</Link>
                         </div>
                         
                         </div>

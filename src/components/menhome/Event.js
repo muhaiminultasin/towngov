@@ -14,7 +14,7 @@ function Event() {
                         <div className="section-title-box">
                             <div className="section-tagline">LATEST EVENTS</div>
                             <h2 className="section-title">
-                            Explore Upcoming City Event Schedule
+                            Upcoming Webinars & Events
                             </h2>
                         </div>
                         
@@ -24,9 +24,7 @@ function Event() {
                         <div className="event-content-box">
                             <div className="section-text">
                             <p>
-                                Aliquam viverra arcu. Donec aliquet blandit enim feugiat.
-                                Suspendisse id quam sed eros tincidunt luctus sit amet eu nibh
-                                egestas tempus turpis.
+                               Discover what's coming up! Join our expert-led webinars and live events to learn new skills, explore trends, and connect with like-minded professionals.
                             </p>
                             </div>
                             
@@ -74,11 +72,11 @@ function Event() {
                                 </Link>
                                 <div className="event-card-meta">
                                 <div className="event-meta-number">
-                                    <span>28</span>
+                                    <span>25</span>
                                 </div>
                                 
                                 <div className="event-meta-date">
-                                    <span>October 2022</span>
+                                    <span>March 2025</span>
                                 </div>
                                 
                                 </div>
@@ -92,7 +90,7 @@ function Event() {
                                 <ul className="list-unstyled">
                                 <li>
                                     <i className="fa-solid fa-clock" />
-                                    <span>08:00am - 05:00pm</span>
+                                    <span>March 2025</span>
                                 </li>
                                 
                                 <li>
@@ -107,7 +105,7 @@ function Event() {
                             <div className="event-card-title">
                                 <h4>
                                 <Link to="/eventdetails">
-                                    Organizing 2022 city photography new contest
+                                    Sustainable Housing Roundtable
                                 </Link>
                                 </h4>
                             </div>
@@ -124,11 +122,11 @@ function Event() {
                                 </Link>
                                 <div className="event-card-meta">
                                 <div className="event-meta-number">
-                                    <span>28</span>
+                                    <span>04</span>
                                 </div>
                                 
                                 <div className="event-meta-date">
-                                    <span>October 2022</span>
+                                    <span>April 2025</span>
                                 </div>
                                 
                                 </div>
@@ -142,7 +140,7 @@ function Event() {
                                 <ul className="list-unstyled">
                                 <li>
                                     <i className="fa-solid fa-clock" />
-                                    <span>08:00am - 05:00pm</span>
+                                    <span>April 2025</span>
                                 </li>
                                 
                                 <li>
@@ -157,7 +155,7 @@ function Event() {
                             <div className="event-card-title">
                                 <h4>
                                 <Link to="/eventdetails">
-                                    Organizing 2022 city photography new contest
+                                    Investor Q&A: Urban Village Initiative
                                 </Link>
                                 </h4>
                             </div>
@@ -183,7 +181,7 @@ function Event() {
                 </div>
                 
                 <div className="cta-five-content">
-                    <h4>Download Recent Documents</h4>
+                    <h4>See All Events and Join Us</h4>
                     <p>
                     There are many variations of passages of Lorem Ipsum available, but
                     the majority
@@ -193,7 +191,7 @@ function Event() {
                 
                 <div className="cta-five-button">
                     <Link to="#" className="btn btn-primary">
-                    Download Files
+                    All Events
                     </Link>
                 </div>
                 

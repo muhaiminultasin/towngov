@@ -41,15 +41,12 @@ function Testimonial() {
                                 </div>
                                 
                                 <div className="testimonial-text">
-                                    This is due to their excellent service, competitive pricing and
-                                    customer support. It’s throughly refresing to get such a
-                                    personal touch. Duis aute lorem ipsum is simply free text irure
-                                    dolor in reprehenderit in esse nulla pariatur.
+                                    GHI’s approach is transformative. Their PolyFRAME structures are not just homes—they're hope for communities facing disaster and displacement.
                                 </div>
                                 
                                 <div className="testimonial-thumb-card">
-                                    <h5>Martin McLaughlin</h5>
-                                    <span>Customer</span>
+                                    <h5>Maria Sanchez</h5>
+                                    <span>Community Development Officer</span>
                                 </div>
                                 
                                 </div>
@@ -66,15 +63,12 @@ function Testimonial() {
                                 </div>
                                 
                                 <div className="testimonial-text">
-                                    This is due to their excellent service, competitive pricing and
-                                    customer support. It’s throughly refresing to get such a
-                                    personal touch. Duis aute lorem ipsum is simply free text irure
-                                    dolor in reprehenderit in esse nulla pariatur.
+                                    Partnering with GHI enabled us to scale sustainable housing solutions faster than we imagined. Their team is mission-driven, innovative, and highly collaborative.
                                 </div>
                                 
                                 <div className="testimonial-thumb-card">
-                                    <h5>Aleesha Brown</h5>
-                                    <span>Customer</span>
+                                    <h5>David Liu</h5>
+                                    <span>City Housing Planner</span>
                                 </div>
                                 
                                 </div>
@@ -91,15 +85,12 @@ function Testimonial() {
                                 </div>
                                 
                                 <div className="testimonial-text">
-                                    This is due to their excellent service, competitive pricing and
-                                    customer support. It’s throughly refresing to get such a
-                                    personal touch. Duis aute lorem ipsum is simply free text irure
-                                    dolor in reprehenderit in esse nulla pariatur.
+                                   As an investor, I value returns with impact. GHI delivers both—resilient infrastructure and community equity. It's a powerful, future-ready model.
                                 </div>
                                 
                                 <div className="testimonial-thumb-card">
-                                    <h5>Kevin Martin</h5>
-                                    <span>Member</span>
+                                    <h5>Elena Brooks</h5>
+                                    <span>Impact Investment Advisor</span>
                                 </div>
                                 
                                 </div>

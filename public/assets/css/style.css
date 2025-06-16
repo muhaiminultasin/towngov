@@ -2214,6 +2214,9 @@ a.search-toggler {
 * About
 ***********************/
 .about-section {
+  display: flex ;
+  align-items:center;
+  justify-content: space-between;
   padding-top: 60px;
   padding-bottom: 107px;
 }
@@ -2227,12 +2230,11 @@ a.search-toggler {
   display: inline-flex;
 }
 .about-image .img-one {
-  position: relative;
-  top: -140px;
+  align-items: center;
 }
 @media (max-width: 1399px) {
   .about-image .img-one {
-    top: 0px;
+    top: 200px;
   }
 }
 .about-image .img-one:before {
@@ -4349,7 +4351,7 @@ a.search-toggler {
   }
 }
 .event-details-card-title {
-  background-image: url("../image/subscribe.jpg");
+  background-image: url("../image/subs.jpg");
   background-color: var(--thm-black);
   background-repeat: no-repeat;
   background-size: cover;

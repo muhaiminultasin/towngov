@@ -12,7 +12,7 @@ function Blog() {
                 <div className="blog-box">
                 <div className="section-title-box text-center">
                     <div className="section-tagline">DIRECT FROM THE BLOG POSTS</div>
-                    <h2 className="section-title">Checkout Latest News <br /> and Articles </h2>
+                    <h2 className="section-title">Latest Blog Posts <br />  & Research </h2>
                 </div>
                 </div>
                 <div className="row row-gutter-y-155">
@@ -41,7 +41,7 @@ function Blog() {
                         
                         <h4>
                         <Link to="/newsdetails">
-                            Supporting local business to bounce back
+                           The Future of Housing: How Modular Engineering is Changing the Game
                         </Link>
                         </h4>
                         <p>
@@ -78,7 +78,7 @@ function Blog() {
                         </div>
                         
                         <h4>
-                        <Link to="/newsdetails"> Resilience for TownGov Green Project </Link>
+                        <Link to="/newsdetails"> Why Community Investment is the Key to Affordable Housing </Link>
                         </h4>
                         <p>
                         Tellus amet vel nisi, vel felis morbi sit et. Risus, pulvinar
@@ -115,7 +115,7 @@ function Blog() {
                         
                         <h4>
                         <Link to="/newsdetails">
-                            Save soil and save world project in 2022
+                            GHI’s Expansion: Upcoming Cities and Projects
                         </Link>
                         </h4>
                         <p>
