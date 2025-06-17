@@ -3371,14 +3371,39 @@ a.search-toggler {
 * Page banner
 ***********************/
 .page-banner {
+  position: relative;
   background-image: url("../image/page-banner.jpg");
   background-repeat: no-repeat;
-  background-color: var(--thm-black);
   background-size: cover;
   background-position: center;
   padding-top: 122px;
   padding-bottom: 122px;
+  overflow: hidden;
 }
+
+.page-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+  z-index: 1;
+}
+
+/* Add this: pushes content above overlay */
+.page-banner .container,
+.page-banner .page-breadcrumbs,
+.page-banner .page-banner-title {
+  position: relative;
+  z-index: 2;
+}
+
+/* Optional: force white text for clarity */
+.page-banner .page-breadcrumbs,
+.page-banner .page-banner-title {
+  color: white;
+}
+
+
 
 
 .page-breadcrumbs ul {
@@ -3758,7 +3783,7 @@ a.search-toggler {
 * CTA
 ***********************/
 .cta-one {
-  background-image: url("../image/bg/cta-bg-2.jpg");
+  background-image: url("../image/Last.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 120px;
@@ -5270,7 +5295,7 @@ a.search-toggler {
   visibility: visible;
 }
 .testimonial-two-inner {
-  background-image: url("../image/bg/testimonial-two-bg.png");
+background-image: url("../image/Pic-13.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 120px;

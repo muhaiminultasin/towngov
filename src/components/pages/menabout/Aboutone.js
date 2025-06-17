@@ -15,19 +15,20 @@ function Aboutone({ sectionRef }) {
           <div className="row row-gutter-y-40">
             <div className="col-lg-12 col-xl-6">
               <div className="about-one-inner">
-                <div className="section-tagline">story</div>
+                <div className="section-tagline">Global Housing Initiative (GHI)
+</div>
 
-                <h2 className="section-title">Our Story</h2>
+                <h2 className="section-title">Welcome to the Global Housing Initiative (GHI)
+</h2>
                 <p>
-                  Aliquam viverra arcu. Donec aliquet blandit enim feugiat.
-                  Suspendisse id quam sed eros tincidunt luctus sit amet eu nibh
-                  egestas tempus turpis, sit amet mattis magna varius non.
-                </p>
-                <h5 className="about-one-inner-text">
+                  At Global Housing Initiative (GHI), we aim to revolutionize the housing industry through innovation, sustainability, and community empowerment. We strive to develop affordable, high-quality housing solutions that cater to the diverse needs of communities worldwide.
+
+            </p>
+                {/* <h5 className="about-one-inner-text">
                   Denounce with righteous indignation and dislike men who are so
                   beguiled &amp; demoralized our power.
-                </h5>
-                <div className="row row-gutter-y-30">
+                </h5> */}
+                {/* <div className="row row-gutter-y-30">
                   <div className="col-xl-6 col-lg-6 col-md-6">
                     <div className="about-one-card">
                       <div className="about-one-card-number">01</div>
@@ -45,7 +46,7 @@ function Aboutone({ sectionRef }) {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 

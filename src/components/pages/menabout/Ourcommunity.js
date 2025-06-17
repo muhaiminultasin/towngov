@@ -29,7 +29,8 @@ function GHIApproach({ sectionRef }) {
 
                 <h2 className="section-title">Our Community</h2>
                 <p>
-                Our community is a diverse network of passionate individuals, volunteers, partners, and local leaders united by a shared vision of safe and sustainable housing for all. We believe in the power of people working together to create lasting change. Through trust, collaboration, and mutual support, we build more than homes—we build hope, resilience, and a sense of belonging.
+              At GHI, we believe that housing is more than just a physical structure; it's the foundation of thriving communities. Our projects are developed holistically, incorporating essential amenities, green spaces, and communal areas that enhance the quality of life for our residents. We work closely with local stakeholders to ensure our developments meet each community's unique needs.
+
                 </p>
                 {/* <h5 className="about-one-inner-text">
                   Denounce with righteous indignation and dislike men who are so

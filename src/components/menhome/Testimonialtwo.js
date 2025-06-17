@@ -22,12 +22,10 @@ function Testimonialtwo() {
                         <div className="section-tagline">TESTIMONIALS</div>
                         
                         <h2 className="section-title">
-                            What They’re Talking About Gowrnx
+                            What They’re Talking About GHI
                         </h2>
                         <p>
-                            Aliquam viverra arcu. Donec aliquet blandit enim feugiat.
-                            Suspendisse id quam sed eros tincidunt luctus sit amet eu nibh
-                            tempus turpis.
+                           Discover how partners, residents, and investors are experiencing the impact of GHI’s mission-driven, resilient housing solutions firsthand.
                         </p>
                         </div>
                         
@@ -92,21 +90,17 @@ function Testimonialtwo() {
                                     <div className="testimonial-two-card-content">
                                     <div className="testimonial-two-card-text">
                                         <p>
-                                        This is due to their excellent service, competitive
-                                        pricing and customer support. It’s throughly refresing
-                                        to get such a personal touch. Duis aute irure dolor in
-                                        reprehenderit in voluptate velit esse cillum eu fugiat
-                                        nulla pariatur.
+                                       GHI’s approach is transformative. Their PolyFRAME structures are not just homes—they're hope for communities facing disaster and displacement.
                                         </p>
                                     </div>
                                     
                                     <div className="testimonial-two-card-outer">
                                         <div className="testimonial-two-card-outer-title">
-                                        <h5>Martin McLaughlin</h5>
+                                        <h5>Maria Sanchez</h5>
                                         </div>
                                         
                                         <div className="testimonial-two-card-outer-title">
-                                        <span> CEO Govrnx</span>
+                                        <span>Community Development Officer</span>
                                         </div>
                                         
                                     </div>
@@ -126,21 +120,17 @@ function Testimonialtwo() {
                                     <div className="testimonial-two-card-content">
                                     <div className="testimonial-two-card-text">
                                         <p>
-                                        You may be asked to work on many different types of
-                                        papers within the government department.Sometimes you
-                                        will be asked for short reading responses. Often, and
-                                        sometimes more daunting, you’ll be assigned longer
-                                        papers based on texts.
+                                        Partnering with GHI enabled us to scale sustainable housing solutions faster than we imagined. Their team is mission-driven, innovative, and highly collaborative.
                                         </p>
                                     </div>
                                     
                                     <div className="testimonial-two-card-outer">
                                         <div className="testimonial-two-card-outer-title">
-                                        <h5>Aleesha Brown</h5>
+                                        <h5>David Liu</h5>
                                         </div>
                                         
                                         <div className="testimonial-two-card-outer-title">
-                                        <span> CEO Govrnx</span>
+                                        <span> City Housing Planner</span>
                                         </div>
                                         
                                     </div>
@@ -160,21 +150,17 @@ function Testimonialtwo() {
                                     <div className="testimonial-two-card-content">
                                     <div className="testimonial-two-card-text">
                                         <p>
-                                        Writing an original research paper can be a daunting
-                                        task, especially if lengthy papers intimidate you. For
-                                        this one, especially, we stress communicating with
-                                        your professor,who is here to walk you through this
-                                        process!
+                                       As an investor, I value returns with impact. GHI delivers both—resilient infrastructure and community equity. It's a powerful, future-ready model.
                                         </p>
                                     </div>
                                     
                                     <div className="testimonial-two-card-outer">
                                         <div className="testimonial-two-card-outer-title">
-                                        <h5>Kevin Martin</h5>
+                                        <h5>Elena Brooks</h5>
                                         </div>
                                         
                                         <div className="testimonial-two-card-outer-title">
-                                        <span> CEO Govrnx</span>
+                                        <span>mpact Investment Advisor</span>
                                         </div>
                                         
                                     </div>

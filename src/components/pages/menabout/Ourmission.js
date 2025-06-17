@@ -28,11 +28,29 @@ function GHIApproach({ sectionRef }) {
                 <div className="section-tagline">Our Mission</div>
 
                 <h2 className="section-title">Our Mission</h2>
-                <p>
-                **Our Mission**
-Our mission is to create sustainable, safe, and affordable housing for all by fostering innovation, empowering communities, and driving collaborative solutions. We are committed to transforming lives and building stronger, more inclusive communities where everyone has the opportunity to thrive.
+                <ul>
+                  <li>
+                    Innovative Design: Utilizing the latest architectural and
+                    engineering technologies to create functional and
+                    aesthetically pleasing housing solutions. Innovative Design:
+                    Utilizing the latest architectural and engineering
+                    technologies to create functional and aesthetically pleasing
+                    housing solutions.
+                  </li>
+                  <li>
+                    Sustainability: Committing to environmentally friendly building practices that reduce our carbon footprint and promote ecological balance.
+                  </li>
+                  <li>
+                    Community Focus: Developing projects that foster a sense of community, inclusion, and support for residents from all walks of life.
+                  </li>
+                  <li>
+                    Affordability: We ensure our housing solutions are accessible to low—and middle-income families without compromising quality or safety.
+                  </li>
+                  <li>
+                    Smart Housing: Incorporating IoT technologies to create innovative, connected homes that enhance the living experience through increased convenience, energy efficiency, and security.
 
-                </p>
+                  </li>
+                </ul>
                 {/* <h5 className="about-one-inner-text">
                   Denounce with righteous indignation and dislike men who are so
                   beguiled &amp; demoralized our power.

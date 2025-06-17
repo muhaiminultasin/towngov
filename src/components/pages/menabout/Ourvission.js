@@ -20,15 +20,8 @@ function GHIApproach({ sectionRef }) {
 
                 <h2 className="section-title">Our Vision</h2>
                 <p>
-                  We are a global movement focused on providing sustainable and
-                  affordable housing for all. Our mission is to create lasting
-                  impact through innovation, collaboration, and community
-                  engagement. We believe everyone deserves a safe place to call
-                  home, and we work tirelessly to make that a reality. By
-                  transforming communities and empowering individuals, we aim to
-                  build not just houses, but strong foundations for better
-                  lives. Together, we are shaping a future where housing is a
-                  right, not a privilege.
+                 We envision a world where everyone has access to safe, affordable, and dignified housing. Leveraging advanced building technologies, such as NeoPOLYGON, and integrating innovative IoT housing solutions, we aim to create scalable housing solutions for both urban and rural settings. Our goal is to bridge the gap in the housing market by providing innovative solutions that meet the evolving needs of our global population.
+
                 </p>
                 {/* <h5 className="about-one-inner-text">
                   Denounce with righteous indignation and dislike men who are so

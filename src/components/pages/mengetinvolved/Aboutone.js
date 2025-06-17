@@ -15,37 +15,14 @@ function Aboutone({ sectionRef }) {
           <div className="row row-gutter-y-40">
             <div className="col-lg-12 col-xl-6">
               <div className="about-one-inner">
-                <div className="section-tagline">story</div>
+                <div className="section-tagline">Engage
+</div>
 
-                <h2 className="section-title">Our Story</h2>
+                <h2 className="section-title">Be Part of the Housing Revolution</h2>
                 <p>
-                  Aliquam viverra arcu. Donec aliquet blandit enim feugiat.
-                  Suspendisse id quam sed eros tincidunt luctus sit amet eu nibh
-                  egestas tempus turpis, sit amet mattis magna varius non.
+                 At Global Housing Initiative, we believe real change starts with collective action. Whether you're an investor, policymaker, nonprofit, or individual, your involvement accelerates our mission. Join us in creating resilient, affordable housing and transforming communities through innovation, equity, and shared purpose.
                 </p>
-                <h5 className="about-one-inner-text">
-                  Denounce with righteous indignation and dislike men who are so
-                  beguiled &amp; demoralized our power.
-                </h5>
-                <div className="row row-gutter-y-30">
-                  <div className="col-xl-6 col-lg-6 col-md-6">
-                    <div className="about-one-card">
-                      <div className="about-one-card-number">01</div>
-                      <div className="about-one-card-content">
-                        <h5>Going Above and Beyond</h5>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col-xl-6 col-lg-6 col-md-6">
-                    <div className="about-one-card">
-                      <div className="about-one-card-number">02</div>
-                      <div className="about-one-card-content">
-                        <h5>Committed to People First</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </div>
 

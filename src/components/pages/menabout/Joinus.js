@@ -20,7 +20,7 @@ function GHIApproach({ sectionRef }) {
 
                 <h2 className="section-title">Join Us</h2>
                 <p>
-                Be a part of a global movement making a real difference. Whether you volunteer, donate, or partner with us, your support helps build safe, sustainable homes and stronger communities. Together, we can create lasting change and give families the foundation for a brighter future. Join us today and help build hope.
+                We invite you to join us in our mission to create a world where everyone can access affordable, high-quality housing. Whether you are a potential resident, investor, or partner, there is a place for you in the GHI community. Together, we can make a lasting impact on the global housing landscape.
                 </p>
                 {/* <h5 className="about-one-inner-text">
                   Denounce with righteous indignation and dislike men who are so

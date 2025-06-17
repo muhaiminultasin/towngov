@@ -1,75 +1,62 @@
-import React from 'react'
-import Accordion from './Accordion'
+import React from "react";
+import Accordion from "./Accordion";
 
 function Accordionsection() {
-
-
-     const QS = [
-        {
-            id: 1,
-            title: "What makes GHI different?",
-            ans: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        },
-        {
-            id: 2,
-            title: "What’s unique about PolyFRAME?",
-            ans: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        },
-        {
-            id: 3,
-            title: "How to invest or join UVI?",
-            ans: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        },
-        {
-            id: 4,
-            title: "Steps to partner with GHI?",
-            ans: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        },
-    ];
-
-
+  const QS = [
+    {
+      id: 1,
+      title: "What makes GHI different?",
+      ans: "GHI integrates cutting-edge engineering with community empowerment. As an operating nonprofit, we directly build scalable, disaster-resilient housing solutions with a long-term focus on social impact and affordability.",
+    },
+    {
+      id: 2,
+      title: "What’s unique about PolyFRAME?",
+      ans: "PolyFRAME is a modular steel-concrete system designed for rapid construction and unmatched resilience against earthquakes, fires, floods, and wind. It’s engineered for scalability, durability, and long-term housing security.",
+    },
+    {
+      id: 3,
+      title: "How to invest or join UVI?",
+      ans: "You can invest through our Urban Village Initiative Community Fund or join as a resident or supporter. Visit the “Get Involved” page to explore opportunities and sign up.",
+    },
+    {
+      id: 4,
+      title: "Steps to partner with GHI?",
+      ans: "Reach out via our “Partner With Us” form. We collaborate with cities, nonprofits, and institutions to co-develop policy, pilot programs, and scalable housing projects tailored to community needs.",
+    },
+  ];
 
   return (
     <>
-        <section className="contact-section">
-            <div className="container">
-                <div className="row">
-                <div className="col-lg-4">
-                    <div className="contact-box">
-                    <div className="section-tagline">WRITE A MESSAGE</div>
-                    
-                    <h1 className="section-title">Always Here to Help you</h1>
-                    <p>
-                        There are certain attributes of a profession and one has to catch
-                        hold of them in order to efficiently and grow in that business. I
-                        share my experience as an interior designer.{" "}
-                    </p>
-                    </div>
-                   
-                </div>
-               
-                <div className="col-lg-8">
-                   <section className="faq-section">
-  <div className="faq-container">
-    <div>
-      
+      <section className="contact-section">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-4">
+              <div className="contact-box">
+                <div className="section-tagline"> Find Clarity Here</div>
 
-      <div className="faq-list">
-        {QS.map(({ id, title, ans }) => (
-          <Accordion key={id} ques={title} ans={ans} />
-        ))}
-      </div>
-    </div>
-  </div>
-</section>
-
-                </div>
-                </div>
+                <h1 className="section-title">Your Questions Answered</h1>
+                <p>Get to know how the Global Housing Initiative operates, what drives our innovation, and how you can invest, join, or partner in building a resilient housing future.</p>
+              </div>
             </div>
-        </section>
 
+            <div className="col-lg-8">
+              <section className="faq-section">
+                <div className="faq-container">
+                  <div>
+                    <div className="faq-list">
+                      {QS.map(({ id, title, ans }) => (
+                        <Accordion key={id} ques={title} ans={ans} />
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        {/* <div className="contact-gmap-section">
+      {/* <div className="contact-gmap-section">
             <div className="container">
             <div className="responsive-map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12083.735079362054!2d-74.01702461732008!3d40.785470167558394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258131938b8d5%3A0xe39c30a8afef2d96!2sWest%20New%20York%2C%20NJ%2007093%2C%20USA!5e0!3m2!1sen!2sin!4v1668832966742!5m2!1sen!2sin"
@@ -148,9 +135,8 @@ function Accordionsection() {
             </div>
             
         </div> */}
-
     </>
-  )
+  );
 }
 
-export default Accordionsection
+export default Accordionsection;

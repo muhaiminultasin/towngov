@@ -101,8 +101,6 @@ function Main() {
                         <h4 className="footer-widget-title">Contact</h4>
                         <p>
                             California, United States
-                            <br />
-                            New York, USA
                         </p>
                         </div>
                        
@@ -117,7 +115,7 @@ function Main() {
                         <div className="footer-widget-contact-list">
                         <i className="fa-solid fa-phone" />
                         <div className="footer-widget-contact-item">
-                            <Link to="tel:+92-003-68-090">00000000</Link>
+                            <Link to="tel:00000000">00000000</Link>
                         </div>
                         
                         </div>

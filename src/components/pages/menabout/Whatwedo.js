@@ -20,7 +20,13 @@ function GHIApproach({ sectionRef }) {
 
                 <h2 className="section-title">What We Do</h2>
                 <p>
-               We design and deliver sustainable housing solutions that empower individuals and strengthen communities. Through innovative construction methods, local partnerships, and community involvement, we build safe, affordable homes for those in need. Beyond housing, we provide support, training, and resources to help families achieve long-term stability and a better future.
+              GHI's Multifamily Polygonal Towers are designed to be adaptable to various geographical and climatic conditions, making them ideal for deployment across different regions. Our projects are built-ready, ensuring a streamlined development process from concept to completion. By focusing on modular construction techniques, we can reduce costs, shorten build times, and maintain high-quality standards.
+
+              <br></br>
+              <br></br>
+              Our high manufacturing capacity supports the construction of our PolyFRAME polygonal multistory tower worldwide. This capacity enables us to produce large volumes of housing units efficiently, ensuring timely delivery and consistency in quality across all our projects.
+
+
                 </p>
                 {/* <h5 className="about-one-inner-text">
                   Denounce with righteous indignation and dislike men who are so

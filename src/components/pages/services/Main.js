@@ -3,7 +3,7 @@ import Header from '../../headerone/Main'
 import Bredcom from '../../Bredcom/Main'
 import First from '../menservices/First'
 import Mayor from '../../pages/menservices/Mayor'
-import Second from '../menservices/Second'
+import Client from '../../menhome/Client'
 
 function Main() {
 
@@ -23,7 +23,7 @@ function Main() {
            />
             <First/>
             <Mayor/>
-            <Second/>
+            <Client/>
         </div>
     </>
   )
