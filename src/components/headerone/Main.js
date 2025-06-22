@@ -31,8 +31,11 @@ function Main() {
                 <a href="#">
                   <i className="fa-brands fa-pinterest-p" />
                 </a>
-                <a href="#">
-                  <i className="fa-brands fa-instagram" />
+                <a
+                  href="https://www.linkedin.com/in/fraidoon-faridnia-082343a0"
+                  target="_blank"
+                >
+                  <i className="fa-brands fa-linkedin" />
                 </a>
               </div>
 
@@ -95,35 +98,26 @@ function Main() {
 
                   <li className="     ">
                     <Link to="/about">About Us</Link>
-                    
                   </li>
-
-                  
 
                   <li className=" ">
                     <Link to="/solutions">Our Solutions</Link>
-                  
                   </li>
                   <li className=" ">
                     <Link to="/portfolio">Projects</Link>
-                  
                   </li>
 
                   <li className=" ">
                     <Link to="/get-involved">Get Involved</Link>
-                    
                   </li>
 
                   <li className="">
                     <Link to="/contact">Contact</Link>
-                    
                   </li>
 
                   <li className="">
                     <Link to="/faq">FAQ</Link>
                   </li>
-
-                  
                 </ul>
               </div>
             </div>
@@ -188,284 +182,25 @@ function Main() {
             {/* mobile nav */}
             <div className="mobile-nav-container">
               <ul className="main-menu-list list-unstyled">
-                {/* Home section */}
-                <li className="active  ">
-                  <Link to="/home">
-                    Home
-                    <button
-                      className={Home ? "expanded" : ""}
-                      onClick={() => {
-                        setHome(!Home);
-                      }}
-                    >
-                      <i className="fa-solid fa-chevron-right" />
-                    </button>
-                  </Link>
-
-                  {Home && (
-                    <ul className="list-unstyled" style={{ display: "block" }}>
-                      <li>
-                        <Link to="/">Hero</Link>
-                        <p className="mblsubtext">
-                          Building Sustainable Housing for a Better Future
-                        </p>
-                      </li>
-                      <li>
-                        <Link to="/about">Mission Statement</Link>
-                      </li>
-                      {/* CTA in one line*/}
-                      <div className="CTA">
-                        <li>
-                          <Link to="/about">
-                            <button className="btn-primary-mobile">
-                              About Us
-                            </button>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/contact">
-                            <button className="btn-primary-mobile">
-                              Get Involved
-                            </button>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/supportus">
-                            <button className="btn-primary-mobile">
-                              Support Us
-                            </button>
-                          </Link>
-                        </li>
-                      </div>
-                    </ul>
-                  )}
+                <li className="active">
+                  <Link to="/">Home</Link>
                 </li>
-
-                {/* ABOUT US section */}
-                <li className=" ">
-                  <Link to="/about">
-                    About Us
-                    <button className={Pages ? "expanded" : ""}>
-                      <i
-                        className="fa-solid fa-chevron-right"
-                        onClick={() => {
-                          setPages(!Pages);
-                        }}
-                      />
-                    </button>
-                  </Link>
-                  {Pages && (
-                    <ul className="list-unstyled" style={{ display: "block" }}>
-                      <li>
-                        <Link to="/about#our-story">Our Story</Link>
-                      </li>
-                      <li>
-                        <Link to="/about#GHIApproach">
-                          Our Approach (NPT + UVI)
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/team">Leadership & Team</Link>
-                      </li>
-                    </ul>
-                  )}
+                <li>
+                  <Link to="/about">About Us</Link>
                 </li>
-
-                {/* OUR MODEL section */}
-                <li className=" ">
-                  <Link to="/ourmodel">
-                    Our Model
-                    <button className={Services ? "expanded" : ""}>
-                      <i
-                        className="fa-solid fa-chevron-right"
-                        onClick={() => {
-                          setServices(!Services);
-                        }}
-                      />
-                    </button>
-                  </Link>
-
-                  {Services && (
-                    <ul className="list-unstyled" style={{ display: "block" }}>
-                      <li>
-                        <Link to="/ourmodel">Overview</Link>
-                      </li>
-                      <li>
-                        <Link to="/servicedetails">
-                          GHI: Nonprofit Coordination & Strategy
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/servicedetails">
-                          NPT: Structural System Provider
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/servicedetails">
-                          UVI: Community Development & Investment
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/servicedetails">Diagram or Flow Link</Link>
-                      </li>
-                    </ul>
-                  )}
+                <li>
+                  <Link to="/solutions">Our Solutions</Link>
                 </li>
-
-                <li className=" ">
-                  <Link to="/solutions">
-                    Our Solutions
-                    <button className={Departments ? "expanded" : ""}>
-                      <i
-                        className="fa-solid fa-chevron-right"
-                        onClick={() => {
-                          setDepartments(!Departments);
-                        }}
-                      />
-                    </button>
-                  </Link>
-
-                  {Departments && (
-                    <ul className="list-unstyled" style={{ display: "block" }}>
-                      <li>
-                        <Link to="/solutions">
-                          Affordable Housing Development
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/solutions">PolyFRAME Building System</Link>
-                      </li>
-                      <li>
-                        <Link to="/solutions">Sustainable Urban Villages</Link>
-                      </li>
-                      <li>
-                        <Link to="/solutions">
-                          City & Government Partnerships
-                        </Link>
-                      </li>
-                    </ul>
-                  )}
+                <li>
+                  <Link to="/portfolio">Projects</Link>
                 </li>
-
-                {/* GET INVOLVED section */}
-                <li className=" ">
-                  <Link to="/getinvolved">
-                    Get Involved
-                    <button className={Events ? "expanded" : ""}>
-                      <i
-                        className="fa-solid fa-chevron-right"
-                        onClick={() => {
-                          setEvents(!Events);
-                        }}
-                      />
-                    </button>
-                  </Link>
-
-                  {Events && (
-                    <ul className="list-unstyled" style={{ display: "block" }}>
-                      <li>
-                        <Link to="/events">For Investors & Donors</Link>
-                      </li>
-                      <li>
-                        <Link to="/eventdetails">
-                          For Developers & Builders
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/eventdetails">For Local Communities</Link>
-                      </li>
-                      <li>
-                        <Link to="/eventdetails">Volunteer & Careers</Link>
-                      </li>
-                    </ul>
-                  )}
+                <li>
+                  <Link to="/get-involved">Get Involved</Link>
                 </li>
-
-                <li className=" ">
-                  <Link to="/news">
-                    News & Insights
-                    <button className={News ? "expanded" : ""}>
-                      <i
-                        className="fa-solid fa-chevron-right"
-                        onClick={() => {
-                          setNews(!News);
-                        }}
-                      />
-                    </button>
-                  </Link>
-                  {News && (
-                    <ul className="list-unstyled" style={{ display: "block" }}>
-                      <li>
-                        <Link to="/news">Latest Updates</Link>
-                      </li>
-                      <li>
-                        <Link to="/news">Blog</Link>
-                      </li>
-                      <li>
-                        <Link to="/news">Media Coverage</Link>
-                      </li>
-                    </ul>
-                  )}
+                <li>
+                  <Link to="/contact">Contact</Link>
                 </li>
-
-                {/* NEWS & INSIGHTS section */}
-                <li className=" ">
-                  <Link to="/supportus">
-                    Support Us
-                    <button className={Support ? "expanded" : ""}>
-                      <i
-                        className="fa-solid fa-chevron-right"
-                        onClick={() => {
-                          setSupport(!Support);
-                        }}
-                      />
-                    </button>
-                  </Link>
-                  {Support && (
-                    <ul className="list-unstyled" style={{ display: "block" }}>
-                      <li>
-                        <Link to="/donate">Donate</Link>
-                      </li>
-                      <li>
-                        <Link to="/contact">Investment Opportunities</Link>
-                      </li>
-                      <li>
-                        <Link to="/contact">Sponsor a Village</Link>
-                      </li>
-                    </ul>
-                  )}
-                </li>
-                <li className=" ">
-                  <Link to="/contact">
-                    Contact
-                    <button className={Contact ? "expanded" : ""}>
-                      <i
-                        className="fa-solid fa-chevron-right"
-                        onClick={() => {
-                          setContact(!Contact);
-                        }}
-                      />
-                    </button>
-                  </Link>
-                  {Contact && (
-                    <ul className="list-unstyled" style={{ display: "block" }}>
-                      <li>
-                        <Link to="/contact">Contact Form</Link>
-                      </li>
-                      <li>
-                        <Link to="/contact">
-                          Investment/Partnership Inquiry
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/contact#newslatter">Newsletter Signup</Link>
-                      </li>
-                    </ul>
-                  )}
-                </li>
-
-                {/* FAQ section */}
-                <li className=" ">
+                <li>
                   <Link to="/faq">FAQ</Link>
                 </li>
               </ul>

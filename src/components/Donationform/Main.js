@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 
 const Donationform = () => {
   useEffect(() => {
-    // Load Donorbox widget script
     const script = document.createElement("script");
     script.src = "https://donorbox.org/widget.js";
     script.async = true;
@@ -10,7 +9,6 @@ const Donationform = () => {
     document.body.appendChild(script);
 
     return () => {
-      // Cleanup when component unmounts
       document.body.removeChild(script);
     };
   }, []);
@@ -19,8 +17,39 @@ const Donationform = () => {
     <section className="contact-section">
       <div className="container">
         <div className="row">
-          {/* Left Side Content */}
-          <div className="col-lg-4">
+          
+          <div className="col-lg-8 order-lg-2 order-1">
+            <div
+              className="donorbox-embed-wrapper"
+              style={{
+                display: "flex",
+                justifyContent: "flex-end", 
+                paddingLeft: "30px",       
+              }}
+            >
+              <iframe
+                src="https://donorbox.org/embed/global-housing-initiative?"
+                name="donorbox"
+                allow="payment"
+                allowPaymentRequest="true"
+                seamless
+                frameBorder="0"
+                scrolling="no"
+                height="900px"
+                width="100%"
+                style={{
+                  maxWidth: "500px",
+                  minWidth: "250px",
+                  maxHeight: "none",
+                  width: "100%",
+                }}
+                title="Donorbox Donation Form"
+              ></iframe>
+            </div>
+          </div>
+
+        
+          <div className="col-lg-4 order-lg-1 order-2">
             <div className="contact-box">
               <div className="section-tagline">DONATE</div>
               <h1 className="section-title">Support Our Cause</h1>
@@ -39,24 +68,6 @@ const Donationform = () => {
                 </div>
                 <span className="cssProgress-label">75%</span>
               </div>
-            </div>
-          </div>
-
-          {/* Donorbox Embed */}
-          <div className="col-lg-8">
-            <div className="donorbox-embed-wrapper" style={{ maxWidth: "100%" }}>
-              <iframe
-                src="https://donorbox.org/embed/your-form-name"
-                name="donorbox"
-                allowpaymentrequest="true"
-                frameBorder="0"
-                scrolling="no"
-                seamless="seamless"
-                height="900px"
-                width="100%"
-                style={{ maxWidth: "500px", minWidth: "310px", width: "100%" }}
-                title="Donate"
-              ></iframe>
             </div>
           </div>
         </div>
