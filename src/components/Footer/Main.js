@@ -32,7 +32,7 @@ function Main() {
                         <a href="https://www.instagram.com/" target='_blank'>
                             <i className="fa-brands fa-instagram" />
                         </a>
-                        <a href="https://in.linkedin.com/" target='_blank'>
+                        <a href="https://www.linkedin.com/in/fraidoon-faridnia-082343a0" target="_blank">
                             <i className="fa-brands fa-linkedin" />
                         </a>
                     </div>

@@ -156,7 +156,7 @@ function First() {
                     <a href="https://in.pinterest.com/">
                       <i className="fa-brands fa-pinterest-p" />
                     </a>
-                    <a href="https://www.instagram.com/">
+                    <a href="https://www.linkedin.com/in/fraidoon-faridnia-082343a0" target="_blank">
                       <i className="fa-brands fa-linkedin" />
                     </a>
                   </div>

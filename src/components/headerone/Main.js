@@ -240,8 +240,8 @@ function Main() {
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/">
-                  <i className="fa-brands fa-instagram" />
+                <a href="https://www.linkedin.com/in/fraidoon-faridnia-082343a0" target="_blank">
+                  <i className="fa-brands fa-linkedin" />
                 </a>
               </li>
             </ul>
