@@ -10,14 +10,14 @@ function First() {
                 <div className="col-lg-6 col-xl-4">
                     <div className="service-one-card">
                     <div className="service-one-icon">
-                        <Link to="/servicedetails">
+                        <Link to="#">
                             <i className="flaticon-education" />
                         </Link>
                     </div>
                     
                     <div className="service-one-card-content">
                         <h4>
-                        <Link to="/servicedetails"> Education &amp; Skills</Link>
+                        <Link to="#"> Education &amp; Skills</Link>
                         </h4>
                         <p>When nothing prevents our being able to we like best every.</p>
                     </div>
@@ -29,14 +29,14 @@ function First() {
                 <div className="col-lg-6 col-xl-4">
                     <div className="service-one-card">
                     <div className="service-one-icon">
-                        <Link to="/servicedetails">
+                        <Link to="#">
                         <i className="flaticon-public-transport-1" />
                         </Link>
                     </div>
                     
                     <div className="service-one-card-content">
                         <h4>
-                        <Link to="/servicedetails">Roads &amp; Transportation</Link>
+                        <Link to="#">Roads &amp; Transportation</Link>
                         </h4>
                         <p>When nothing prevents our being able to we like best every.</p>
                     </div>
@@ -48,14 +48,14 @@ function First() {
                 <div className="col-lg-6 col-xl-4">
                     <div className="service-one-card">
                     <div className="service-one-icon">
-                        <Link to="/servicedetails">
+                        <Link to="#">
                         <i className="flaticon-agriculture" />
                         </Link>
                     </div>
                     
                     <div className="service-one-card-content">
                         <h4>
-                        <Link to="/servicedetails">Culture &amp; Recreation</Link>
+                        <Link to="#">Culture &amp; Recreation</Link>
                         </h4>
                         <p>When nothing prevents our being able to we like best every.</p>
                     </div>
@@ -67,14 +67,14 @@ function First() {
                 <div className="col-lg-6 col-xl-4">
                     <div className="service-one-card">
                     <div className="service-one-icon">
-                        <Link to="/servicedetails">
+                        <Link to="#">
                         <i className="flaticon-factory" />
                         </Link>
                     </div>
                     
                     <div className="service-one-card-content">
                         <h4>
-                        <Link to="/servicedetails">Business &amp; Industry</Link>
+                        <Link to="#">Business &amp; Industry</Link>
                         </h4>
                         <p>When nothing prevents our being able to we like best every.</p>
                     </div>
@@ -86,14 +86,14 @@ function First() {
                 <div className="col-lg-6 col-xl-4">
                     <div className="service-one-card">
                     <div className="service-one-icon">
-                        <Link to="/servicedetails">
+                        <Link to="#">
                         <i className="flaticon-businessman" />
                         </Link>
                     </div>
                     
                     <div className="service-one-card-content">
                         <h4>
-                        <Link to="/servicedetails">Jobs &amp; Unemployment</Link>
+                        <Link to="#">Jobs &amp; Unemployment</Link>
                         </h4>
                         <p>When nothing prevents our being able to we like best every.</p>
                     </div>
@@ -105,7 +105,7 @@ function First() {
                 <div className="col-lg-6 col-xl-4">
                     <div className="service-one-card">
                     <div className="service-one-icon">
-                        <Link to="/servicedetails">
+                        <Link to="#">
                         <i className="flaticon-clinic" />
                         </Link>
                     </div>
@@ -136,7 +136,7 @@ function First() {
                         City Goverment Offers a Wide <br />
                         Range of Online Services
                         </h2>
-                        <Link to="/servicedetails" className="btn btn-primary"> Donate </Link>
+                        <Link to="/donate" className="btn btn-primary"> Donate </Link>
                     </div>
                     </div>
                 </div>
