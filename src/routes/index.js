@@ -35,11 +35,12 @@ import Getinvolved from '../components/pages/getinvolved/Main'
 import Blog1 from "../components/pages/singleblogs/Blog1/blog1"
 import Blog2 from "../components/pages/singleblogs/Blog2/blog2"
 import Blog3 from "../components/pages/singleblogs/Blog3/blog3"
+import Privecy from "../components/privecy/privecy"
+import Terms from "../components/condition/condition"
 // *********************
-// Test Run 
+
 // **********************
 
-// import Home2 from '../components/hometwo/Main'
 
 
 function Index() {
@@ -89,6 +90,8 @@ function Index() {
           <Route path="/blog1" element={<Blog1 />} />
           <Route path="/blog2" element={<Blog2 />} />
           <Route path="/blog3" element={<Blog3 />} />
+          <Route path='/privecy' element={<Privecy />}/>
+          <Route path='/terms' element={<Terms />}/>
           {/* <Route path="/home2" element={<Home2 />} /> */}
 
 

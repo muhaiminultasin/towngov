@@ -82,7 +82,7 @@ function Main() {
                             <Link to="/faq">FAQ</Link>
                             </li>
                             <li>
-                            <Link to="/policy">Privacy Policy</Link>
+                            <Link to="/privecy">Privacy Policy</Link>
                             </li>
                             <li>
                             <Link to="/terms">Terms & Conditions</Link>

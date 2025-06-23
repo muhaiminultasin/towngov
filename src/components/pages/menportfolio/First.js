@@ -1,8 +1,8 @@
 import React from "react";
-import Portfolio01 from "../../../assets/image/portfolio/portfolio-1.jpg";
-import Portfolio02 from "../../../assets/image/portfolio/portfolio-2.jpg";
-import Portfolio03 from "../../../assets/image/portfolio/portfolio-3.jpg";
-import Portfolio04 from "../../../assets/image/portfolio/portfolio-4.jpg";
+import Portfolio01 from "../../../assets/image/portfolio1.jpg";
+import Portfolio02 from "../../../assets/image/portfolio2.jpg";
+import Portfolio03 from "../../../assets/image/portfolio3.jpg";
+import Portfolio04 from "../../../assets/image/portfolio4.jpg";
 import Portfolio05 from "../../../assets/image/portfolio/portfolio-5.jpg";
 import Portfolio06 from "../../../assets/image/portfolio/portfolio-6.jpg";
 import Portfolio07 from "../../../assets/image/portfolio/portfolio-7.jpg";
@@ -14,6 +14,30 @@ function First() {
     <div className="portfolio-section">
       <div className="container">
         <div className="row row-gutter-30">
+          <div className="col-lg-4 col-md-4">
+            <div className="portfolio-card">
+              <img src={Portfolio03} className="img-fluid" alt="img-102" />
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-md-4">
+            <div className="portfolio-card">
+              <img src={Portfolio01} className="img-fluid" alt="img-103" />
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-md-4">
+            <div className="portfolio-card">
+              <img src={Portfolio02} className="img-fluid" alt="img-104" />
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-md-4">
+            <div className="portfolio-card">
+              <img src={Portfolio04} className="img-fluid" alt="img-105" />
+            </div>
+          </div>
+
           <div className="col-lg-4 col-md-4">
             <div className="portfolio-card">
               <img src={Portfolio09} className="img-fluid" alt="img-97" />
@@ -41,30 +65,6 @@ function First() {
           <div className="col-lg-4 col-md-4">
             <div className="portfolio-card">
               <img src={Portfolio05} className="img-fluid" alt="img-101" />
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-4">
-            <div className="portfolio-card">
-              <img src={Portfolio03} className="img-fluid" alt="img-102" />
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-4">
-            <div className="portfolio-card">
-              <img src={Portfolio01} className="img-fluid" alt="img-103" />
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-4">
-            <div className="portfolio-card">
-              <img src={Portfolio02} className="img-fluid" alt="img-104" />
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-4">
-            <div className="portfolio-card">
-              <img src={Portfolio04} className="img-fluid" alt="img-105" />
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import Testimonial01 from '../../assets/image/testimonial/testimonial-1.jpg'
-import Testimonial02 from '../../assets/image/testimonial/testimonial-2.jpg'
-import Testimonial03 from '../../assets/image/testimonial/testimonial-3.jpg'
+import Testimonial01 from '../../assets/image/testimonialone.jpg'
+import Testimonial02 from '../../assets/image/testimonialtwo.jpg'
+import Testimonial03 from '../../assets/image/testimonialthree.jpg'
 import Testimonial04 from '../../assets/image/testimonial/testimonial-4.jpg'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation,Thumbs,FreeMode } from "swiper";

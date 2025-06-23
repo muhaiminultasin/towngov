@@ -15,6 +15,7 @@ import Npg from '../menhome/Npg'
 import Uvi from '../menhome/Uvi'
 import Ghi from '../menhome/Ghi'
 import Cta from '../menhome/Cta'
+import Different from "../menhome/Different"
 
 function Main() {
 
@@ -29,6 +30,7 @@ function Main() {
         <div className="page-wrapper">
             <Slider/>
             <Intro/>
+            <Different/>
             <Mayor/>
             <Npg/>
             <Uvi/>

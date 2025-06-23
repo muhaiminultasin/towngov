@@ -13,6 +13,7 @@ import Mission from '../menabout/Ourmission'
 import Whatwedo from '../menabout/Whatwedo'
 import Community from '../menabout/Ourcommunity'
 import Join from '../menabout/Joinus'
+import Different from '../../menhome/Different'
 
 function Main() {
   const section1Ref = useRef(null);
@@ -41,6 +42,7 @@ function Main() {
         <GHIApproach sectionRef={section2Ref} />
         <Vission />
         <Mission />
+        <Different />
         <Team />
         <Whatwedo />
         <Community />
