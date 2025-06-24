@@ -2739,6 +2739,7 @@ a.search-toggler {
 ***********************/
 .service-section {
   padding-top: 120px;
+  padding-bottom: 120px;
   background-image: url("../../../src/assets/image/Home/city.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -3807,13 +3808,37 @@ a.search-toggler {
 /***********************
 * CTA
 ***********************/
-.cta-one {
+/* .cta-one {
   background-image: url("../image/Last.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 120px;
   padding-bottom: 100px;
+} */
+
+.cta-one {
+  position: relative;
+  background-image: url("../image/Last.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 100px;
+  z-index: 1;
+  overflow: hidden;
 }
+
+.cta-one::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Change the color and opacity as needed */
+  z-index: -1;
+}
+
+
 .cta-one-content h2 {
   font-size: 50px;
 }
@@ -5402,6 +5427,7 @@ background-image: url("../image/Pic-13.jpg");
 }
 .testimonial-two-card-outer {
   display: flex;
+  flex-direction: column;
 }
 @media (max-width: 575px) {
   .testimonial-two-card-outer {
@@ -5409,7 +5435,7 @@ background-image: url("../image/Pic-13.jpg");
   }
 }
 .testimonial-two-card-outer-title h5 {
-  margin-left: 50px;
+  margin-left: 35px;
   transition: all 500ms ease;
 }
 .testimonial-two-card-outer-title h5:hover {

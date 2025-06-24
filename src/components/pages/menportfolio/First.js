@@ -34,19 +34,7 @@ function First() {
 
           <div className="col-lg-4 col-md-4">
             <div className="portfolio-card">
-              <img src={Portfolio08} className="img-fluid" alt="img-105" />
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-4">
-            <div className="portfolio-card">
               <img src={Portfolio01} className="img-fluid" alt="img-97" />
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-4">
-            <div className="portfolio-card">
-              <img src={Portfolio02} className="img-fluid" alt="img-98" />
             </div>
           </div>
 
@@ -59,6 +47,18 @@ function First() {
           <div className="col-lg-4 col-md-4">
             <div className="portfolio-card">
               <img src={Portfolio04} className="img-fluid" alt="img-100" />
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-md-4">
+            <div className="portfolio-card">
+              <img src={Portfolio08} className="img-fluid" alt="img-105" />
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-md-4">
+            <div className="portfolio-card">
+              <img src={Portfolio02} className="img-fluid" alt="img-98" />
             </div>
           </div>
 

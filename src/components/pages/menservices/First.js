@@ -17,9 +17,10 @@ function First() {
                     
                     <div className="service-one-card-content">
                         <h4>
-                        <Link to="#"> Education &amp; Skills</Link>
+                        <Link to="#"> NeoPOLYGON Technology (NPT)
+</Link>
                         </h4>
-                        <p>When nothing prevents our being able to we like best every.</p>
+                        <p>Advanced modular system for resilient, scalable, and disaster-proof housing</p>
                     </div>
                     
                     </div>
@@ -36,9 +37,9 @@ function First() {
                     
                     <div className="service-one-card-content">
                         <h4>
-                        <Link to="#">Roads &amp; Transportation</Link>
+                        <Link to="#">Urban Village Initiative (UVI)</Link>
                         </h4>
-                        <p>When nothing prevents our being able to we like best every.</p>
+                        <p>Community-driven housing model focused on equity, ownership, and sustainability</p>
                     </div>
                     
                     </div>
@@ -55,9 +56,10 @@ function First() {
                     
                     <div className="service-one-card-content">
                         <h4>
-                        <Link to="#">Culture &amp; Recreation</Link>
+                        <Link to="#">GHI – Uniting Technology
+</Link>
                         </h4>
-                        <p>When nothing prevents our being able to we like best every.</p>
+                        <p>Bridging innovation and people to build resilient, inclusive housing solutions</p>
                     </div>
                     
                     </div>

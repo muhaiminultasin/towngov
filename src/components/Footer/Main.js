@@ -76,7 +76,7 @@ function Main() {
                             <Link to="/get-involved">Get Involved</Link>
                             </li>
                             <li>
-                            <Link to="/news">Blog</Link>
+                            <Link to="/blogs">Blog</Link>
                             </li>
                             <li>
                             <Link to="/faq">FAQ</Link>

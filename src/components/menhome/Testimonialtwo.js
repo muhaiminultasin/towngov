@@ -22,7 +22,7 @@ function Testimonialtwo() {
                     <h2 className="section-title rev">
                       What They’re Talking About GHI
                     </h2>
-                    <p>
+                    <p className="rev">
                       Discover how partners, residents, and investors are
                       experiencing the impact of GHI’s mission-driven, resilient
                       housing solutions firsthand.

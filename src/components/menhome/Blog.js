@@ -134,7 +134,7 @@ function Blog() {
               marginTop:"20px"
             }}
           >
-            <Link to={"/news"}><button className="btn btn-primary">Read More</button></Link>
+            <Link to={"/blogs"}><button className="btn btn-primary">Read More</button></Link>
           </div>
         </div>
       </section>

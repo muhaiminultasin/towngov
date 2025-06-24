@@ -117,7 +117,7 @@ function First() {
                   <i className="flaticon-help" />
                   <div className="cta-four-content-box">
                     <span>Have Question?</span> <br></br>
-                    <Link to="tel:+92-003-68-090"><p>00000000menab</p></Link>
+                    <Link to="tel:+92-003-68-090"><p>00000000</p></Link>
                   </div>
                 </div>
               </div>
