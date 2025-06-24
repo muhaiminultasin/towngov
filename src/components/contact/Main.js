@@ -8,10 +8,10 @@ import Newlast from '../mencontact/Newlast'
 function Main() {
   const section1Ref = useRef(null);
   const location = useLocation();
-  const [pageTitle, setPageTitle] = useState('Contact || GHI');
+  
 
   useEffect(() => {
-    setPageTitle('About || TownGov');
+   document.getElementById("title").innerHTML = "Contact || GHI";
 
     if (location.hash === '#newslatter' && section1Ref.current) {
       section1Ref.current.scrollIntoView({ behavior: 'smooth' });

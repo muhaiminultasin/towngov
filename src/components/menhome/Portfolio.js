@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Portfolio01 from '../../assets/image/portfolio1.jpg'
-import Portfolio02 from '../../assets/image/portfolio2.jpg'
-import Portfolio03 from '../../assets/image/portfolio3.jpg'
-import Portfolio04 from '../../assets/image/portfolio4.jpg'
+import Portfolio01 from '../../assets/image/portfolio5.jpg'
+import Portfolio02 from '../../assets/image/portfolio6.jpg'
+import Portfolio03 from '../../assets/image/portfolio7.jpg'
+import Portfolio04 from '../../assets/image/portfolio8.jpg'
 import OwlCarousel from 'react-owl-carousel';
 
 function Portfolio() {

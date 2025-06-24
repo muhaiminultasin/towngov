@@ -32,7 +32,7 @@ function Uvi() {
                           Community Fund and contribute to next-generation
                           housing solutions.
                         </p>
-                        <Link to="">
+                        <Link to="#">
                           <p>Explore Investment Opportunities →</p>
                         </Link>
                       </div>
@@ -46,7 +46,7 @@ function Uvi() {
                           and large-scale housing solutions tailored for your
                           region.
                         </p>
-                        <Link to="">
+                        <Link to="#">
                           <p>Partner With Us →</p>
                         </Link>
                       </div>
@@ -62,7 +62,7 @@ function Uvi() {
                           you can become a resident, support community-led
                           housing, or contribute to our mission.
                         </p>
-                        <Link to="">
+                        <Link to="#">
                           <p>Join the Movement →</p>
                         </Link>
                       </div>

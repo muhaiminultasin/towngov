@@ -1,6 +1,6 @@
 import React from "react";
 import Shapes01 from "../../../assets/image/shapes/shape-1.png";
-import Gallery07 from "../../../assets/image/gallery/about-7.jpg";
+import Gallery07 from "../../../assets/image/housing.jpg";
 
 function Aboutone({ sectionRef }) {
   return (

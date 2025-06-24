@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Arrow from "../../assets/image/shapes/arrow.png";
-import Gallery01 from "../../assets/image/ko-bow.jpg";
+import Gallery01 from "../../assets/image/impact.jpg";
 
 function Service() {
   const [video, setVideo] = useState(false);
@@ -32,6 +32,9 @@ function Service() {
                     installed locally, allowing us to launch projects within
                     California and across the globe with complete control over
                     quality, cost, and speed.
+                  </p>
+                  <p>
+                    This capability is central to our vision: delivering resilient, affordable housing through a globally replicable model that starts with smart, localized manufacturing.
                   </p>
                 </div>
 

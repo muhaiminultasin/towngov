@@ -49,6 +49,10 @@
 
 /* for submenu items text */
 
+.rev{
+  color: white !important;
+}
+
 .about-image-inner {
    position: relative;
 }
@@ -2758,7 +2762,7 @@ a.search-toggler {
 }
 .service-section .section-text p {
   color: var(--thm-secondary);
-  margin-bottom: 110px;
+  /* margin-bottom: 110px; */
 }
 .service-arrow-image {
   position: relative;

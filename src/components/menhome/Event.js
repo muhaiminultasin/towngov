@@ -183,9 +183,7 @@ function Event() {
                 <div className="cta-five-content">
                     <h4>See All Events and Join Us</h4>
                     <p>
-                    There are many variations of passages of Lorem Ipsum available, but
-                    the majority
-                    <br /> have suffered in some form, by injected humour words.
+                    Explore upcoming events, webinars, and roundtables to connect, learn, and contribute <br/> to the future of resilient, inclusive housing solutions.
                     </p>
                 </div>
                 
