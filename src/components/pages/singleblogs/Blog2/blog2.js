@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Header from '../../../headerone/Main'
 import Bredcom from '../../../Bredcom/Main'
-import First from '../Blog1/First'
+import First from '../Blog2/First'
 
 
 function Main() {

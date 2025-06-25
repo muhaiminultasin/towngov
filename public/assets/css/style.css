@@ -49,6 +49,10 @@
 
 /* for submenu items text */
 
+.hide{
+  display:none;
+}
+
 .rev{
   color: white !important;
 }

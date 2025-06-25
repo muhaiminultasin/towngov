@@ -87,9 +87,9 @@ function Index() {
           <Route path="/sustainable-urban-villages" element={<Sustainablevillages />} />
           <Route path="/city-government-partnerships" element={<Citygovernment />} />
           <Route path="/mission-statement" element={<Missionstatement />} />
-          <Route path="/blog1" element={<Blog1 />} />
-          <Route path="/blog2" element={<Blog2 />} />
-          <Route path="/blog3" element={<Blog3 />} />
+          <Route path="/the-future-of-housing" element={<Blog1 />} />
+          <Route path="/why-comminity-investment-is-the-key" element={<Blog2 />} />
+          <Route path="/upcoming-cities-and-projects" element={<Blog3 />} />
           <Route path='/privecy' element={<Privecy />}/>
           <Route path='/terms' element={<Terms />}/>
           {/* <Route path="/home2" element={<Home2 />} /> */}

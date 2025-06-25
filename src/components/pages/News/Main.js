@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Header from '../../headerone/Main'
 import Bredcom from '../../Bredcom/Main'
-import First from '../mennews/First'
+import Blog from '../../menhome/Blog'
 
 
 function Main() {
@@ -19,7 +19,7 @@ function Main() {
             title="Blogs"
             subtitledown="Blogs"
            />
-            <First/>
+            <Blog/>
         </div>
     </>
   )
