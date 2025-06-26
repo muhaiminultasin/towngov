@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Blogdeatils01 from "../../../../assets/image/GHI’s.jpg";
+import Blogdeatils01 from "../../../../assets/image/GHIs.jpg";
 import Blogdeatils02 from "../../../../assets/image/blog/blog-details-2.jpg";
 import Blogdeatils03 from "../../../../assets/image/blog/blog-details-3.jpg";
 import Blogdeatils04 from "../../../../assets/image/blog/blog-details-4.jpg";

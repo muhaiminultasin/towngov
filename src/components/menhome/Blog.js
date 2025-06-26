@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Blog01 from "../../assets/image/Future.jpeg";
 import Blog02 from "../../assets/image/CommunityInvestment.png";
-import Blog03 from "../../assets/image/GHI’s.jpg"
+import Blog03 from "../../assets/image/GHIs.jpg"
 
 function Blog() {
   return (
