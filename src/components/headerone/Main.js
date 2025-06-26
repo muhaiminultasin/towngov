@@ -172,8 +172,8 @@ function Main() {
             <div className="logo-box">
               <Link to="/">
                 <img
-                  src="assets/image/logo-light.png"
-                  width={160}
+                  src={Logo}
+                  width={100}
                   height={40}
                   alt={26}
                 />
